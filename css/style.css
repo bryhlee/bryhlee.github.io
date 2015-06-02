@@ -245,7 +245,7 @@
     background-color: #F8F8F8;
     font-family: 'Montserrat', serif;
     font-weight: bold !important;
-    color: black;
+    color: #333333;
     font-size:18px;
     border-top: 4px solid #E6E6E6;
     border-bottom: 4px solid #E6E6E6;
@@ -326,5 +326,5 @@
 #contact {
     padding-top: 200px; 
     padding-bottom: 200px;
-    background-color: #424242;
+    background-color: #1A1A1A;
 }
