@@ -24,29 +24,21 @@ $(".rotate").textrotator({
   speed: 2000 // How many milliseconds until the next word show.
 });
 
-/* Preloader */
-$(window).load( setTimeout( function() {
-	$(".loader").fadeOut("slow");
-},400)); 
-
 /* Owl Carousel */
 $(document).ready(function() {
  
   $("#slider").owlCarousel({
  
-      // navigation : true, // Show next and prev buttons
       autoPlay: 5000, //Set AutoPlay to 3 seconds
       slideSpeed : 300,
       paginationSpeed : 400,
       singleItem:true
  
-      // "singleItem:true" is a shortcut for:
-      // items : 1, 
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
- 
   });
 });
 
+
+/* Preloader */
+$(window).load( setTimeout( function() {
+	$(".loader").fadeOut("slow");
+}, 400)); 
