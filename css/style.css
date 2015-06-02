@@ -199,7 +199,7 @@
 #intro-divider {
     padding-top: 20px; 
     padding-bottom: 20px;
-    background-color: #282828;
+    background-color: #1A1A1A;
     font-family: 'Slabo 27px',serif;
     font-weight: bold !important;
     color: white;
@@ -209,7 +209,7 @@
 /* Section - About */
 #about {
     
-    padding-top: 40px; 
+    padding-top: 60px; 
     padding-bottom: 40px;
     background-color: white;
 }
@@ -293,7 +293,7 @@
 #divider-skills {
     padding-top: 20px; 
     padding-bottom: 20px;
-    background-color: #282828;
+    background-color: #1A1A1A;
     font-family: 'Slabo 27px',serif;
     font-weight: bold !important;
     color: white;

@@ -29,7 +29,7 @@ $(document).ready(function() {
  
   $("#slider").owlCarousel({
  
-      autoPlay: 5000, //Set AutoPlay to 3 seconds
+      autoPlay: 5000,
       slideSpeed : 300,
       paginationSpeed : 400,
       singleItem:true
