@@ -1,4 +1,4 @@
-/* Page Loader */
+/* Page Loader 
 .loader {
 	position: fixed;
 	left: 0px;
@@ -20,6 +20,8 @@
     font-family: 'Montserrat', sans-serif !important;
     color: black !important;
 }
+
+*/
 
 /* Custom Owl Carousel Styles */
 #slider .item img{
@@ -161,7 +163,6 @@
 
 .col-centered-inline {
     display:inline-block;
-    float:none;
     margin-right:-4px;
 }
 
@@ -197,8 +198,8 @@
 
 /* Section - intro-divider */
 #intro-divider {
-    padding-top: 20px; 
-    padding-bottom: 20px;
+    padding-top: 30px; 
+    padding-bottom: 30px;
     background-color: #1A1A1A;
     font-family: 'Slabo 27px',serif;
     font-weight: bold !important;
@@ -291,8 +292,8 @@
 
 /* Section - divider-skills*/
 #divider-skills {
-    padding-top: 20px; 
-    padding-bottom: 20px;
+    padding-top: 30px; 
+    padding-bottom: 30px;
     background-color: #1A1A1A;
     font-family: 'Slabo 27px',serif;
     font-weight: bold !important;
@@ -317,14 +318,71 @@
 
 /* Section - Resume */
 #resume {
-    padding-top: 200px; 
-    padding-bottom: 200px;
+    padding-top: 50px; 
+    padding-bottom: 50px;
     background-color: white;
+}
+
+#resume h1 {
+    font-size: 40px;
+    color: 333333;
+    font-weight: bold;
+    font-family:'Montserrat', sans-serif;
+}
+
+#resume img {
+    width: 70px;
+    height: auto;
+}
+
+#resume h2{
+    display: inline-block;
+    padding-bottom: 12px;
+    margin: 0px;
+    font-size: 24px;
+    color:#333333;
+    font-weight: bold;
+    font-family:'Montserrat', sans-serif;
+}
+
+#resume p3 {
+    display: block;
+    font-size: 18px;
+    padding-bottom: 6px;
+    color:#333333;
+    font-family:'Montserrat', sans-serif;
+}
+
+#resume .resume-section {
+    padding-bottom: 60px;
+}
+
+#resume .resume-element {
+    padding-bottom: 30px;
+}
+
+/* Section - Download Resume */
+#downloadresume {
+    padding-top: 60px; 
+    padding-bottom: 60px;
+    background-color: #F8F8F8;
+    font-family: 'Montserrat', serif;
+    font-weight: bold !important;
+    color: #333333;
+    font-size:18px;
+    border-top: 4px solid #E6E6E6;
 }
 
 /* Section - Contact */
 #contact {
-    padding-top: 200px; 
-    padding-bottom: 200px;
+    padding-top: 50px; 
+    padding-bottom: 50px;
     background-color: #1A1A1A;
+}
+
+#contact h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family:'Montserrat', sans-serif;
 }
