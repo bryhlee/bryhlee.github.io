@@ -373,6 +373,17 @@
     border-top: 4px solid #E6E6E6;
 }
 
+#downloadresume h2 {
+    display: inline-block;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    margin: 0px;
+    font-size: 24px;
+    color:#333333;
+    font-weight: bold;
+    font-family:'Montserrat', sans-serif;
+}
+
 /* Section - Contact */
 #contact {
     padding-top: 50px; 
