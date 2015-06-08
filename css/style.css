@@ -1,4 +1,4 @@
-/* Page Loader 
+/* Page Loader */
 .loader {
 	position: fixed;
 	left: 0px;
@@ -21,7 +21,7 @@
     color: black !important;
 }
 
-*/
+
 
 /* Custom Owl Carousel Styles */
 #slider .item img{
