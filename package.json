@@ -1,0 +1,24 @@
+{
+  "name": "bryhlee-website",
+  "version": "1.0.0",
+  "description": "Personal Website for Bryson Lee",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryhlee/bryhlee.github.io"
+  },
+  "author": "Bryson Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryhlee/bryhlee.github.io/issues"
+  },
+  "homepage": "https://github.com/bryhlee/bryhlee.github.io#readme"
+}
