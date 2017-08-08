@@ -7,8 +7,17 @@
 /* Wrapper for entire website */
 .container-wrapper {
   max-width: 940px;
-  padding-top: 30px;
+  
   padding-bottom: 30px;
+
+
+  @media (min-width: 576px) {
+    padding-top: 0px;
+  }
+  @media (min-width: 992px) {
+    padding-top: 30px;
+  }
+
 
   a {
     color: #333333;
@@ -23,7 +32,16 @@
   /* Wrapper for sidebar */
   .sidebar-wrapper {
     font-family: 'Bitter', serif;
-    margin-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 15px;
+
+
+    .sidebar-fix {
+      padding: 15px;
+      /* border: 1px solid #000; */
+      background-color: #fffaf4;
+    }
 
     p {
       font-size: 14px;
