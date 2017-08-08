@@ -1,0 +1,160 @@
+---
+---
+
+/* Import URLs */
+@import url('https://fonts.googleapis.com/css?family=Arvo|Bitter|Faustina|Slabo+27px');
+
+/* Wrapper for entire website */
+.container-wrapper {
+  max-width: 940px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  a {
+    color: #333333;
+    border-bottom: 1px dotted #333333;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: 1px solid #333333;
+    }
+  }
+
+  /* Wrapper for sidebar */
+  .sidebar-wrapper {
+    font-family: 'Bitter', serif;
+    margin-bottom: 30px;
+
+    p {
+      font-size: 14px;
+      color: #333333;
+    }
+
+    h1 {
+      margin-bottom: 14px;
+      color: #333333;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    .portrait {
+      border: 1px solid #000;
+      margin-bottom: 14px;
+    }
+
+    .profile-info {
+      ul {
+        margin-bottom: 14px;
+
+        li {
+          font-size: 16px;
+        }
+      }
+
+      .description {
+        margin-bottom: 8px;
+        font-style: italic;
+      }
+    }
+
+    .contact-info {
+      p {
+        margin: 0;
+      }
+
+      .social-media {
+        a {
+          margin-bottom: 10px;
+          border-bottom: 0px;
+        }
+
+        .icon {
+          margin-top: 20px;
+          width: 37px;
+          margin-right: 10px;
+          text-decoration: none;
+
+          &:hover {
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+  }
+
+  /* Primary wrapper for main content */
+  .main-wrapper {
+    font-family: 'Bitter', serif;
+
+    .img-404 {
+      width: 80px;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      color: #333333;
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+  }
+
+  /* Wrapper for pages */
+  .page {
+
+    .page-header {
+      margin-bottom: 40px;
+
+      .page-title {
+        margin-bottom: 0px;
+        padding-bottom: 3px;
+        border-bottom: 2px solid #a5a5a5;
+        display: flex;
+      }
+
+      .page-img {
+        display: inline-block;
+        vertical-align: middle;
+        width: 40px;
+        height: auto;
+        margin-right: 10px;
+        float: left;
+      }
+    }
+
+    .post-list {
+      margin-bottom: 40px;
+
+      .post-date {
+        color: #222222;
+        font-family: 'Menlo', sans-serif;
+        font-size: 14px;
+      }
+
+      .post-seperator {
+        margin-left: 4px;
+        margin-right: 4px;
+      }
+    }
+  }
+
+  /* Wrapper for post headers */
+  .post {
+    .post-header {
+      margin-bottom: 32px;
+
+      .post-title {
+        margin-bottom: 10px;
+      }
+      .post-meta {
+        .post-date {
+          letter-spacing: 2px;
+          color: #474747;
+          font-size: 14px;
+        }
+      }
+    }  
+  }
+  
+}
+  
