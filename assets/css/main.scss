@@ -121,14 +121,16 @@
       margin-bottom: 40px;
 
       .page-title {
-        margin-bottom: 0px;
+        overflow: hidden;  
         padding-bottom: 3px;
         border-bottom: 2px solid #a5a5a5;
-        display: flex;
+
+        h1 {
+          margin-bottom: 0px;
+        }
       }
 
       .page-img {
-        display: inline-block;
         vertical-align: middle;
         width: 40px;
         height: auto;
@@ -168,7 +170,15 @@
           font-size: 14px;
         }
       }
-    }  
+    }
+
+    .post-content {
+      margin-bottom: 40px;
+    }
+
+    .post-footer {
+      font-size: 14px;
+    }
   }
   
 }

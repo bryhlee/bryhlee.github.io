@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-image: about
+image: chat
 ---
 
 Hey there! All of this is eventually going to be rewritten! Ignore the other nonsense!

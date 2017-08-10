@@ -17,11 +17,14 @@ layout: default
     </p>
   </div>
 
-  <div class="post-content" itemprop="articleBody">
+  <div class="post-content">
     {{ content }}
   </div>
 
-  <a href="{{ "/blog" | relative_url }}">Return to blog</p>
+  <div class="post-footer">
+    <a href="{{ "/blog" | relative_url }}"><-- Return to blog list</a>
+    <p>Questions? Comments? Feel free to <a href="emailto:brysonhlee@gmail.com">email me</a> and let me know what you think!</p>
+  </div>
 
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
