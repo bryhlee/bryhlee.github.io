@@ -3,14 +3,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <title>{% if page.blog_title %}{{ page.blog_title | escape}} | {% endif %}{% if page.web_title %}{{ page.web_title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png?v=vMOr0J6w8z">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png?v=vMOr0J6w8z">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png?v=vMOr0J6w8z">
+  <link rel="manifest" href="/assets/icons/manifest.json?v=vMOr0J6w8z">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg?v=vMOr0J6w8z" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico?v=vMOr0J6w8z">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml?v=vMOr0J6w8z">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Bitter|Faustina|Slabo+27px" rel="stylesheet">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="{{ "/assets/css/bootstrap.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">

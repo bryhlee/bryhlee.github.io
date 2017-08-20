@@ -112,13 +112,17 @@
       font-weight: 700;
       margin-bottom: 40px;
     }
+
+    img {
+      border-radius: 4px;/* Provides a nice styling for the website page images as a whole */
+    }
   }
 
   /* Wrapper for pages */
   .page {
 
     .page-header {
-      margin-bottom: 40px;
+      margin-bottom: 24px;
 
       .page-title {
         overflow: hidden;  
@@ -139,8 +143,105 @@
       }
     }
 
+    /* Markdown styling for page content */
+    .page-content {
+
+      ul {
+        margin-bottom: 14px;
+      }
+
+      /* Override h3 for use in Markdown */
+      h3 {
+        padding-top: 14px; /* For section linking (HTML fragment supported) */
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      /* Override h4 for use in Markdown */
+      h4 {
+        padding-top: 4px; /* For section linking (HTML fragment supported) */
+        margin-bottom: 16px;
+        font-size: 18px;
+        font-weight: 700;
+      }
+
+      blockquote {
+        padding-left: 10px;
+        border-left: 3px solid #a5a5a5;
+      }
+
+      /* to do - refactor so we don't need cols and rows nested in the page row/col */
+      /* Entry for projects */
+      .project-entry {
+        margin-bottom: 20px;
+
+        .project-title {
+          padding-top: 0px;
+          font-size: 18px;
+          font-weight: 700;
+          display: inline-block;
+          margin-bottom: 4px;
+        }
+
+        .img-col {
+          padding-right: 0px;
+        }
+      }
+
+      /* Entries for resume */
+      .resume-entry {
+        padding-left: 20px;
+        padding-top: 4px;
+        padding-bottom: -4px; /* simple fix to cancel out the margin from the last container */
+        border-left: 4px solid #DDDDDD;
+        margin-bottom: 20px;
+
+        .resume-container {
+          margin-bottom: 20px;
+
+
+          p {
+            margin-bottom: 0px;
+          }
+  
+          .resume-header-container {
+            margin-bottom: 14px;
+
+            .resume-header-text-container {
+              display: inline-block;
+              vertical-align: middle;
+
+              .resume-header-title {
+                padding-top: 0px;
+                font-size: 18px;
+                font-weight: 700;
+                display: inline-block;
+                margin-bottom: 4px;
+              }
+            }
+
+            img {
+              display: inline-block;
+              vertical-align: middle;
+              width: 100px;
+              height: auto;
+              margin-right: 20px;
+            }
+          }
+
+          .resume-text-container {
+            p {
+
+            }
+          }
+        }
+      }
+    }
+
     .post-list {
-      margin-bottom: 40px;
+      margin-top: 40px;
+      margin-bottom: 30px;
 
       .post-date {
         color: #222222;
@@ -174,6 +275,21 @@
 
     .post-content {
       margin-bottom: 40px;
+
+      img {
+        width: 80%;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      /* Code blocks */
+      pre {
+        border-radius: 4px;
+        padding: 10px;
+        background-color: #ECF4F6;
+      }
     }
 
     .post-footer {
