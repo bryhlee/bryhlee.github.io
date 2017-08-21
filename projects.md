@@ -8,41 +8,48 @@ web_title: Projects | Bryson Lee
 ---
 
 
-* [Pipeline Tools](#-pipeline-tools)
-* [CG Application Plugins](#-cg-application-plugins)
-* [Technical Direction](#-technical-direction-tools)
-* [Games](#-games)
+* [Pipeline Tools](#pipeline-tools)
+* [Technical Direction](#technical-direction)
+* [Art/Story](#art-and-story)
 
 
-Here, you will find a directory of projects that I am currently working on, or have worked on, in the past. These include many different technologies, ranging from full-stack web applications to smaller and more niche IT tools. Many of the projects I intiated myself, built around small and agile teams, while some are long term projects I personally managed alongside others at various companies. Please feel free to visit the links provided for each project to learn more.
+Pellentesque nec lacus nec augue bibendum faucibus vitae et orci. Nulla at porta elit. Vestibulum volutpat auctor justo. Curabitur cursus at quam in condimentum. Curabitur vel velit sed neque tristique hendrerit. Integer sit amet dolor dapibus, dictum diam quis, accumsan leo. Donec quis mauris congue, lacinia massa eget, volutpat justo. Nunc iaculis efficitur orci, eu ullamcorper elit cursus a. Pellentesque vitae fringilla dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
 
-Every project I work on aims to solve a particular problem, whether it involves creating a more effective digital infastructure, or improving an already existing concept. In general, there is one quote I live by when creating any piece of software solution:
+Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetra, consectetur elit et, feugiat magna. Phasellus magna eros, faucibus ac elit et, viverra ultricies nulla. Aliquam quis odio sem. Curabitur et nunc in tortor imperdiet condimentum eget eu lectus. Aliquam iaculis massa sit amet efficitur varius. Etiam porta, sem at vulputate auctor, elit.
 
 > Everything should be made as simple as possible, but not simpler.  
 > *- Albert Einstein*
 
-### >> Pipeline Tools
-<div class="project-entry row">
-  <div class="img-col col-lg-3 hidden-md-down">
-    <img class="img-fluid" src="/assets/img/matterhorn.png">
-  </div>
-  <div class="col-lg-9 col-md-12">
-    <span class="project-title">Matterhorn Digital Asset Manager</span>
-    <p>In hac habitasse platea dictumst. Cras porttitor lectus quis ornare posuere. Mauris sed mauris mauris. Aenean sollicitudin metus at justo ultrices condimentum. Fusce accumsan pulvinar velit ut viverra. Aenean tincidunt ipsum ut cursus malesuada. Curabitur sed nisi viverra, vehicula tortor.</p>
-  </div>
-</div>
-<div class="project-entry row">
-  <div class="img-col col-lg-3 hidden-md-down">
-    <img class="img-fluid" src="/assets/img/commands.png">
-  </div>
-  <div class="col-md-9 col-sm-12">
-    <span class="project-title">Data Tool Thing</span>
-    <p>Proin nec ornare nisl, sit amet lacinia elit. Maecenas rutrum metus sed lacus lobortis, sed tincidunt nibh ullamcorper. Proin in molestie purus, sit amet aliquet lectus. In commodo purus sed erat malesuada, nec luctus risus tempor. Vestibulum id lacinia nibh.</p>
+## Pipeline Tools
+<div class="project-entry d-flex">
+  <img class="align-self-start hidden-xs-down" src="/assets/img/matterhorn_square.png">
+  <div class="align-self-start">
+    <h3 class="project-title">Matterhorn Digital Asset Manager</h3>
+    <p>Image, video, and file manager for digital assets. Built multiple administrative tools and interfaces for: video transcoding, metrics and diagnostics, meta data tracking, legacy tracking, data index, helper tools, and</p>
+    <p class="project-annotation"><i class="fa fa-file-code-o"></i>Python, Flask, Google App Engine, Google Cloud Storage</p>
+    <p class="project-annotation"><i class="fa fa-calendar-o"></i>Summer 2016</p>
   </div>
 </div>
 
-### >> CG Application Plugins
+## Technical Direction
 
-### >> Technical Direction Tools
+<div class="project-entry d-flex">
+  <div class="align-self-start">
+    <h3 class="project-title">A Better Maya Turntable Plugin<span class="badge">In Progress</span></h3>
+    <p>A New turn table plugin for Maya which will automatically place digital models into a turntable with custommizable features and paramters. Features automatic lightning for dramatic showcasing.</p>
+    <p class="project-annotation"><i class="fa fa-file-code-o"></i>Maya</p>
+    <p class="project-annotation"><i class="fa fa-calendar-o"></i>In Progress</p>
+  </div>
+</div>
 
-### >> Games
+## Art and Story
+<div class="project-entry d-flex">
+  <img class="align-self-start hidden-xs-down" src="/assets/img/audition_square.png">
+  <div class="align-self-start">
+    <h3 class="project-title">The Audition: A 3D Animated Short Film</h3>
+    <p>An entirely 3D animated short written, directed, modeled, and animated by yours truly.</p>
+    <p class="project-annotation"><i class="fa fa-file-code-o"></i>Maya, Mental Ray, Adobe Premiere</p>
+    <p class="project-annotation"><i class="fa fa-calendar-o"></i>Spring 2016</p>
+  </div>
+</div>
+

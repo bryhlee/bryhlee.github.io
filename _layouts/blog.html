@@ -12,6 +12,7 @@ layout: default
         <span class="post-date">{{ post.date | date: date_format }}</span>      
         <span class="post-seperator">»</span>
         <b><a class="post-link" href="{{ post.url | relative_url }}">{{ post.blog_title | escape }}</a></b>
+        {% if post.new %}<span class="badge">NEW!</span>{% endif %}
       </li>
     {% endfor %}
   </ul>

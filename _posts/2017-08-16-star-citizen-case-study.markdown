@@ -3,9 +3,11 @@ layout: blog_post
 date:   2017-08-16 00:09:56 -0700
 categories: games
 blog_title: "Player Driven Universes?: A Star Citizen Study"
+new: true
 ---
 
 ![My helpful screenshot]({{ site.url }}/assets/img_posts/space.jpg)
+*Star Citizen's infamous first-person fighter experience.*
 
 Ever since the beginning of video games and interactive media, there has always been a demand to simulate aspects of real life digitally. Increasingly in recent years, developers have been attempting to implement social constructs into online video games alongside modern physics engines to create extremely immersive environments. Such video games sometimes build a “player-driven universe,” or a world inhabited by players and run by players.
 

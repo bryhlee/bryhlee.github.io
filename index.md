@@ -7,30 +7,26 @@ web_title: About | Bryson Lee
 ---
 
 
-* [Biography](#-biography)
-* [Resume](#-resume)
+* [Biography](#biography)
+* [Resume](#resume)
 
 
-### >> Biography
+## Biography
 
-Hey there! All of this is eventually going to be rewritten! Ignore the other nonsense!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nunc velit, vehicula quis lectus at, bibendum dapibus risus. In nulla dolor, mollis eget semper non, vulputate sed felis. Curabitur vel mauris dolor. Nam sed massa lacinia, pharetra felis vitae, laoreet massa. Mauris et odio congue, tempor lorem at, egestas erat. Aenean id tincidunt lacus, eu ullamcorper urna. Nam laoreet iaculis turpis eget tincidunt. Donec malesuada dictum sem vel vehicula. Morbi ornare metus eu quam congue, vitae ultricies lacus lobortis. Etiam eget nisi at nunc pharetra feugiat sit amet at metus. Nulla sed arcu tempus, mattis eros ut, commodo massa. Sed pulvinar cursus nunc sagittis cursus. Vivamus ut accumsan orci. Vestibulum ut sem aliquet, vulputate risus vitae, faucibus libero.
 
-My name is Bryson Lee, and thank you for visiting my personal webpage. Feel free to explore this site and my blog to learn more about me, my expertise, and some [projects](/projects/) I am working on.
+Pellentesque nec lacus nec augue bibendum faucibus vitae et orci. Nulla at porta elit. Vestibulum volutpat auctor justo. Curabitur cursus at quam in condimentum. Curabitur vel velit sed neque tristique hendrerit. Integer sit amet dolor dapibus, dictum diam quis, accumsan leo. Donec quis mauris congue, lacinia massa eget, volutpat justo. Nunc iaculis efficitur orci, eu ullamcorper elit cursus a. Pellentesque vitae fringilla dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
 
-Where do I begin? Well, first off, I'm a software engineer based out of the San Francisco Bay Area. For the past three years, I have been working in production engineering and technical development for film, 3D animation, and visual effects pipelines. I'm also an amateur composer and pianist, my favorite philosopher is Nietzsche, and I'm an avid [vexillologist](https://en.wikipedia.org/wiki/Vexillology) (perhaps my nerdiest obsession).
+Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetra, consectetur elit et, feugiat magna. Phasellus magna eros, faucibus ac elit et, viverra ultricies nulla. Aliquam quis odio sem. Curabitur et nunc in tortor imperdiet condimentum eget eu lectus. Aliquam iaculis massa sit amet efficitur varius. Etiam porta, sem at vulputate auctor, elit ipsum tristique felis, quis malesuada nisl nibh et neque. Nam malesuada lorem risus, a hendrerit sapien rutrum eu.
 
-Currently, I am student at Santa Clara University working towards a B.S. in Computer Science and Engineering. I always find myself busy, building new projects with friends or with the various companies I have interned at. Most recently, I worked as a Software Engineering Intern on the Media Technology Engineering team at Disney Interactive. Alongside my professional work, I have a history of academic research with Santa Clara University's Frugal Innovation Lab, where in 2015, I co-wrote a paper on effective mobile Health frameworks for use in third world countries. I am a long-time contributer to the ACM SIGGRAPH community: I served as a Student Volunteer (SV) at SIGGRAPH 2016, and I am the current President and Founder of Santa Clara University's SIGGRAPH Student Chapter, a student organization that promotes and runs workshops to teach students topics in computer graphics and interactive media.
-
-I will be interning at Industrial Light and Magic (ILM/Lucasfilm) as a Production Engineer for the Summer of 2017. To learn more about my experience and qualifications, please feel free to view or download my resume using the button below.
-
-### >> Resume
+## Resume
 
 
-#### Education
+### Education
 <div class="resume-entry">
   <div class="resume-container">
     <div class="resume-header-container"> 
-      <img src="/assets/img/scu_square.png">
+      <img class="hidden-xs-down" src="/assets/img/scu_square.png">
       <div class="resume-header-text-container">
         <p class="resume-header-title">Santa Clara University</p>
         <p>B.S. Computer Science and Engineering</p>
@@ -38,20 +34,21 @@ I will be interning at Industrial Light and Magic (ILM/Lucasfilm) as a Productio
       </div>
     </div>
     <div class="resume-text-container">
-      <p>Hello, testing testing!</p>
+      <p>President and founder SCU ACM SIGGRAPH Chapter. STEM Foundation Scholar.</p>
     </div>
   </div>
 </div>
 
-#### Experience
+### Experience
 <div class="resume-entry">
   <div class="resume-container">
     <div class="resume-header-container"> 
-      <img src="/assets/img/ilm_square.png">
+      <img class="hidden-xs-down" src="/assets/img/ilm_square.png">
       <div class="resume-header-text-container">
-        <p class="resume-header-title">Santa Clara University</p>
-        <p>B.S. Computer Science and Engineering</p>
-        <p><i>September 2014 - June 2018</i></p>      
+        <p class="resume-header-title">Industrial Light and Magic</p>
+        <p>Pipeline Engineer, Intern</p>
+        <p>Global Pipeline/Production Engineering</p>
+        <p><i>Summer 2017</i></p>      
       </div>
     </div>
     <div class="resume-text-container">
@@ -60,11 +57,12 @@ I will be interning at Industrial Light and Magic (ILM/Lucasfilm) as a Productio
   </div>
   <div class="resume-container">
     <div class="resume-header-container"> 
-      <img src="/assets/img/disney_square.png">
+      <img class="hidden-xs-down" src="/assets/img/disney_square.png">
       <div class="resume-header-text-container">
         <p class="resume-header-title">Santa Clara University</p>
-        <p>B.S. Computer Science and Engineering</p>
-        <p><i>September 2014 - June 2018</i></p>      
+        <p>Software Engineer, Intern</p>
+        <p>Media Technology Engineering Team</p>
+        <p><i>Summer 2016</i></p>      
       </div>
     </div>
     <div class="resume-text-container">
@@ -73,8 +71,14 @@ I will be interning at Industrial Light and Magic (ILM/Lucasfilm) as a Productio
   </div>
 </div>
 
-#### Expertise
+### Expertise
 
-#### Projects
+*Languages* | Python, C++, C, JavaScript, HTML, CSS
+*Workflows / Platforms* | Linux, Docker, Perforce, Git + (Github/Gitlab), JIRA, SCRUM, Agile
+*APIs / Frameworks* | Qt/PyQt, Django, Google Cloud Platform, AngularJS, jQuery, Node.js
+*Computer Graphics* | Maya, Nuke, Houdini, Katana, OpenGL
+*Databases* | MySQL, PostgreSQL, Google Datastore
 
-To view my projects, please visit my [projects page](/projects/).
+### Download
+
+Download my resume [here](#resume).
