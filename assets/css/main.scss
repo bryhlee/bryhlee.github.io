@@ -2,7 +2,7 @@
 ---
 
 /* Import URLs */
-@import url('https://fonts.googleapis.com/css?family=Bitter|Roboto+Slab|Droid+Serif');
+@import url('https://fonts.googleapis.com/css?family=Bitter|Roboto+Slab|Open+Sans|Source+Sans+Pro');
 
 /* Wrapper for entire website */
 .container-wrapper {
@@ -16,7 +16,7 @@
     margin-top: 30px;
   }
 
-  /* Styling */
+  /* Font Styling */
   font-family: 'Bitter', serif;
   h1, h2, h3, h4 {
     font-family: 'Bitter', serif !important;
@@ -39,7 +39,6 @@
     padding-left: 0px;
     padding-right: 0px;
     margin-bottom: 15px;
-
 
     .sidebar-fix {
       padding: 15px;
@@ -108,7 +107,7 @@
     }
   }
 
-  /* Primary wrapper for main content */
+  /* Wrapper for main content */
   .main-wrapper {
 
     .img-404 {
@@ -158,6 +157,10 @@
 
       table {
         margin-bottom: 20px;
+
+        em {
+          padding-right: 4px;
+        }
       }
 
       ul {
@@ -367,6 +370,5 @@
       font-size: 14px;
     }
   }
-  
 }
   
