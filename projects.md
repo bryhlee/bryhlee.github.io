@@ -36,7 +36,7 @@ Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetr
 <div class="project-entry d-flex">
   <div class="align-self-start">
     <h3 class="project-title">A Better Maya Turntable Plugin<span class="badge">In Progress</span></h3>
-    <p>A New turn table plugin for Maya which will automatically place digital models into a turntable with custommizable features and paramters. Features automatic lightning for dramatic showcasing.</p>
+    <p>A new turn table plugin for Maya which will automatically place digital models into a turntable with customizable features and paramters. Features automatic lightning for dramatic showcasing.</p>
     <p class="project-annotation"><i class="fa fa-file-code-o"></i>Maya</p>
     <p class="project-annotation"><i class="fa fa-calendar-o"></i>In Progress</p>
   </div>
