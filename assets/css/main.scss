@@ -17,9 +17,9 @@
   }
 
   /* Font Styling */
-  font-family: 'Bitter', serif;
+  font-family: 'Bitter','Open Sans', serif;
   h1, h2, h3, h4 {
-    font-family: 'Bitter', serif !important;
+    font-family: 'Bitter', 'Robot Slab', 'Open Sans', serif !important;
   }
 
   /* Link styling */
@@ -196,7 +196,6 @@
         border-left: 3px solid #a5a5a5;
       }
 
-      /* to do - refactor so we don't need cols and rows nested in the page row/col */
       /* Entry for projects */
       .project-entry {
         margin-bottom: 20px;
@@ -234,16 +233,39 @@
         }
       }
 
-      /* Entries for resume */
-      .resume-entry {
+      .timeline {
         @media (min-width: 767px) {
           padding-left: 20px;
           border-left: 4px solid #DDDDDD;
         }
+      }
+
+      /* Entries for resume */
+      .resume-entry {
         padding-top: 4px;
         padding-bottom: -4px; /* simple fix to cancel out the margin from the last entry */
         margin-bottom: 20px;
 
+        .resume-icon {
+          @media (max-width: 767px) {
+            margin-top: 0px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          width: auto;
+          height: 80px;
+          margin: 8px;
+          -webkit-filter: grayscale(60%); /* Safari 6.0 - 9.0 */
+          filter: grayscale(60%);
+        }
+        .resume-icon-subtitle {
+          @media (max-width: 767px) {
+            text-align: center;
+          }
+        }
+
+        /* TODO: Turn these into media objects */
         .resume-container {
           margin-bottom: 20px;
 

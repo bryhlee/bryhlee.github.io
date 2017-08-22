@@ -32,7 +32,6 @@ Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetr
 </div>
 
 ## Technical Direction
-
 <div class="project-entry d-flex">
   <div class="align-self-start">
     <h3 class="project-title">A Better Maya Turntable Plugin<span class="badge">In Progress</span></h3>

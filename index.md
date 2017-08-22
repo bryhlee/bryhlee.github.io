@@ -19,11 +19,33 @@ Pellentesque nec lacus nec augue bibendum faucibus vitae et orci. Nulla at porta
 
 Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetra, consectetur elit et, feugiat magna. Phasellus magna eros, faucibus ac elit et, viverra ultricies nulla. Aliquam quis odio sem. Curabitur et nunc in tortor imperdiet condimentum eget eu lectus. Aliquam iaculis massa sit amet efficitur varius. Etiam porta, sem at vulputate auctor, elit ipsum tristique felis, quis malesuada nisl nibh et neque. Nam malesuada lorem risus, a hendrerit sapien rutrum eu.
 
+<div class="resume-entry row">
+  <div class="col-md-6 col-sm-12">
+    <img class="resume-icon" src="/assets/img/cinematics.png">
+    <p class="resume-icon-subtitle"><b>Cinematics TD</b></p>
+    <p>Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetra, consectetur elit et, feugiat magna. Phasellus magna eros, faucibus ac elit et, viverra ultricies nulla. Aliquam quis odio sem. Curabitur et nunc in tortor imperdiet condimentum eget eu lectus.</p>
+  </div>
+  <div class="col-md-6 col-sm-12">
+    <img class="resume-icon" src="/assets/img/pipe.png">
+    <p class="resume-icon-subtitle"><b>Pipeline Engineering</b></p>
+    <p>Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetra, consectetur elit et, feugiat magna. Phasellus magna eros, faucibus ac elit et, viverra ultricies nulla. Aliquam quis odio sem. Curabitur et nunc in tortor imperdiet condimentum eget eu lectus.</p>
+  </div>
+  <div class="col-md-6 col-sm-12">
+    <img class="resume-icon" src="/assets/img/tools.png">
+    <p class="resume-icon-subtitle"><b>Tools Development</b></p>
+    <p>Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetra, consectetur elit et, feugiat magna. Phasellus magna eros, faucibus ac elit et, viverra ultricies nulla. Aliquam quis odio sem. Curabitur et nunc in tortor imperdiet condimentum eget eu lectus.</p>
+  </div>
+  <div class="col-md-6 col-sm-12">
+    <img class="resume-icon" src="/assets/img/asset.png">
+    <p class="resume-icon-subtitle"><b>Rendering and Asset Management</b></p>
+    <p>Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetra, consectetur elit et, feugiat magna. Phasellus magna eros, faucibus ac elit et, viverra ultricies nulla. Aliquam quis odio sem. Curabitur et nunc in tortor imperdiet condimentum eget eu lectus.</p>
+  </div>
+</div>
+
 ## Resume
 
-
 ### Education
-<div class="resume-entry">
+<div class="resume-entry timeline">
   <div class="resume-container">
     <div class="resume-header-container"> 
       <img class="hidden-xs-down" src="/assets/img/scu_square.png">
@@ -40,7 +62,7 @@ Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetr
 </div>
 
 ### Experience
-<div class="resume-entry">
+<div class="resume-entry timeline">
   <div class="resume-container">
     <div class="resume-header-container"> 
       <img class="hidden-xs-down" src="/assets/img/ilm_square.png">
@@ -71,13 +93,31 @@ Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetr
   </div>
 </div>
 
-### Expertise
-
-*Languages* | Python, C++, C, JavaScript, HTML, CSS
-*Workflows / Platforms* | Linux, Docker, Perforce, Git + (Github/Gitlab), JIRA, SCRUM, Agile
-*APIs / Frameworks* | Qt/PyQt, Django, Google Cloud Platform, AngularJS, jQuery, Node.js
-*Computer Graphics* | Maya, Nuke, Houdini, Katana, OpenGL
-*Databases* | MySQL, PostgreSQL, Google Datastore
+### Skills
+<div class="resume-entry timeline">
+  <table>
+    <tr>
+      <td><i>Languages</i></td>
+      <td>Python, C++, C, JavaScript, HTML, CSS</td>
+    </tr>
+    <tr>
+      <td><i>Workflows / Platforms</i></td>
+      <td>Linux, Docker, Perforce, Git + (Github/Gitlab), JIRA, SCRUM, Agile</td>
+    </tr>
+    <tr>
+      <td><i>APIs / Frameworks</i></td>
+      <td>Qt/PyQt, Django, Google Cloud Platform, AngularJS, jQuery, Node.js</td>
+    </tr>
+    <tr>
+      <td><i>Computer Graphics</i></td>
+      <td>Maya, Nuke, Houdini, Katana, OpenGL</td>
+    </tr>
+    <tr>
+      <td><i>Databases</i></td>
+      <td>MySQL, PostgreSQL, Google Datastore</td>
+    </tr>
+  </table>
+</div>
 
 ### Download
 
