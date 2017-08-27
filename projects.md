@@ -15,7 +15,7 @@ web_title: Projects | Bryson Lee
 
 My first introduction to software projects were creating game mods for *Warcraft 3* in the ancient scripting language known as JASS, back when I was in middle school. Since then, I have created tools and built systems for artists across the studio pipeline at both Disney and ILM, helping bring to life the movies, games, and animations I grew up with. 
 
-When I was at ILM, my mentor Jon Wynacht once told me that to become a better pipeline engineer, "If you're not breaking something, you're not learning - just don't do it too much." And, since then, I always aim to achieve the same attitude of proactive development that I learned from my team at ILM; one that emphasizes not being afraid to try something new and challenging in order to find the most rewarding solution. 
+When I was at ILM, my mentor Jon Wynacht used to tell me that, to become a better pipeline engineer, "If you're not breaking something, you're not learning - just don't do it too much." And, since then, I always aim to achieve the same attitude of proactive development: one that emphasizes not being afraid to try something new and challenging in order to find the most rewarding solution. 
 
 I have two core philosophies when approaching new technical projects. The first is that, to quote Albert Einstein, "everything should be made as simple as possible, but not simplier." In essence, software should be made to achieve the role it is meant for, and to do so optimally and reliably without buggy frills. The seccond philosophy is that tools should be able to adapt to the fast paced demands of modern creative studios, leveraging both practical solutions and pushing the boundaries of old and dated paradigms.
 
