@@ -19,14 +19,7 @@ Before I talk about Star Citizen itself, let us first try to understand why deve
 
 When I ask that question, I am reminded of a small PC game named Face of Mankind. Ambitious in its beginnings, the original developers of the game envisioned a large-scale, futuristic universe that would be driven by its players, much like the one Robert's envisioned. Using their own decisions, players could not only control the destiny of their characters, but also the fate of the universe itself. Players had the freedom to elect their own leaders of their factions, much like early MMORPG clans. These factions could declare war and claim territory on different planets. Economics would be controlled by players, and moderators were barred from interfering with the game’s free market. In game politics were implemented, where players could send representatives, or even be representatives themselves, in a national senate. Officials could implement laws, and militaries could be formed, all with strict rules enforced by the players. 
 
-
-Why have a board meeting in real life when you can have one in game?
-
 Things that seemed otherwise impossible in other MMORPGs now seemed highly exploitable for fun. Do you want to be a mercenary and rob enemies? Feel free to do so. Do you want to become a trader who manufactured weapons and simply follows the highest bidder? Go ahead. Do you want to run for president, or even supreme dictator, and make eating pizza illegal? Don’t feel worried that you can’t. If the sound of such a world excites you, then it may also disappoint you to know that the game ultimately failed.
-
-
-
-Face of Mankind was an ambitious game from its conception.
 
 Why? At first glance, the reason for the games early termination may have been largely logistical. It was run by a small company, and revenue was marginal. They offered a freemium model, but not many users upgraded to premium accounts, and server maintenance costs were running high. That is, at least, the company’s reasoning for shutting down support for the game.
 
@@ -39,10 +32,6 @@ First of all, in order to achieve the feeling of a living, breathing universe, p
 I believe the developers behind Star Citizen, especially Roberts, fail to realize what is most important. They need to look at the nature of the player itself and build not a world for players to inhabit, but rather, a platform for players to build from. Players need to feel like the world is theirs, not necessarily that they are in a world designed for them. Would you not care more about a house that you drafted and built yourself, rather then a standard townhouse built by a company in the middle of suburbia? Would it not feel different to live inside this home? RPGs work the same way - they feel real when players feel like they are changing it.
 
 Take Skyrim, for example. Though it was not a multiplayer game, Todd Howard sought to create an experience, first and foremost. He wanted players to know that the decisions they made impacted the world around them. He pushed for players to be able to pick up almost anything, despite its actual purpose. He desired the ability to analyze, and zoom into items that could be picked up, in order to appreciate the detail in every item in the world. Most of all, he wanted players to feel like they were learning on the way and at the same time discover things on their own. Players could become better at combat by practicing more, not through skill levels or by the innate ability of the character. All these aspects pulled players closer and closer to the heart of the game, a game closely linked to the story the player chose to follow and create. Players drove Skyrim, not the other way around.
-
-
-
-The "Butterfly in a Jar" is an infamously useless item in Skyrim, but its purpose is not derived from its function. It exists to exist.
 
 The minute I heard that Star Citizen was going to have NPCs is when the first wave of disappointment hit me. Reason being, NPCs are non playable entities created by the developers to control some kind of in-game function - that's function taken away from the players. While NPCs haven’t actually been released yet, I don’t see the need for them in a game that was promised to be player driven. NPCs ruin the immersive feeling of a multiplayer universe. We, as gamers, know when something feels unreal. For example, how can you grant players the ability to capture and govern planets if those planets have NPCs inside of them? It doesn’t feel like the planet is owned at all. The NPC will most likely have no little to no reaction when its home city is taken over - it will sit there, and keep doing what it was programmed to do - and players will know this. NPCs do not feel alive.
 

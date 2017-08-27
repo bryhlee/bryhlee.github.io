@@ -13,12 +13,13 @@ web_title: Projects | Bryson Lee
 * [Art/Story](#art-and-story)
 
 
-Pellentesque nec lacus nec augue bibendum faucibus vitae et orci. Nulla at porta elit. Vestibulum volutpat auctor justo. Curabitur cursus at quam in condimentum. Curabitur vel velit sed neque tristique hendrerit. Integer sit amet dolor dapibus, dictum diam quis, accumsan leo. Donec quis mauris congue, lacinia massa eget, volutpat justo. Nunc iaculis efficitur orci, eu ullamcorper elit cursus a. Pellentesque vitae fringilla dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+My first introduction to software projects were creating game mods for *Warcraft 3* in the ancient scripting language known as JASS, back when I was in middle school. Since then, I have created tools and built systems for artists across the studio pipeline at both Disney and ILM, helping bring to life the movies, games, and animations I grew up with. 
 
-Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetra, consectetur elit et, feugiat magna. Phasellus magna eros, faucibus ac elit et, viverra ultricies nulla. Aliquam quis odio sem. Curabitur et nunc in tortor imperdiet condimentum eget eu lectus. Aliquam iaculis massa sit amet efficitur varius. Etiam porta, sem at vulputate auctor, elit.
+When I was at ILM, my mentor Jon Wynacht once told me that to become a better pipeline engineer, "If you're not breaking something, you're not learning - just don't do it too much." And, since then, I always aim to achieve the same attitude of proactive development that I learned from my team at ILM; one that emphasizes not being afraid to try something new and challenging in order to find the most rewarding solution. 
 
-> Everything should be made as simple as possible, but not simpler.  
-> *- Albert Einstein*
+I have two core philosophies when approaching new technical projects. The first is that, to quote Albert Einstein, "everything should be made as simple as possible, but not simplier." In essence, software should be made to achieve the role it is meant for, and to do so optimally and reliably without buggy frills. The seccond philosophy is that tools should be able to adapt to the fast paced demands of modern creative studios, leveraging both practical solutions and pushing the boundaries of old and dated paradigms.
+
+Please feel free to browse around to learn more about my projects and their technical implementations.
 
 ## Pipeline Tools
 <div class="project-entry d-flex">
@@ -46,7 +47,7 @@ Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetr
   <img class="align-self-start hidden-xs-down" src="/assets/img/audition_square.png">
   <div class="align-self-start">
     <h3 class="project-title">The Audition: A 3D Animated Short Film</h3>
-    <p>An entirely 3D animated short written, directed, modeled, and animated by yours truly.</p>
+    <p>A story about a robot with humble ambitions.</p>
     <p class="project-annotation"><i class="fa fa-file-code-o"></i>Maya, Mental Ray, Adobe Premiere</p>
     <p class="project-annotation"><i class="fa fa-calendar-o"></i>Spring 2016</p>
   </div>

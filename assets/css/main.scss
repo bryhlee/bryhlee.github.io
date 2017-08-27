@@ -2,7 +2,7 @@
 ---
 
 /* Import URLs */
-@import url('https://fonts.googleapis.com/css?family=Bitter|Roboto+Slab|Open+Sans|Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Bitter|Open+Sans:400,700,800|Lato:400,700|Roboto:400, 700');
 
 /* Wrapper for entire website */
 .container-wrapper {
@@ -17,9 +17,13 @@
   }
 
   /* Font Styling */
-  font-family: 'Bitter','Open Sans', serif;
+  /* TODO: Remove text styling from everwhere else if possible */
+  font-family: 'Roboto','Open Sans', serif;
+  h1, h2, h3, h4, ul a {
+    font-family: 'Bitter', 'Open Sans', serif;
+  }
   h1, h2, h3, h4 {
-    font-family: 'Bitter', 'Robot Slab', 'Open Sans', serif !important;
+    font-weight: 700
   }
 
   /* Link styling */
@@ -35,7 +39,6 @@
 
   /* Wrapper for sidebar */
   .sidebar-wrapper {
-    font-family: 'Bitter', serif;
     padding-left: 0px;
     padding-right: 0px;
     margin-bottom: 15px;
@@ -47,7 +50,7 @@
     }
 
     p {
-      font-size: 14px;
+      font-size: .95rem;
       color: #333333;
     }
 
@@ -65,14 +68,21 @@
       }
       border: 1px solid #000;
       margin-bottom: 14px;
+
+      img {
+        width: 205px; /* This can be removed when we manually set our portrait images to the same aspect ratio */
+                      /* Simply change it back to 100% width and height auto */
+        height: auto;
+      }
     }
 
     .profile-info {
       ul {
         margin-bottom: 14px;
-
         li {
-          font-size: 16px;
+          a {
+            font-size: 16px;
+          }
         }
       }
 
@@ -158,8 +168,8 @@
       table {
         margin-bottom: 20px;
 
-        em {
-          padding-right: 4px;
+        i {
+          padding-right: 6px;
         }
       }
 
@@ -260,6 +270,8 @@
           filter: grayscale(60%);
         }
         .resume-icon-subtitle {
+          font-family: 'Bitter', 'Open Sans', serif;
+          font-size: 16px;
           @media (max-width: 767px) {
             text-align: center;
           }
@@ -281,6 +293,7 @@
               vertical-align: middle;
 
               .resume-header-title {
+                font-family: 'Bitter', 'Open Sans', serif !important;
                 padding-top: 0px;
                 font-size: 18px;
                 font-weight: 700;
@@ -326,7 +339,7 @@
 
       .badge {
         margin-left: 6px;
-        font-size: 10px;
+        font-size: 11px;
         vertical-align: middle;
         display: inline-block;
         background-color: #dc3545;

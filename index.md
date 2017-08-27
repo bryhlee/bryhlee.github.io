@@ -8,37 +8,43 @@ web_title: About | Bryson Lee
 
 
 * [Biography](#biography)
+* [Areas of Expertise](#areas-of-expertise)
 * [Resume](#resume)
 
 
 ## Biography
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nunc velit, vehicula quis lectus at, bibendum dapibus risus. In nulla dolor, mollis eget semper non, vulputate sed felis. Curabitur vel mauris dolor. Nam sed massa lacinia, pharetra felis vitae, laoreet massa. Mauris et odio congue, tempor lorem at, egestas erat. Aenean id tincidunt lacus, eu ullamcorper urna. Nam laoreet iaculis turpis eget tincidunt. Donec malesuada dictum sem vel vehicula. Morbi ornare metus eu quam congue, vitae ultricies lacus lobortis. Etiam eget nisi at nunc pharetra feugiat sit amet at metus. Nulla sed arcu tempus, mattis eros ut, commodo massa. Sed pulvinar cursus nunc sagittis cursus. Vivamus ut accumsan orci. Vestibulum ut sem aliquet, vulputate risus vitae, faucibus libero.
+Hi all - welcome to my personal website. My name is Bryson Lee, and I'm a software engineer in studio production technology for Animation, Cinematics, VFX, and Video Games. I'm also an amateur composer and pianist, my favorite philosopher is Nietzsche, and I'm an avid [vexillologist](https://en.wikipedia.org/wiki/Vexillology) (perhaps my nerdiest obsession). Currently, I am a senior at Santa Clara University pursuing a B.S. in Computer Science and Engineering with an emphasis in Software Engineering and Computer Graphics Systems.
 
-Pellentesque nec lacus nec augue bibendum faucibus vitae et orci. Nulla at porta elit. Vestibulum volutpat auctor justo. Curabitur cursus at quam in condimentum. Curabitur vel velit sed neque tristique hendrerit. Integer sit amet dolor dapibus, dictum diam quis, accumsan leo. Donec quis mauris congue, lacinia massa eget, volutpat justo. Nunc iaculis efficitur orci, eu ullamcorper elit cursus a. Pellentesque vitae fringilla dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+During the summer of 2017, I worked as a Pipeline Engineering Intern at [Industrial Light and Magic](http://www.ilm.com/) on their global pipeline team. During my time there, I worked closely and collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) and [Pixar Animation](https://www.pixar.com/) to develop new rendering queuing systems, rebuild our global studio tools, and improve core elements of ILM's media creation pipeline. I also worked together with Motion capture and VFX supervisors to support new and advanced forms of assets.
 
-Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetra, consectetur elit et, feugiat magna. Phasellus magna eros, faucibus ac elit et, viverra ultricies nulla. Aliquam quis odio sem. Curabitur et nunc in tortor imperdiet condimentum eget eu lectus. Aliquam iaculis massa sit amet efficitur varius. Etiam porta, sem at vulputate auctor, elit ipsum tristique felis, quis malesuada nisl nibh et neque. Nam malesuada lorem risus, a hendrerit sapien rutrum eu.
+Prior to ILM, I worked at Disney Interactive as a Software Engineering Intern where I built and helped draft a new architecture for their asset management tools, and spearheaded several initiatives to revamp their creative content pipeline.
+
+I am a also long-time contributer to the computer graphics and SIGGRAPH community. I currently serve as the current President and Founder of Santa Clara University's SIGGRAPH Student Chapter, a student organization that runs workshops to teach students topics in computer graphics and interactive media.
+
+## Areas of Expertise
 
 <div class="resume-entry row">
-  <div class="col-md-6 col-sm-12">
-    <img class="resume-icon" src="/assets/img/cinematics.png">
-    <p class="resume-icon-subtitle"><b>Cinematics TD</b></p>
-    <p>Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetra, consectetur elit et, feugiat magna. Phasellus magna eros, faucibus ac elit et, viverra ultricies nulla. Aliquam quis odio sem. Curabitur et nunc in tortor imperdiet condimentum eget eu lectus.</p>
-  </div>
+
   <div class="col-md-6 col-sm-12">
     <img class="resume-icon" src="/assets/img/pipe.png">
-    <p class="resume-icon-subtitle"><b>Pipeline Engineering</b></p>
-    <p>Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetra, consectetur elit et, feugiat magna. Phasellus magna eros, faucibus ac elit et, viverra ultricies nulla. Aliquam quis odio sem. Curabitur et nunc in tortor imperdiet condimentum eget eu lectus.</p>
-  </div>
-  <div class="col-md-6 col-sm-12">
-    <img class="resume-icon" src="/assets/img/tools.png">
-    <p class="resume-icon-subtitle"><b>Tools Development</b></p>
-    <p>Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetra, consectetur elit et, feugiat magna. Phasellus magna eros, faucibus ac elit et, viverra ultricies nulla. Aliquam quis odio sem. Curabitur et nunc in tortor imperdiet condimentum eget eu lectus.</p>
+    <p class="resume-icon-subtitle"><b>Pipeline Engineering and Studio Technology</b></p>
+    <p>In addition to working closely with Walt Disney Animation Studios in implementing core studio technology into ILM's workflows, I have deep familiarity with <i>Shotgun</i>, <i>RV</i>, and other show tracking tools used commonly throughout VFX, animation, and cinematic pipelines.</p>
   </div>
   <div class="col-md-6 col-sm-12">
     <img class="resume-icon" src="/assets/img/asset.png">
     <p class="resume-icon-subtitle"><b>Rendering and Asset Management</b></p>
-    <p>Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetra, consectetur elit et, feugiat magna. Phasellus magna eros, faucibus ac elit et, viverra ultricies nulla. Aliquam quis odio sem. Curabitur et nunc in tortor imperdiet condimentum eget eu lectus.</p>
+    <p>Along with leveraging and building a new layer on top of Walt Disney Animation Studio's <i>CODA</i> render farm system, I have also created several core backend technologies to improve asset transfer, syncing, and tracking across multiple global studios and within local departments.</p>
+  </div>
+  <div class="col-md-6 col-sm-12">
+    <img class="resume-icon" src="/assets/img/cinematics.png">
+    <p class="resume-icon-subtitle"><b>Cinematics TD</b></p>
+    <p>At ILM, I worked extensively with Maya and Nuke, creating scripts to help improve artist workflows. Many of the projects that you can find on my projects page deal extensively with these technologies. I've also helped wrangle and wireup new workflows for mocap work as part of Lucasfilm's Advanced Development Group (ADG).</p>
+  </div>
+  <div class="col-md-6 col-sm-12">
+    <img class="resume-icon" src="/assets/img/wrench.png">
+    <p class="resume-icon-subtitle"><b>Tools Development</b></p>
+    <p>As a tool developer, I have created software and systems to solve the demands of artist across multiple departments in tackling complex artist workflows. At both ILM and Disney Interactive, I helped implement several new tools and feature sets for artist submission and review.</p>
   </div>
 </div>
 
@@ -69,26 +75,40 @@ Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetr
       <div class="resume-header-text-container">
         <p class="resume-header-title">Industrial Light and Magic</p>
         <p>Pipeline Engineer, Intern</p>
-        <p>Global Pipeline/Production Engineering</p>
+        <p>Global Pipeline/Studio Production Engineering</p>
         <p><i>Summer 2017</i></p>      
       </div>
     </div>
     <div class="resume-text-container">
-      <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse non lectus turpis. Quisque non tristique neque. Sed bibendum est id ante ultricies euismod. Donec porta euismod neque quis volutpat. Sed et elementum risus, quis varius.</p>
+      <p>As part of the global Pipeline Engineering team, created tools, built software, and drafted rewrites of ILM's in-hosue render farm system, asset management infrastructure, media creaton pipeline, and data transfer services. Worked closely with Walt Disney Animation Studios in implementation of <i>Coda</i> and <i>dpix</i> propertiery software for render queuing and media/review libraries respectively. Interfaced Pixar cross-studio platform technologies. Created core API service for global studio data transfer and remote VFX Supervisor platforms. Worked with Pipe TDs to apply a new artist facing pipeline for Motion Capture work flows. Spearheaded reachitecture of ILM's core media player.</p>
     </div>
   </div>
   <div class="resume-container">
     <div class="resume-header-container"> 
       <img class="hidden-xs-down" src="/assets/img/disney_square.png">
       <div class="resume-header-text-container">
-        <p class="resume-header-title">Santa Clara University</p>
+        <p class="resume-header-title">Disney Interactive</p>
         <p>Software Engineer, Intern</p>
-        <p>Media Technology Engineering Team</p>
+        <p>Artist Tools, Media Technology Engineering</p>
         <p><i>Summer 2016</i></p>      
       </div>
     </div>
     <div class="resume-text-container">
-      <p>Within the Media Technology Engineering Team, created administrative tools for digital asset management, including video/image media + file metadata (Metrics, statistical analysis, database management. Improved scalability of the asset manager through design of database helper functions. Designed and implemented digital pipeline software to manage reindex and asset mapping for CMS, Core, and production pipelines.</p>
+      <p>Within the Media Technology Engineering Team, created administrative tools for digital asset management, including video/image media + file metadata (Metrics, statistical analysis, database management. Improved capability of DI's in-house asset management system through design of database helper functions. Implemented digital pipeline software to manage re index and asset mapping for Disney's creative content and publishing workflow.</p>
+    </div>
+  </div>
+  <div class="resume-container">
+    <div class="resume-header-container"> 
+      <img class="hidden-xs-down" src="/assets/img/hoana_square.png">
+      <div class="resume-header-text-container">
+        <p class="resume-header-title">Hoana Medical</p>
+        <p>Software Engineer, Intern</p>
+        <p>R&D Software, Visualizations</p>
+        <p><i>Summer 2015</i></p>      
+      </div>
+    </div>
+    <div class="resume-text-container">
+      <p>Engineered tool to analyze wireless data packages from sensory data and to detect anomalies. Achieved 99% message integrity through checksum tool implementation. Built medical monitoring mobile and web application that improved load times by 25% compared to the previous implementations with additional live-updating graphs. Drafted feature set for patient communication.</p>
     </div>
   </div>
 </div>
@@ -121,4 +141,4 @@ Sed metus nibh, sagittis ut commodo vel, pretium ac nisl. Mauris a lacus pharetr
 
 ### Download
 
-Download my resume [here](#resume).
+Download my resume: [PDF](#resume), [Word Document](#resume)
