@@ -2,7 +2,7 @@
 layout: blog_post
 date:   2017-08-16 00:09:56 -0700
 categories: games
-blog_title: "Player Driven Universes?: A Star Citizen Study"
+blog_title: "Player Driven Universes? A Star Citizen Study"
 new: true
 ---
 
