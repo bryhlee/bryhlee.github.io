@@ -16,7 +16,7 @@ web_title: About | Bryson Lee
 
 Hi all - welcome to my personal website. My name is Bryson Lee, and I'm a software engineer in studio production technology for Animation, Cinematics, VFX, and Video Games. I'm also an amateur composer and pianist, my favorite philosopher is Nietzsche, and I'm an avid [vexillologist](https://en.wikipedia.org/wiki/Vexillology) (perhaps my nerdiest obsession). Currently, I am a senior at Santa Clara University pursuing a B.S. in Computer Science and Engineering with an emphasis in Software Engineering and Computer Graphics Systems.
 
-During the summer of 2017, I worked as a Pipeline Engineering Intern at [Industrial Light and Magic](http://www.ilm.com/) on their global pipeline team. During my time there, I worked closely and collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) and [Pixar Animation](https://www.pixar.com/) to develop new rendering queuing systems, rebuilt our global studio tools, and improved core elements of ILM's media creation pipeline. I also worked together with Motion capture and VFX supervisors to support new and advanced forms of assets.
+During the summer of 2017, I worked as a Pipeline Engineering Intern at [Industrial Light and Magic](http://www.ilm.com/) on their global pipeline team. During my time there, I collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) and [Pixar Animation](https://www.pixar.com/) to develop new rendering queuing systems, rebuild global studio tools, and improve core elements of ILM's media creation pipeline. I also worked together with Motion capture and VFX supervisors to support new and advanced forms of assets in our distributed artist workflow.
 
 Prior to ILM, I worked at Disney Interactive as a Software Engineering Intern where I built and helped draft a new architecture for their asset management tools, and spearheaded several initiatives to revamp their creative content pipeline.
 
@@ -29,7 +29,7 @@ I am a also long-time contributer to the computer graphics and SIGGRAPH communit
   <div class="col-md-6 col-sm-12">
     <img class="resume-icon" src="/assets/img/pipe.png">
     <p class="resume-icon-subtitle"><b>Pipeline Engineering and Studio Technology</b></p>
-    <p>In addition to working closely with Walt Disney Animation Studios in implementing core studio technology into ILM's workflows, I have deep familiarity with <i>Shotgun</i>, <i>RV</i>, and other show tracking tools used commonly throughout VFX, animation, and cinematic pipelines.</p>
+    <p>In addition to collaborating with Walt Disney Animation Studios in implementing core studio technology into ILM's workflows, I have deep familiarity with <i>Shotgun</i>, <i>RV</i>, and other show tracking tools used commonly throughout VFX, animation, and cinematic pipelines.</p>
   </div>
   <div class="col-md-6 col-sm-12">
     <img class="resume-icon" src="/assets/img/asset.png">
