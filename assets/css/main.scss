@@ -2,7 +2,7 @@
 ---
 
 /* Import URLs */
-@import url('https://fonts.googleapis.com/css?family=Bitter|Open+Sans:400,700,800|Lato:400,700|Roboto:400, 700');
+@import url('https://fonts.googleapis.com/css?family=Bitter|Source+Sans+Pro:400,700,800|Roboto:400, 700');
 
 /* Wrapper for entire website */
 .container-wrapper {
@@ -18,9 +18,9 @@
 
   /* Font Styling */
   /* TODO: Remove text styling from everwhere else if possible */
-  font-family: 'Roboto','Open Sans', serif;
+  font-family: 'Roboto','Source Sans Pro', 'Helvetica', serif;
   h1, h2, h3, h4, ul a {
-    font-family: 'Bitter', 'Open Sans', serif;
+    font-family: 'Bitter', 'Source Sans Pro', 'Helvetica', serif;
   }
   h1, h2, h3, h4 {
     font-weight: 700
@@ -45,8 +45,7 @@
 
     .sidebar-fix {
       padding: 15px;
-      /* border: 1px solid #000; */
-      background-color: #fffaf4;
+      background-color: #f7f7f7; /* or a colored version depends on my mood */
     }
 
     p {
@@ -133,7 +132,7 @@
     }
 
     img {
-      border-radius: 4px;/* Provides a nice styling for the website page images as a whole */
+      border-radius: 0px;/* Provides a nice styling for the website page images as a whole */
     }
   }
 
@@ -177,10 +176,14 @@
         margin-bottom: 14px;
       }
 
-      /* Override h3 for use in Markdown */
+      /* Override h2 for use in Markdown */
       h2 {
+        @media (max-width: 575px) {
+          padding-bottom: 2px;
+          border-bottom: 1px solid #a5a5a5; /* Provides a nice sepration for xs devices */
+        }
         padding-top: 14px; /* For section linking (HTML fragment supported) */
-        margin-bottom: 20px;
+        margin-bottom: 24px;
         font-size: 24px;
         font-weight: 700;
 
@@ -189,13 +192,8 @@
         }
       }
 
-      /* Override h4 for use in Markdown */
+      /* Override h3 for use in Markdown */
       h3 {
-        @media (max-width: 575px) {
-          padding-bottom: 2px;
-          border-bottom: 2px solid #a5a5a5; /* Provides a nice sepration for xs devices */
-        }
-        padding-top: 4px; /* For section linking (HTML fragment supported) */
         margin-bottom: 16px;
         font-size: 18px;
         font-weight: 700;
@@ -239,10 +237,10 @@
           width: 140px;
           height: auto;
           margin-right: 1rem; /* This is 1rem instead of 3px because bootstrap media objects are dumb */
-          border-radius: 3px;
         }
       }
 
+      /* TODO: Remove this! */
       .timeline {
         @media (min-width: 767px) {
           padding-left: 20px;
@@ -254,7 +252,7 @@
       .resume-entry {
         padding-top: 4px;
         padding-bottom: -4px; /* simple fix to cancel out the margin from the last entry */
-        margin-bottom: 20px;
+        margin-bottom: 30px;
 
         .resume-icon {
           @media (max-width: 767px) {
@@ -266,20 +264,26 @@
           width: auto;
           height: 80px;
           margin: 8px;
-          -webkit-filter: grayscale(60%); /* Safari 6.0 - 9.0 */
-          filter: grayscale(60%);
+          -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+          filter: grayscale(50%);
+          margin-top: 0px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
         }
+
         .resume-icon-subtitle {
-          font-family: 'Bitter', 'Open Sans', serif;
-          font-size: 16px;
           @media (max-width: 767px) {
             text-align: center;
           }
+          font-family: 'Bitter', 'Open Sans', serif;
+          font-size: 16px;
+          text-align: center;
         }
 
         /* TODO: Turn these into media objects */
         .resume-container {
-          margin-bottom: 20px;
+          margin-bottom: 40px;
 
           p {
             margin-bottom: 0px;

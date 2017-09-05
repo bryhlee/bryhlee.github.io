@@ -14,9 +14,9 @@ web_title: About | Bryson Lee
 
 ## Biography
 
-Hi all - welcome to my personal website. My name is Bryson Lee, and I'm a software engineer in studio production technology for Animation, Cinematics, VFX, and Video Games. I'm also an amateur composer and pianist, my favorite philosopher is Nietzsche, and I'm an avid [vexillologist](https://en.wikipedia.org/wiki/Vexillology) (perhaps my nerdiest obsession). Currently, I am a senior at Santa Clara University pursuing a B.S. in Computer Science and Engineering with an emphasis in Software Engineering and Computer Graphics Systems.
+Hi all - welcome to my personal website. My name is Bryson Lee, and I'm a software engineer in studio production technology for Animation, Cinematics, VFX, and Video Games. I'm also an amateur composer and pianist, my favorite philosopher is Nietzsche, and I'm an avid [vexillologist](https://en.wikipedia.org/wiki/Vexillology). Currently, I am a senior at Santa Clara University pursuing a B.S. in Computer Science and Engineering with an emphasis in Software Engineering and Computer Graphics Systems.
 
-During the summer of 2017, I worked as a Pipeline Engineering Intern at [Industrial Light and Magic](http://www.ilm.com/) on their global pipeline team. During my time there, I collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) and [Pixar Animation](https://www.pixar.com/) to develop new rendering queuing systems, rebuild global studio tools, and improve core elements of ILM's media creation pipeline. I also worked together with Motion capture and VFX supervisors to support new and advanced forms of assets in our distributed artist workflow.
+During the summer of 2017, I worked as a Pipeline Engineering Intern at [Industrial Light and Magic](http://www.ilm.com/) on their global pipeline team. During my time there, I collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) and [Pixar Animation](https://www.pixar.com/) to develop new rendering queuing systems, rebuild global studio tools, and improve core elements of ILM's media creation pipeline. I also worked together with motion capture TDs and VFX supervisors to support new and advanced forms of assets in our distributed artist workflow.
 
 Prior to ILM, I worked at Disney Interactive as a Software Engineering Intern where I built and helped draft a new architecture for their asset management tools, and spearheaded several initiatives to revamp their creative content pipeline.
 
@@ -25,7 +25,6 @@ I am a also long-time contributer to the computer graphics and SIGGRAPH communit
 ## Areas of Expertise
 
 <div class="resume-entry row">
-
   <div class="col-md-6 col-sm-12">
     <img class="resume-icon" src="/assets/img/pipe.png">
     <p class="resume-icon-subtitle"><b>Pipeline Engineering and Studio Technology</b></p>
@@ -34,24 +33,24 @@ I am a also long-time contributer to the computer graphics and SIGGRAPH communit
   <div class="col-md-6 col-sm-12">
     <img class="resume-icon" src="/assets/img/asset.png">
     <p class="resume-icon-subtitle"><b>Rendering and Asset Management</b></p>
-    <p>Along with leveraging and building a new layer on top of Walt Disney Animation Studio's <i>CODA</i> render farm system, I have also created several core backend technologies to improve asset transfer, syncing, and tracking across multiple global studios and within local departments.</p>
+    <p>Along with leveraging and building a new layer on top of Walt Disney Animation Studio's <i>CODA</i> render farm system, I created several core backend technologies to improve asset transfer, syncing, and tracking across multiple global studios and within local departments at both ILM and Disney.</p>
   </div>
   <div class="col-md-6 col-sm-12">
     <img class="resume-icon" src="/assets/img/cinematics.png">
-    <p class="resume-icon-subtitle"><b>Cinematics TD</b></p>
-    <p>At ILM, I worked extensively with Maya and Nuke, creating scripts to help improve artist workflows. Many of the projects that you can find on my projects page deal extensively with these technologies. I've also helped wrangle and wireup new workflows for mocap work as part of Lucasfilm's Advanced Development Group (ADG).</p>
+    <p class="resume-icon-subtitle"><b>Backend Cinematics TD</b></p>
+    <p>At ILM, I worked extensively with Maya and Nuke, creating scripts to help improve artist workflows. Many of the projects that you will find on my projects page use these technologies. I also have experience  wiring up new workflows for mocap work as part of Lucasfilm's Advanced Development Group (ADG).</p>
   </div>
   <div class="col-md-6 col-sm-12">
-    <img class="resume-icon" src="/assets/img/wrench.png">
+    <img class="resume-icon" src="/assets/img/tools.png">
     <p class="resume-icon-subtitle"><b>Tools Development</b></p>
-    <p>As a tool developer, I have created software and systems to solve the demands of artist across multiple departments in tackling complex artist workflows. At both ILM and Disney Interactive, I helped implement several new tools and feature sets for artist submission and review.</p>
+    <p>As a tool developer, I create software and systems to solve the technical challenges faced by artists across multiple departments. At both ILM and Disney Interactive, I implemented several new tools and feature sets for artist submission and review.</p>
   </div>
 </div>
 
 ## Resume
 
 ### Education
-<div class="resume-entry timeline">
+<div class="resume-entry">
   <div class="resume-container">
     <div class="resume-header-container"> 
       <img class="hidden-xs-down" src="/assets/img/scu_square.png">
@@ -68,7 +67,7 @@ I am a also long-time contributer to the computer graphics and SIGGRAPH communit
 </div>
 
 ### Experience
-<div class="resume-entry timeline">
+<div class="resume-entry">
   <div class="resume-container">
     <div class="resume-header-container"> 
       <img class="hidden-xs-down" src="/assets/img/ilm_square.png">
@@ -114,7 +113,7 @@ I am a also long-time contributer to the computer graphics and SIGGRAPH communit
 </div>
 
 ### Skills
-<div class="resume-entry timeline">
+<div class="resume-entry">
   <table>
     <tr>
       <td><i>Languages</i></td>
