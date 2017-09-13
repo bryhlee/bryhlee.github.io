@@ -15,11 +15,9 @@ web_title: Projects | Bryson Lee
 
 
 ## Overview
-My first introduction to software projects was in middle school, when I would create game mods for *Warcraft 3* in the ancient scripting language known as [JASS](https://en.wikipedia.org/wiki/JASS). Since then, I have built numerous tools and systems for artists across the studio pipeline for both Disney and ILM, helping bring to life the movies, games, and animations I grew up with. 
+My first introduction to creating software was in middle school, when I used mod *Warcraft 3* in the ancient scripting language known as [JASS](https://en.wikipedia.org/wiki/JASS). Since then, I have built numerous tools and systems for artists across the studio pipeline for both Disney and ILM, helping bring to life the movies, games, and animations I grew up with. 
 
-When I was at ILM, my mentor, Jon Wynacht, used to tell me that to become a better pipeline engineer, "If you're not breaking something, you're not learning - just don't do it too much." And, since then, I always aim to achieve the same attitude of proactive development: one that emphasizes not being afraid to try something new and challenging in order to find the most rewarding solution. 
-
-I have two core philosophies when approaching new technical projects. The first is that, to quote Albert Einstein, "everything should be made as simple as possible, but not simplier." In essence, software should be made to achieve the role it is meant for, and to do so optimally and reliably without buggy frills. My second philosophy is that tools should be able to adapt to the demands of modern creative studios, leveraging both practical solutions and pushing the boundaries of old and dated paradigms.
+When I was at ILM, my mentor, Jon Wynacht, used to tell me that to become a better pipeline engineer, "If you're not breaking something, you're not learning - just don't do it too much." And, since then, I always aim to achieve the same attitude of proactive development: one that emphasizes not being afraid to try something new and challenging in order to find the most rewarding solution.
 
 Please feel free to browse around to learn more about my projects and their technical implementations.
 
@@ -38,8 +36,16 @@ Please feel free to browse around to learn more about my projects and their tech
 <div class="project-entry d-flex">
   <div class="align-self-start">
     <h3 class="project-title">A Better Maya Turntable Plugin<span class="badge">In Progress</span></h3>
-    <p>A new turn table plugin for Maya which will automatically place digital models into a turntable with customizable features and paramters. Features automatic lightning for dramatic showcasing.</p>
+    <p>A new turn table plugin for Maya which will automatically place digital models into a turntable with customizable features and parameters. Features automatic lightning for dramatic showcasing.</p>
     <p class="project-annotation"><i class="fa fa-file-code-o"></i>Maya</p>
+    <p class="project-annotation"><i class="fa fa-calendar-o"></i>In Progress</p>
+  </div>
+</div>
+<div class="project-entry d-flex">
+  <div class="align-self-start">
+    <h3 class="project-title">Simple Lattice Constructs for Volumetric Simulations<span class="badge">In Progress</span></h3>
+    <p>This method creates a lossy optimizer to reduce calculation complexity for simple motion paths by building a cubic lattice in a 3D space.</p>
+    <p class="project-annotation"><i class="fa fa-file-code-o"></i>Simulation, Maya</p>
     <p class="project-annotation"><i class="fa fa-calendar-o"></i>In Progress</p>
   </div>
 </div>

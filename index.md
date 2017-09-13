@@ -20,7 +20,7 @@ During the summer of 2017, I worked as a Pipeline Engineering Intern at [Industr
 
 Prior to ILM, I worked at Disney Interactive as a Software Engineering Intern where I built and helped draft a new architecture for their asset management tools, and spearheaded several initiatives to revamp their creative content pipeline.
 
-I am a also long-time contributer to the computer graphics and SIGGRAPH community. I currently serve as the current President and Founder of Santa Clara University's SIGGRAPH Student Chapter, a student organization that runs workshops to teach students topics in computer graphics and interactive media.
+I am also long-time contributer to the computer graphics and SIGGRAPH community; I am the founder and current President of Santa Clara University's SIGGRAPH Student Chapter, a chartered [ACM chapter](https://www.siggraph.org/connect/student-chapters) that runs educational workshops for topics in computer graphics and interactive media.
 
 ## Areas of Expertise
 
@@ -79,7 +79,7 @@ I am a also long-time contributer to the computer graphics and SIGGRAPH communit
       </div>
     </div>
     <div class="resume-text-container">
-      <p>As part of the global Pipeline Engineering team, created tools, built software, and drafted rewrites of ILM's in-hosue render farm system, asset management infrastructure, media creaton pipeline, and data transfer services. Worked closely with Walt Disney Animation Studios in implementation of <i>Coda</i> and <i>dpix</i> propertiery software for render queuing and media/review libraries respectively. Interfaced Pixar cross-studio platform technologies. Created core API service for global studio data transfer and remote VFX Supervisor platforms. Worked with Pipe TDs to apply a new artist facing pipeline for Motion Capture work flows. Spearheaded reachitecture of ILM's core media player.</p>
+      <p>As part of the global Pipeline Engineering team, created tools, built software, and drafted rewrites of ILM's in-hosue render farm system, asset management infrastructure, media creation pipeline, and data transfer services. Worked closely with Walt Disney Animation Studios in implementation of <i>Coda</i> and <i>dpix</i>  software for render queuing and media/review libraries respectively. Interfaced Pixar cross-studio platform technologies. Created core API service for global studio data transfer and remote VFX Supervisor platforms. Worked with Pipe TDs to apply a new artist facing pipeline for Motion Capture work flows. Spearheaded reachitecture of ILM's core media player.</p>
     </div>
   </div>
   <div class="resume-container">
@@ -93,7 +93,7 @@ I am a also long-time contributer to the computer graphics and SIGGRAPH communit
       </div>
     </div>
     <div class="resume-text-container">
-      <p>Within the Media Technology Engineering Team, created administrative tools for digital asset management, including video/image media + file metadata (Metrics, statistical analysis, database management. Improved capability of DI's in-house asset management system through design of database helper functions. Implemented digital pipeline software to manage re index and asset mapping for Disney's creative content and publishing workflow.</p>
+      <p>Within the Media Technology Engineering Team, created administrative tools for digital asset management, including video/image media + file metadata (Metrics, statistical analysis, and database management). Improved the scalability of DI's in-house asset management system through design of database helper functions. Implemented software to manage reindex and asset mapping for Disney's creative content and publishing workflow.</p>
     </div>
   </div>
   <div class="resume-container">
@@ -140,4 +140,4 @@ I am a also long-time contributer to the computer graphics and SIGGRAPH communit
 
 ### Download
 
-Download my resume: [PDF](#resume), [Word Document](#resume)
+Download my resume: [PDF](/assets/files/Bryson_Lee_Resume.pdf), [Word Document](/assets/files/Bryson_Lee_Resume.docx)
