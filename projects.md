@@ -17,7 +17,7 @@ web_title: Projects | Bryson Lee
 ## Overview
 My first introduction to creating software was in middle school, when I used mod *Warcraft 3* in the ancient scripting language known as [JASS](https://en.wikipedia.org/wiki/JASS). Since then, I have built numerous tools and systems for artists across the studio pipeline for both Disney and ILM, helping bring to life the movies, games, and animations I grew up with. 
 
-When I was at ILM, my mentor, Jon Wynacht, used to tell me that to become a better pipeline engineer, "If you're not breaking something, you're not learning - just don't do it too much." And, since then, I always aim to achieve the same attitude of proactive development: one that emphasizes not being afraid to try something new and challenging in order to find the most rewarding solution.
+Jon Wynacht, my mentor at ILM, used to tell me that to become a better pipeline engineer, "If you're not breaking something, you're not learning - just don't do it too much." Since then, I always aim to achieve the same attitude of proactive development: one that emphasizes not being afraid to try something new and challenging in order to find the most rewarding solution.
 
 Please feel free to browse around to learn more about my projects and their technical implementations.
 
@@ -43,8 +43,8 @@ Please feel free to browse around to learn more about my projects and their tech
 </div>
 <div class="project-entry d-flex">
   <div class="align-self-start">
-    <h3 class="project-title">Simple Lattice Constructs for Volumetric Simulations<span class="badge">In Progress</span></h3>
-    <p>This method creates a lossy optimizer to reduce calculation complexity for simple motion paths by building a cubic lattice in a 3D space.</p>
+    <h3 class="project-title">Lattice Constructs for Art-Directed Motion Paths in Volumetric Sims<span class="badge">In Progress</span></h3>
+    <p>This method creates a lossy optimizer to reduce calculation complexity for simple motion paths by building a cubic lattice in a 3D space, using surface normals for art-directed sims.</p>
     <p class="project-annotation"><i class="fa fa-file-code-o"></i>Simulation, Maya</p>
     <p class="project-annotation"><i class="fa fa-calendar-o"></i>In Progress</p>
   </div>
