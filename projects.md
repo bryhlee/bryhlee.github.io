@@ -26,7 +26,7 @@ Please feel free to browse around to learn more about my projects and their tech
   <img class="align-self-start hidden-xs-down" src="/assets/img/matterhorn_square.png">
   <div class="align-self-start">
     <h3 class="project-title">Matterhorn Digital Asset Manager</h3>
-    <p>Image, video, and file manager for digital assets. Built multiple administrative tools and interfaces for: video transcoding, metrics and diagnostics, meta data tracking, legacy tracking, data index, helper tools, and</p>
+    <p>Image, video, and file manager for digital assets. Built multiple administrative tools and interfaces for: video transcoding, metrics and diagnostics, meta data tracking, legacy tracking, and indexing helper tools</p>
     <p class="project-annotation"><i class="fa fa-file-code-o"></i>Python, Flask, Google App Engine, Google Cloud Storage</p>
     <p class="project-annotation"><i class="fa fa-calendar-o"></i>Summer 2016</p>
   </div>
