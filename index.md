@@ -23,26 +23,34 @@ In my free time, I contribute to the computer graphics and SIGGRAPH community: I
 
 
 ## Areas of Expertise
-<div class="resume-entry row">
-  <div class="col-md-6 col-sm-12">
-    <img class="resume-icon" src="/assets/img/pipe.png">
-    <p class="resume-icon-subtitle">Pipeline Technical Direction</p>
-    <p>At ILM, I worked extensively with Maya and Nuke, creating scripts to help improve artist workflows, including artist submission and review systems. I also have experience wiring up new workflows for motion capture work and wrangling new pipelines for show-specific workflows.</p>
+<div class="resume-entry">
+  <div class="resume-block d-flex align-items-center">
+    <img class="align-self-center hidden-xs-down" src="/assets/img/pipe.png">
+    <div class="align-self-center">
+      <p class="resume-block-title">Pipeline Technical Direction</p>
+      <p>At ILM, I worked extensively with Maya and Nuke, creating scripts to help improve artist workflows, including artist submission and review systems. I also have experience wiring up new workflows for motion capture work and wrangling new pipelines for show-specific workflows.</p>
+    </div>
   </div>
-  <div class="col-md-6 col-sm-12">
-    <img class="resume-icon" src="/assets/img/asset.png">
-    <p class="resume-icon-subtitle">Rendering and Asset Management</p>
-    <p>Along with leveraging and helping design a new layer on top of Walt Disney Animation Studio's <i>CODA</i> render farm system, I created several core backend technologies to improve asset transfer, syncing, and tracking across both global studios and local departments at ILM and Disney.</p>
+  <div class="resume-block d-flex align-items-center">
+    <img class="align-self-center hidden-xs-down" src="/assets/img/asset.png">
+    <div class="align-self-center">
+      <p class="resume-block-title">Rendering and Asset Management</p>
+      <p>Along with leveraging and helping design a new layer on top of Walt Disney Animation Studio's <i>CODA</i> render farm system, I created several core backend technologies to improve asset transfer, syncing, and tracking across both global studios and local departments at ILM and Disney.</p>
+    </div>
   </div>
-  <div class="col-md-6 col-sm-12">
-    <img class="resume-icon" src="/assets/img/cinematics.png">
-    <p class="resume-icon-subtitle">Studio Technology</p>
-    <p>In addition to collaborating with Walt Disney Animation Studios in implementing several technologies into ILM's  workflows, I have deep familiarity with many artist tools used throughout VFX, animation, and cinematic pipelines.</p>
+  <div class="resume-block d-flex align-items-center">
+    <img class="align-self-center hidden-xs-down" src="/assets/img/cinematics.png">
+    <div class="align-self-center">
+      <p class="resume-block-title">Studio Technology</p>
+      <p>In addition to collaborating with Walt Disney Animation Studios in implementing several technologies into ILM's  workflows, I have deep familiarity with many artist tools used throughout VFX, animation, and cinematic pipelines.</p>
+    </div>
   </div>
-  <div class="col-md-6 col-sm-12">
-    <img class="resume-icon" src="/assets/img/tools.png">
-    <p class="resume-icon-subtitle">Tools Development</p>
-    <p>As a tool developer, I create software and systems to solve the technical challenges faced by artists across multiple departments. This includes creating plugins for existing software, leveraging frameworks over existing tools, and creating internal applications for artist use in creative content production.</p>
+  <div class="resume-block d-flex align-items-center">
+    <img class="align-self-center hidden-xs-down" src="/assets/img/tools.png">
+    <div class="align-self-center">
+      <p class="resume-block-title">Tools Development</p>
+      <p>As a tool developer, I create software and systems to solve the technical challenges faced by artists across multiple departments. This includes creating plugins for existing software, leveraging frameworks over existing tools, and creating internal applications for artist use in creative content production.</p>
+    </div>
   </div>
 </div>
 
@@ -112,32 +120,8 @@ In my free time, I contribute to the computer graphics and SIGGRAPH community: I
 </div>
 
 <div class="resume-entry">
-  <p class="resume-entry-title">Skills</p>
-  <table>
-    <tr>
-      <td><i>Languages</i></td>
-      <td>Python, C++, C, JavaScript, HTML, CSS</td>
-    </tr>
-    <tr>
-      <td><i>Workflows / Platforms</i></td>
-      <td>Linux, Docker, Perforce, Git + (Github/Gitlab), JIRA, SCRUM, Agile</td>
-    </tr>
-    <tr>
-      <td><i>APIs / Frameworks</i></td>
-      <td>Qt/PyQt, Django, Google Cloud Platform, AngularJS, jQuery, Node.js</td>
-    </tr>
-    <tr>
-      <td><i>Computer Graphics</i></td>
-      <td>Maya, Nuke, Houdini, Katana, OpenGL</td>
-    </tr>
-    <tr>
-      <td><i>Databases</i></td>
-      <td>MySQL, PostgreSQL, Google Datastore</td>
-    </tr>
-  </table>
-</div>
-
-<div class="resume-entry">
   <p class="resume-entry-title">Download</p>
   <p>Download my resume: <a href="/assets/files/Bryson_Lee_Resume.pdf">PDF</a>, <a href="/assets/files/Bryson_Lee_Resume.docx">Word Document</a></p>
 </div>
+
+<img id="egggif" src="/assets/img/egg.gif">

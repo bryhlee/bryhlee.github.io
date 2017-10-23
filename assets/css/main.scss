@@ -2,7 +2,15 @@
 ---
 
 /* Import URLs */
-@import url('https://fonts.googleapis.com/css?family=Bitter:400,700|Roboto:400,700|Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+#egggif {
+    position: absolute;
+    top: 30px;
+    left: auto;
+    right: auto;
+    display: none;
+}
 
 /* Wrapper for entire website */
 .container-wrapper {
@@ -18,9 +26,13 @@
 
   /* Font Styling */
   /* TODO: Remove text styling from everwhere else if possible */
-  font-family: 'Roboto','Source Sans Pro', 'Helvetica', serif;
+  font-family: 'Helvetica','Source Sans Pro', 'Helvetica', serif;
+
   h1, h2 {
-    font-family: 'Bitter', 'Source Sans Pro', 'Helvetica', serif;
+    font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
 
   /* Link styling */
@@ -50,10 +62,10 @@
       color: #333333;
     }
 
-    h1 {
+    h2 {
       margin-bottom: 14px;
       color: #333333;
-      font-size: 28px;
+      font-size: 22px;
     }
 
     .portrait {
@@ -71,23 +83,13 @@
       }
     }
 
-    .profile-info {
+    .sidebar-section {
+      margin-bottom: 14px;
+
       ul {
-        margin-bottom: 14px;
-        li {
-          a {
-            font-size: 16px;
-          }
-        }
+        margin-top: 14px;
       }
 
-      .description {
-        margin-bottom: 8px;
-        font-style: italic;
-      }
-    }
-
-    .contact-info {
       p {
         margin: 0;
       }
@@ -125,10 +127,6 @@
       font-size: 34px;
       margin-bottom: 40px;
     }
-
-    img {
-      border-radius: 0px;/* Provides a nice styling for the website page images as a whole */
-    }
   }
 
   /* Wrapper for pages */
@@ -139,8 +137,10 @@
 
       .page-title {
         overflow: hidden;  
+        /* Removed due to it being unecessary
         padding-bottom: 3px;
         border-bottom: 2px solid #a5a5a5;
+        */
 
         h1 {
           margin-bottom: 0px;
@@ -174,16 +174,21 @@
       /* Override h2 for use in Markdown */
       h2 {
         @media (max-width: 575px) {
-          padding-bottom: 2px;
-          border-bottom: 1px solid #a5a5a5; /* Provides a nice sepration for xs devices */
+          padding-bottom: 3px;
+          border-bottom: 2px solid #a5a5a5; /* Provides a nice sepration for xs devices */
         }
         padding-top: 14px; /* For section linking (HTML fragment supported) */
-        margin-bottom: 24px;
-        font-size: 28px;
+        margin-bottom: 16px;
+        font-size: 22px;
 
+        padding-bottom: 3px;
+        border-bottom: 2px solid #a5a5a5;
+
+        /* Styling. Allows for default markdown fragment linking on page links. */
+        /*
         &::before {
-          content: "» "; /* Styling. Allows for default markdown fragment linking on page links. */
-        }
+          content: "» "; 
+        }*/
       }
 
       blockquote {
@@ -239,11 +244,30 @@
       .resume-entry {
         padding-top: 4px;
         padding-bottom: -4px; /* simple fix to cancel out the margin from the last entry */
-        margin-bottom: 30px;
+        margin-bottom: 24px;
+
+        .resume-block {
+          margin-bottom: 20px;
+
+          .resume-block-title {
+            margin-bottom: 4px;
+            font-weight: 700;
+          }
+
+          p {
+            margin-bottom: 0px;
+          }
+
+          img {
+            width: 75px;
+            height: auto;
+            margin-right: 2rem; /* This is 1rem instead of 3px because bootstrap media objects are dumb */
+          }
+        }
 
         .resume-entry-title {
+          margin-bottom: 10px;
           font-weight: 700;
-          margin-bottom: 16px;
           font-size: 18px;
         }
 
@@ -269,14 +293,13 @@
           @media (max-width: 767px) {
             text-align: center;
           }
-          font-size: 18px;
           font-weight: 700;
           text-align: center;
         }
 
         /* TODO: Turn these into media objects */
         .resume-container {
-          margin-bottom: 40px;
+          margin-bottom: 24px;
 
           p {
             margin-bottom: 0px;
@@ -292,7 +315,6 @@
               .resume-header-title {
                 /* font-family: 'Bitter', 'Open Sans', serif !important; */
                 padding-top: 0px;
-                font-size: 18px;
                 display: inline-block;
                 margin-bottom: 4px;
               }

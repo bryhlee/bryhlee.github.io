@@ -1,4 +1,16 @@
 $(document).ready(function(){
+  var egg = new Egg();
+  egg
+  .addCode("o,n,e,t,r,u,e,i,m,o,u,t,o", function() {
+    jQuery('#egggif').fadeIn(500, function() {
+      window.setTimeout(function() { jQuery('#egggif').hide(); }, 5000);
+    });
+  })
+  .addHook(function(){
+    console.log("One true imouto!");
+    console.log(this.activeEgg.metadata);
+  }).listen();
+
   const cara = new Siema({
     selector: '.siema',
     duration: 500,
