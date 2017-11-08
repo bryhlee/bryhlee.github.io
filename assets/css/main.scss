@@ -4,12 +4,33 @@
 /* Import URLs */
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+}
+
+#return-to-top {
+  /* Top attribute is automatically recalc'd in main.js */
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: none;
+  margin-left: 4px;
+
+  .fa {
+    margin-right: 5px;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
 #egggif {
-    position: absolute;
-    top: 30px;
-    left: auto;
-    right: auto;
-    display: none;
+  position: absolute;
+  top: 30px;
+  left: auto;
+  right: auto;
+  display: none;
 }
 
 /* Wrapper for entire website */

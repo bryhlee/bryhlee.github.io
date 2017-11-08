@@ -1,5 +1,46 @@
 $(document).ready(function(){
 
+  // Cached jQuery elements
+  var $window = $(window),
+      $sidebar = $('.sidebar-fix');
+
+  // Scroll to top button
+  var $returntop = $('#return-to-top');
+  Stickyfill.add($returntop);
+  $returntop.css('top', $sidebar.outerHeight() + 40);
+  $window.scroll(function() {
+    if ($window.width() <= 576 || $window.height() <= 520) {
+      $('#return-to-top').hide();
+    }
+    else {
+      if ($(this).scrollTop() >= 150) {
+        $('#return-to-top').fadeIn(170);
+      } else {
+        $('#return-to-top').fadeOut(170);
+      }
+    }
+  });
+  $('#return-to-top').click(function() { 
+    $('html, body').stop().animate({
+      'scrollTop': 0
+    }, 300, 'swing', function () {
+        window.location.hash = target;
+    });
+  });
+
+  // Sticky sidebar (uses pollyfill and normal sticky class)
+  // Contains additional functionality for return to top
+  $window.resize(function resize(){
+    if ($window.width() <= 576 || $window.height() <= 520) {
+      $('#return-to-top').hide();
+      Stickyfill.remove($sidebar);
+      return $sidebar.removeClass('sticky');
+    }
+    $returntop.css('top', $sidebar.outerHeight() + 40);
+    Stickyfill.add($sidebar);
+    $sidebar.addClass('sticky');
+  }).trigger('resize');
+
   // Easter egg shindigs
   var egg = new Egg();
   egg
