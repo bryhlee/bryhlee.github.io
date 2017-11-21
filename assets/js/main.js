@@ -14,9 +14,9 @@ $(document).ready(function(){
     }
     else {
       if ($(this).scrollTop() >= 150) {
-        $('#return-to-top').fadeIn(170);
+        $('#return-to-top').fadeIn(130);
       } else {
-        $('#return-to-top').fadeOut(170);
+        $('#return-to-top').fadeOut(130);
       }
     }
   });
