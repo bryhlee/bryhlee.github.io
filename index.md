@@ -13,7 +13,7 @@ web_title: About | Bryson Lee
 
 
 ## Biography
-Hi all - welcome to my personal website. My name is Bryson Lee, and I'm a software engineer in studio production technology for Animation, Cinematics, VFX, and Video Games. I am also an amateur composer and pianist, my favorite philosopher is Nietzsche, and I am an avid [vexillologist](https://en.wikipedia.org/wiki/Vexillology). Currently, I am a senior at Santa Clara University pursuing a B.S. in Computer Science and Engineering with an emphasis in Software Engineering and Computer Graphics Systems.
+Hi all - welcome to my personal website. My name is Bryson Lee, and I'm a software engineer in studio production technology for Animation, Cinematics, VFX, and Video Games. I am also an amateur composer, pianist, and avid [vexillologist](https://en.wikipedia.org/wiki/Vexillology). Currently, I am a senior at Santa Clara University pursuing a B.S. in Computer Science and Engineering with an emphasis in Software Engineering and Computer Graphics Systems.
 
 During the summer of 2017, I worked as a Pipeline Engineering Intern at [Industrial Light and Magic](http://www.ilm.com/) on their global pipeline team. During my time there, I collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) and [Pixar Animation](https://www.pixar.com/) to develop new rendering queuing systems, rebuild global studio tools, and improve core elements of ILM's media creation pipeline. I also worked together with motion capture TDs and VFX supervisors to support new and advanced forms of assets in our distributed artist workflow.
 
