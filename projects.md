@@ -24,8 +24,8 @@ Please feel free to browse around to learn more about my projects and their tech
 ## Pipeline Tools
 <div class="project-entry d-flex">
   <div class="align-self-start">
-    <h3 class="project-title">Pipeworks: An out-of-the-box pipeline to streamline creative productions and CG content creation (Senior Design Thesis)<span class="badge">In Progress</span></h3>
-    <p>A cloud-based suite of software that will enable small to medium sized teams to bring their creative ideas into reality by providing a comprehensive, yet modular set of tools to support a modern creative content pipeline. Based on three core components: Pipeworks API, Pipeworks Application Interface, Pipeworks Tool Suite, and a new UI framework, Spout UI.</p>
+    <h3 class="project-title">Pipeworks (Senior Design Thesis)<span class="badge">In Progress</span></h3>
+    <p>A cloud-based suite of software that will enable small to medium sized teams to bring their creative ideas into reality by providing a comprehensive, out-of-the-box yet modular set of tools to support a modern creative content pipeline to streamline CG content creation. Based on four core components: Pipeworks API, Pipeworks Application Interface, Pipeworks Tool Suite, and a new UI framework, Spout UI.</p>
     <p class="project-annotation"><i class="fa fa-file-code-o"></i>Python (Server Scripting, Core API), PyQt, Web-based technologies (Django, Flask)</p>
     <p class="project-annotation"><i class="fa fa-calendar-o"></i>In Progress</p>
   </div>

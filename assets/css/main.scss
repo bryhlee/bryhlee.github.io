@@ -33,6 +33,43 @@
   display: none;
 }
 
+/* Wrapper for navbar and navbar collapse content on sm and lower devices */
+.small-bar {
+  margin-bottom: 20px;
+  font-family: 'Helvetica','Source Sans Pro', 'Helvetica', serif;
+
+  h1 {
+    font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: #a5a5a5;
+    border-bottom: 1px dotted #a5a5a5;
+    text-decoration: none;
+    font-size: 18px;
+
+    &:hover {
+      border-bottom: 1px solid #a5a5a5;
+    }
+  }
+
+  ul {
+    color: #a5a5a5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: #a5a5a5;
+    margin-bottom: 0px;
+  }
+}
+
 /* Wrapper for entire website */
 .container-wrapper {
   max-width: 940px;
@@ -76,11 +113,6 @@
     .sidebar-fix {
       padding: 15px;
       background-color: #f7f7f7; /* or a colored version depends on my mood */
-    }
-
-    p {
-      font-size: .95rem;
-      color: #333333;
     }
 
     h2 {
@@ -349,12 +381,6 @@
               height: auto;
               margin-right: 20px;
               margin-bottom: 0px;
-            }
-          }
-
-          .resume-text-container {
-            p {
-
             }
           }
         }
