@@ -212,6 +212,14 @@
     /* Markdown styling for page content */
     .page-content {
 
+      #bio-portrait {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 95%;
+        display: block;
+        margin: auto;
+      }
+
       table {
         margin-bottom: 20px;
 
