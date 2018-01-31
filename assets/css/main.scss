@@ -215,7 +215,7 @@
       #bio-portrait {
         margin-top: 10px;
         margin-bottom: 10px;
-        max-width: 95%;
+        max-width: 100%;
         display: block;
         margin: auto;
       }
@@ -377,6 +377,7 @@
               .resume-header-title {
                 /* font-family: 'Bitter', 'Open Sans', serif !important; */
                 padding-top: 0px;
+                font-size: 18px;
                 display: inline-block;
                 margin-bottom: 4px;
               }

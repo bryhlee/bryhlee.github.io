@@ -26,35 +26,34 @@ As a contributer to the computer graphics and SIGGRAPH community, I founded and 
 In my free time, you can usually find me reading computer graphics journals, composing music, playing piano, or complaining about [bag flag design](https://en.wikipedia.org/wiki/Vexillology).
 
 
-
 ## Areas of Expertise
 <div class="resume-entry">
   <div class="resume-block d-flex align-items-center">
     <img class="align-self-center hidden-xs-down" src="/assets/img/pipe.png">
     <div class="align-self-center">
       <p class="resume-block-title">Pipeline Technical Direction</p>
-      <p>At ILM, I worked extensively with Maya and Nuke, creating scripts to help improve artist workflows, including artist submission tools and review systems. I have additional experience wiring up new workflows for motion capture work and wrangling new pipelines for show-specific workflows.</p>
+      <p>At ILM, I worked extensively with Maya and Nuke, creating scripts to improve artist workflows, including art submission tools and review systems. I have additional experience wiring up new workflows for motion capture work and wrangling show-specific pipelines.</p>
     </div>
   </div>
   <div class="resume-block d-flex align-items-center">
     <img class="align-self-center hidden-xs-down" src="/assets/img/asset.png">
     <div class="align-self-center">
       <p class="resume-block-title">Rendering and Asset Management</p>
-      <p>Along with designing a new layer on top of Walt Disney Animation Studio's <i>CODA</i> render farm system, I created several backend technologies to improve the transfer, syncing, and tracking of assets for multiside studios and local departments</p>
+      <p>Along with designing a new layer on top of Walt Disney Animation Studio's <i>CODA</i> render farm system, I created several backend technologies to improve the transfer, syncing, and tracking of assets between multiside studios and local departments.</p>
     </div>
   </div>
   <div class="resume-block d-flex align-items-center">
     <img class="align-self-center hidden-xs-down" src="/assets/img/cinematics.png">
     <div class="align-self-center">
       <p class="resume-block-title">Studio Technology</p>
-      <p>I have experience implementing several production tracking technologies and have deep familiarity with many industry standard software suites used throughout VFX, animation, and cinematic pipelines. This inlcudes creating a new framework for RV, and interfacing directly with Shotgun services.</p>
+      <p>I have experience implementing several production tracking technologies and have deep familiarity with many industry standard software suites used throughout VFX, animation, and cinematic pipelines, including RV and Shotgun.</p>
     </div>
   </div>
   <div class="resume-block d-flex align-items-center">
     <img class="align-self-center hidden-xs-down" src="/assets/img/tools.png">
     <div class="align-self-center">
       <p class="resume-block-title">Tools Development</p>
-      <p>As a tool developer, I create software and systems to solve the technical challenges faced by artists across multiple departments, including developer tools to automate the process of deploying new TD pipelines.</p>
+      <p>As a tool developer, I create software to solve the technical challenges faced by artists, production staff, and in-house developers across multiple departments, which includes creating developer tools to automate the process of deploying new TD plugins.</p>
     </div>
   </div>
 </div>
