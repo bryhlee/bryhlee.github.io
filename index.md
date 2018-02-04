@@ -23,7 +23,7 @@ Prior to ILM, I worked at Disney Interactive as a Software Engineering Intern wh
 
 As a contributer to the computer graphics and SIGGRAPH community, I founded and am the current President of Santa Clara University's SIGGRAPH Student Chapter, a chartered [ACM chapter](https://www.siggraph.org/connect/student-chapters) that runs educational workshops for topics in computer graphics and interactive media.
 
-In my free time, you can usually find me reading computer graphics journals, composing music, playing piano, or complaining about [bag flag design](https://en.wikipedia.org/wiki/Vexillology).
+In my free time, you can usually find me reading computer graphics journals, composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va).
 
 
 ## Areas of Expertise
@@ -53,7 +53,7 @@ In my free time, you can usually find me reading computer graphics journals, com
     <img class="align-self-center hidden-xs-down" src="/assets/img/tools.png">
     <div class="align-self-center">
       <p class="resume-block-title">Tools Development</p>
-      <p>As a tool developer, I create software to solve the technical challenges faced by artists, production staff, and in-house developers across multiple departments, which includes creating developer tools to automate the process of deploying new TD plugins.</p>
+      <p>As a tool developer, I create software to solve the technical challenges faced by artists, production staff, and engineers across multiple departments, which includes tools to automate the process of deploying new TD plugins.</p>
     </div>
   </div>
 </div>
