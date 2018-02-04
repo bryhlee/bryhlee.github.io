@@ -10,6 +10,13 @@
   top: 30px;
 }
 
+.sticky-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+
 #return-to-top {
   /* Top attribute is automatically recalc'd in main.js */
   font-size: 12px;
@@ -68,6 +75,19 @@
     color: #a5a5a5;
     margin-bottom: 0px;
   }
+
+  .navbar-brand {
+    float: right;
+    margin-left: 12px;
+    font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  nav {
+    flex-direction: row;
+  }
 }
 
 /* Wrapper for entire website */
@@ -101,6 +121,24 @@
 
     &:hover {
       border-bottom: 1px solid #333333;
+    }
+  }
+
+  .social-media {
+    a {
+      margin-bottom: 10px;
+      border-bottom: 0px;
+    }
+
+    .icon {
+      margin-top: 20px;
+      width: 37px;
+      margin-right: 10px;
+      text-decoration: none;
+
+      &:hover {
+        opacity: 0.5;
+      }
     }
   }
 
@@ -145,24 +183,6 @@
 
       p {
         margin: 0;
-      }
-
-      .social-media {
-        a {
-          margin-bottom: 10px;
-          border-bottom: 0px;
-        }
-
-        .icon {
-          margin-top: 20px;
-          width: 37px;
-          margin-right: 10px;
-          text-decoration: none;
-
-          &:hover {
-            opacity: 0.5;
-          }
-        }
       }
     }
   }
