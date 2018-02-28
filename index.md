@@ -13,7 +13,7 @@ web_title: About | Bryson Lee
 
 
 ## Biography
-<img id="bio-portrait" src="/assets/img/me.jpg">
+<img id="bio-portrait" src="/assets/img/me2.jpg">
 
 Hi all - welcome to my personal website. My name is Bryson Lee, and I create software for Animation, Cinematics, VFX, and Video Game studios. Currently, I am a senior at Santa Clara University studying Computer Science and Engineering with an emphasis in Software Engineering and Computer Graphics Systems.
 
@@ -67,8 +67,8 @@ In my free time, you can usually find me reading computer graphics journals, com
       <img class="hidden-xs-down" src="/assets/img/scu_square.png">
       <div class="resume-header-text-container">
         <p class="resume-header-title">Santa Clara University</p>
-        <p>B.S. Computer Science and Engineering</p>
-        <p><i>September 2014 - June 2018</i></p>      
+        <p><i class="fas fa-university fa-fw"></i>B.S. Computer Science and Engineering</p>
+        <p><i class="far fa-calendar-alt fa-fw"></i>September 2014 - June 2018</p>      
       </div>
     </div>
     <div class="resume-text-container">
@@ -84,9 +84,9 @@ In my free time, you can usually find me reading computer graphics journals, com
       <img class="hidden-xs-down" src="/assets/img/ilm_square.png">
       <div class="resume-header-text-container">
         <p class="resume-header-title">Industrial Light and Magic</p>
-        <p>Pipeline Engineer, Intern</p>
-        <p>Global Pipeline/Studio Production Engineering</p>
-        <p><i>Summer 2017</i></p>      
+        <p><i class="far fa-id-card fa-fw"></i>Pipeline Engineer, Intern</p>
+        <p><i class="fas fa-sitemap fa-fw"></i>Global Pipeline/Studio Production Engineering</p>
+        <p><i class="far fa-calendar-alt fa-fw"></i>Summer 2017</p>      
       </div>
     </div>
     <div class="resume-text-container">
@@ -98,9 +98,9 @@ In my free time, you can usually find me reading computer graphics journals, com
       <img class="hidden-xs-down" src="/assets/img/disney_square.png">
       <div class="resume-header-text-container">
         <p class="resume-header-title">Disney Interactive</p>
-        <p>Software Engineer, Intern</p>
-        <p>Artist Tools, Media Technology Engineering</p>
-        <p><i>Summer 2016</i></p>      
+        <p><i class="far fa-id-card fa-fw"></i>Software Engineer, Intern</p>
+        <p><i class="fas fa-sitemap fa-fw"></i>Artist Tools, Media Technology Engineering</p>
+        <p><i class="far fa-calendar-alt fa-fw"></i>Summer 2016</p>      
       </div>
     </div>
     <div class="resume-text-container">
@@ -112,9 +112,9 @@ In my free time, you can usually find me reading computer graphics journals, com
       <img class="hidden-xs-down" src="/assets/img/hoana_square.png">
       <div class="resume-header-text-container">
         <p class="resume-header-title">Hoana Medical</p>
-        <p>Software Engineer, Intern</p>
-        <p>R&D Software, Visualizations</p>
-        <p><i>Summer 2015</i></p>      
+        <p><i class="far fa-id-card fa-fw"></i>Software Engineer, Intern</p>
+        <p><i class="fas fa-sitemap fa-fw"></i>R&D Software, Visualizations</p>
+        <p><i class="far fa-calendar-alt fa-fw"></i>Summer 2015</p>      
       </div>
     </div>
     <div class="resume-text-container">

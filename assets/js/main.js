@@ -9,7 +9,7 @@ $(document).ready(function(){
   Stickyfill.add($returntop);
   $returntop.css('top', $sidebar.outerHeight() + 40);
   $window.scroll(function() {
-    if ($window.width() <= 576 || $window.height() <= 520) {
+    if ($window.width() <= 576 || $window.height() <= 550) {
       $('#return-to-top').hide();
     }
     else {

@@ -24,9 +24,10 @@
   display: none;
   margin-left: 4px;
 
-  .fa {
-    margin-right: 5px;
+  .svg-inline--fa {
+    margin-right: 6px;
   }
+
   &:hover {
     cursor: pointer;
   }
@@ -45,15 +46,6 @@
   margin-bottom: 20px;
   font-family: 'Helvetica','Source Sans Pro', 'Helvetica', serif;
 
-  h1 {
-    font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 28px;
-    margin-bottom: 10px;
-  }
-
   a {
     color: #a5a5a5;
     border-bottom: 1px dotted #a5a5a5;
@@ -67,8 +59,9 @@
 
   ul {
     color: #a5a5a5;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding-left: 25px;
   }
 
   p {
@@ -111,6 +104,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
+
   }
 
   /* Link styling */
@@ -156,7 +150,7 @@
     h2 {
       margin-bottom: 14px;
       color: #333333;
-      font-size: 22px;
+      font-size: 24px;
     }
 
     .portrait {
@@ -178,6 +172,7 @@
       margin-bottom: 14px;
 
       ul {
+        padding-left: 25px;
         margin-top: 14px;
       }
 
@@ -204,6 +199,11 @@
 
   /* Wrapper for pages */
   .page {
+
+    ul {
+      padding-left: 25px;
+      margin-bottom: 14px;
+    }
 
     .page-header {
       margin-bottom: 24px;
@@ -233,48 +233,43 @@
     .page-content {
 
       #bio-portrait {
+        /*
         margin-top: 10px;
         margin-bottom: 10px;
+
         max-width: 100%;
         display: block;
         margin: auto;
+        */
+        margin: 30px;
+        object-fit: cover;
+        width:230px;
+        height:230px;
+        float: left;
+        display: none;
       }
 
       table {
         margin-bottom: 20px;
-
-        i {
-          padding-right: 6px;
-        }
-      }
-
-      ul {
-        margin-bottom: 14px;
       }
 
       /* Override h2 for use in Markdown */
       h2 {
-        @media (max-width: 575px) {
-          padding-bottom: 3px;
-          border-bottom: 2px solid #a5a5a5; /* Provides a nice sepration for xs devices */
-        }
         padding-top: 14px; /* For section linking (HTML fragment supported) */
         margin-bottom: 16px;
-        font-size: 22px;
-
+        font-size: 24px;
         padding-bottom: 3px;
         border-bottom: 2px solid #a5a5a5;
-
-        /* Styling. Allows for default markdown fragment linking on page links. */
-        /*
-        &::before {
-          content: "» "; 
-        }*/
       }
 
       blockquote {
         padding-left: 10px;
         border-left: 3px solid #a5a5a5;
+      }
+
+      .svg-inline--fa {
+        margin-right: 8px;
+        color: #a5a5a5;
       }
 
       /* Entry for projects */
@@ -300,11 +295,6 @@
 
         .project-annotation {
           margin-bottom: 0px;
-
-          .fa {
-            margin-right: 8px;
-            color: #FF7F3B;
-          }
         }
 
         img {
