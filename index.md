@@ -21,7 +21,7 @@ During the summer of 2017, I worked as a Pipeline Engineering Intern at [Industr
 
 Prior to ILM, I worked at Disney Interactive as a Software Engineering Intern where I developed several technologies to support their growing asset management infastructure, and spearheaded multiple initiatives to revamp their creative content pipeline.
 
-As a contributer to the computer graphics and SIGGRAPH community, I founded and am the current President of Santa Clara University's SIGGRAPH Student Chapter, a chartered [ACM chapter](https://www.siggraph.org/connect/student-chapters) that runs educational workshops for topics in computer graphics and interactive media.
+As a contributer to the computer graphics and SIGGRAPH community, I am the president and founder of Santa Clara University's SIGGRAPH Student Chapter, a chartered [ACM chapter](https://www.siggraph.org/connect/student-chapters) that runs educational workshops for topics in computer graphics and interactive media.
 
 In my free time, you can usually find me reading computer graphics journals, composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va).
 
@@ -67,12 +67,14 @@ In my free time, you can usually find me reading computer graphics journals, com
       <img class="hidden-xs-down" src="/assets/img/scu_square.png">
       <div class="resume-header-text-container">
         <p class="resume-header-title">Santa Clara University</p>
-        <p><i class="fas fa-university fa-fw"></i>B.S. Computer Science and Engineering</p>
-        <p><i class="far fa-calendar-alt fa-fw"></i>September 2014 - June 2018</p>      
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fas fa-university fa-fw"></i></span>B.S. Computer Science and Engineering</li>
+          <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>September 2014 - June 2018</li>
+        </ul>  
       </div>
     </div>
     <div class="resume-text-container">
-      <p>President and founder SCU ACM SIGGRAPH Chapter. STEM Foundation Scholar.</p>
+      <p>President and founder of the SCU ACM SIGGRAPH Chapter. STEM Foundation Scholar.</p>
     </div>
   </div>
 </div>
@@ -84,9 +86,11 @@ In my free time, you can usually find me reading computer graphics journals, com
       <img class="hidden-xs-down" src="/assets/img/ilm_square.png">
       <div class="resume-header-text-container">
         <p class="resume-header-title">Industrial Light and Magic</p>
-        <p><i class="far fa-id-card fa-fw"></i>Pipeline Engineer, Intern</p>
-        <p><i class="fas fa-sitemap fa-fw"></i>Global Pipeline/Studio Production Engineering</p>
-        <p><i class="far fa-calendar-alt fa-fw"></i>Summer 2017</p>      
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Pipeline Engineer, Intern</li>
+          <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>Global Pipeline/Studio Production Engineering</li>
+          <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>Summer 2017</li>
+        </ul>
       </div>
     </div>
     <div class="resume-text-container">
@@ -98,9 +102,11 @@ In my free time, you can usually find me reading computer graphics journals, com
       <img class="hidden-xs-down" src="/assets/img/disney_square.png">
       <div class="resume-header-text-container">
         <p class="resume-header-title">Disney Interactive</p>
-        <p><i class="far fa-id-card fa-fw"></i>Software Engineer, Intern</p>
-        <p><i class="fas fa-sitemap fa-fw"></i>Artist Tools, Media Technology Engineering</p>
-        <p><i class="far fa-calendar-alt fa-fw"></i>Summer 2016</p>      
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Software Engineer, Intern</li>
+          <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>Artist Tools, Media Technology Engineering</li>
+          <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>Summer 2016</li>
+        </ul>
       </div>
     </div>
     <div class="resume-text-container">
@@ -112,9 +118,11 @@ In my free time, you can usually find me reading computer graphics journals, com
       <img class="hidden-xs-down" src="/assets/img/hoana_square.png">
       <div class="resume-header-text-container">
         <p class="resume-header-title">Hoana Medical</p>
-        <p><i class="far fa-id-card fa-fw"></i>Software Engineer, Intern</p>
-        <p><i class="fas fa-sitemap fa-fw"></i>R&D Software, Visualizations</p>
-        <p><i class="far fa-calendar-alt fa-fw"></i>Summer 2015</p>      
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Software Engineer, Intern</li>
+          <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>R&D Software, Visualizations</li>
+          <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>Summer 2015</li>
+        </ul>
       </div>
     </div>
     <div class="resume-text-container">

@@ -267,6 +267,12 @@
         border-left: 3px solid #a5a5a5;
       }
 
+      .fa-ul {
+        padding: 0px;
+        margin-left: 30px;
+        margin-bottom: 0px;
+      }
+
       .svg-inline--fa {
         margin-right: 8px;
         color: #a5a5a5;
@@ -291,10 +297,6 @@
           vertical-align: middle;
           background-color: #dc3545;
           border-radius: 3px;
-        }
-
-        .project-annotation {
-          margin-bottom: 0px;
         }
 
         img {
