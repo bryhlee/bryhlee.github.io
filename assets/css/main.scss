@@ -99,14 +99,6 @@
   /* TODO: Remove text styling from everwhere else if possible */
   font-family: 'Helvetica','Source Sans Pro', 'Helvetica', serif;
 
-  h1, h2 {
-    font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-
-  }
-
   /* Link styling */
   a {
     color: #333333;
@@ -142,15 +134,20 @@
     padding-right: 0px;
     margin-bottom: 15px;
 
-    .sidebar-fix {
-      padding: 15px;
-      background-color: #f7f7f7; /* or a colored version depends on my mood */
-    }
 
     h2 {
+      font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
       margin-bottom: 14px;
       color: #333333;
       font-size: 24px;
+    }
+
+    .sidebar-fix {
+      padding: 15px;
+      background-color: #f7f7f7; /* or a colored version depends on my mood */
     }
 
     .portrait {
@@ -183,6 +180,7 @@
   }
 
   /* Wrapper for main content */
+  /* TODO: Get rid of this css block */
   .main-wrapper {
 
     .img-404 {
@@ -190,15 +188,23 @@
       margin-bottom: 30px;
     }
 
+  }
+
+  /* Wrapper for pages */
+  .page {
+
     h1 {
       color: #333333;
       font-size: 34px;
       margin-bottom: 40px;
     }
-  }
 
-  /* Wrapper for pages */
-  .page {
+    h1, h2 {
+      font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
 
     ul {
       padding-left: 25px;
@@ -453,6 +459,12 @@
 
       .post-title {
         margin-bottom: 10px;
+        color: #333333;
+        font-size: 28px;
+        font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
       }
       .post-meta {
         .post-date {
@@ -465,6 +477,22 @@
 
     .post-content {
       margin-bottom: 40px;
+
+      h1, h2, h3, h4 {
+        font-weight: 700;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      h3 {
+        font-size: 18px;
+      }
 
       img {
         width: 80%;
