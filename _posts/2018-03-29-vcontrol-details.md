@@ -9,11 +9,11 @@ new: true
 ![vcontrol]({{ site.url }}/assets/img_posts/vcontrol_logo.png)
 
 # A VCS for Digital Artists
-Increasingly in recent years, digital artists have been using version control systems (VCS) originally meant for software developers to manage complex non-text/binary files. Alongside fellow SCU student Jackson Beadle, I decided to develop my own VCS system, *vcontrol*, specifically for nontext and binary files. In essence, *vcontrol* utilizes a simplified and lightweight architecture allowing digital artist to effectively version control art assets in a local environment before officially staging them for review. *vcontrol* was built entirely using Python and packaged using PyInstaller. *vcontrol* took heavy influence from Git. 
+Increasingly in recent years, digital artists have been using version control systems (VCS) originally meant for software developers to manage complex non-text/binary files. Alongside fellow SCU student Jackson Beadle, I decided to develop my own VCS system, *vcontrol*, specifically for nontext and binary files. In essence, *vcontrol* utilizes a simplified and lightweight architecture allowing digital artist to effectively version control art assets in a local environment before officially staging them for review. *vcontrol* was built entirely using Python and packaged using PyInstaller.
 
 The design of vcontrol prioritize ease of use, portability, and effective file structure organization. Additionally, emphasis on supporting a distributed and decentralized paradigm was a necessary requirement, as almost every modern version control system is able to support remote collaboration.
 
-Much of the guidance for this project was from Version Control by Example by Eric Sink. Mr. Sink also [operates a website](www.ericsink.com), dedicated to his work on version control and his other areas of study. His investigative approach to VCS systems provided context into building most of vcontrol's core architecture.
+Much of the guidance for this project was from Version Control by Example by Eric Sink. His investigative approach to VCS systems provided context into building most of vcontrol's core architecture.
 
 # Core Functionality
 Functional requirements were derived from past experience using existing version control systems, but the core functionality of any VCS system is essentially the same:
@@ -50,7 +50,7 @@ Repositories, are special OS-level directories which contain all files that need
 
 ![vcontrol]({{ site.url }}/assets/img_posts/vcs.png)
 
-First, immediately inside the `.vcs` directory is a file labeled config.json which contains repository metadata. This includes the repository name, the user associated with the repository, and details concerning the last fetch/commit made by the user. The last commit metadata is used heavily by vcontrol to determine where to compare changes made to the working files to the files stored in associated commits. An example of the config.json is shown below:
+First, immediately inside the `.vcs` directory is a file labeled `config.json` which contains repository metadata. This includes the repository name, the user associated with the repository, and details concerning the last fetch/commit made by the user. The last commit metadata is used heavily by vcontrol to determine where to compare changes made to the working files to the files stored in associated commits. An example of the `config.json` is shown below:
 
 ```
 {
@@ -106,7 +106,7 @@ A commit is a version of the repository. More specifically, a commit tracks the 
 
 Note that renamed files are treated as files that have been added with the new name and deleted with the old name.
 
-vcontrol tracks these file changes by comparing them to the last commit, which is stored in the config.json file, explained in the previous section. vcontrol will look for the commit bin for the last commit made, and compare the working files to the files in that commit bin (and possibly other commit bins, if the last commit made did not alter all of that commit’s working files).
+vcontrol tracks these file changes by comparing them to the last commit, which is stored in the `config.json` file, explained in the previous section. vcontrol will look for the commit bin for the last commit made, and compare the working files to the files in that commit bin (and possibly other commit bins, if the last commit made did not alter all of that commit’s working files).
 
 ![vcontrol]({{ site.url }}/assets/img_posts/commit.png)
 
