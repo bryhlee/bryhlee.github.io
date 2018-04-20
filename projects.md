@@ -15,21 +15,21 @@ web_title: Projects | Bryson Lee
 
 
 ## Overview
-My first experience programming was in middle school, where I created game mods for *Warcraft 3* using [JASS](https://en.wikipedia.org/wiki/JASS). Today, I build tools and systems for artists across the studio pipeline, helping bring to life the movies, games, and animations I grew up with. 
+Here, you will find details regarding some of the projects I have been working on and further information regarding their technical implementations.
 
-Jon Wynacht, my mentor at ILM, used to tell me that to become a better pipeline engineer, "If you're not breaking something, you're not learning - just don't do it too much." Since then, I always aim to achieve the same attitude of proactive development: one that emphasizes not being afraid to try something new and challenging in order to find the most rewarding solution.
+I started programming in middle school, creating game mods for *Warcraft 3* using [JASS](https://en.wikipedia.org/wiki/JASS) (a truly ancient scripting language). Today, I build technology for artists across the studio pipeline, helping bring to life the movies, games, and animations I grew up with.
 
-Please feel free to browse around to learn more about my projects and their technical implementations.
+My mentor at ILM used to tell me that "If you're not breaking something, you're not learning - just don't do it too much." Since then, I have always aimed to achieve the same level of proactive development: one that emphasizes not being afraid to try something new and challenging in order to find the most rewarding solution.
 
 ## Pipeline Tools
 <div class="project-entry d-flex">
   <div class="align-self-start">
-    <h3 class="project-title">Pipeworks (Senior Design Thesis)<span class="badge">In Progress</span></h3>
-    <p>A cloud-based suite of software that will enable small to medium sized teams to set up a pipeline to run efficient CG productions remotely. Pipeworks provides a comprehensive, out-of-the-box yet modular set of tools to support a modern creative content pipeline to streamline CG content creation. Based on four core components: Pipeworks API, Pipeworks Application Interface, Pipeworks Tool Suite, and a new UI framework, Spout UI.</p>
+    <h3 class="project-title">Pipeworks Project<span class="badge">In Progress</span></h3>
+    <p>A cloud-based suite of software that will enable small to medium sized teams to set up a possibly globally-distributed art pipeline to run efficient CG productions remotely. <i>Pipeworks</i> provides a comprehensive, out-of-the-box, yet modular set of tools to streamline CG content creation. The Pipeworks project is comprised of five core components: The <i>Pipeworks Cloud Repository</i> (PCR), the <i>Pipeworks SDK</i> (PSDK), the <i>Pipeworks Application Interface</i> (PAI), the <i>Pipeworks Tool Suite</i> (PTS), and a new UI <a href="https://en.wikipedia.org/wiki/Design_language">design language</a>, <i>Spout UI</i>.</p>
     <ul class="fa-ul">
-      <li><span class="fa-li"><i class="fas fa-code fa-fw"></i></span>Python (Server Scripting, Core API), PyQt + PySide2, Flask</li>
+      <li><span class="fa-li"><i class="fas fa-code fa-fw"></i></span>Python, C++, PyQt5, Qt5, Flask, Google Cloud Endpoints, Google Cloud Storage</li>
       <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>In Progress</li>
-      <li><span class="fa-li"><i class="fas fa-link fa-fw"></i></span><a href="https://github.com/bryhlee/pipeworks">https://github.com/bryhlee/pipeworks</a></li>
+      <li><span class="fa-li"><i class="fas fa-link fa-fw"></i></span><a href="https://github.com/bryhlee/pipeworks" target="_blank">https://github.com/bryhlee/pipeworks</a></li>
     </ul>
   </div>
 </div>
@@ -37,7 +37,7 @@ Please feel free to browse around to learn more about my projects and their tech
   <img class="align-self-start hidden-xs-down" src="/assets/img/matterhorn_square.png">
   <div class="align-self-start">
     <h3 class="project-title">Matterhorn Digital Asset Manager</h3>
-    <p>Image, video, and file manager for digital assets. Built multiple administrative tools and interfaces for: video transcoding, metrics and diagnostics, meta data tracking, legacy tracking, and indexing helper tools</p>
+    <p>Image, video, and file manager for digital assets. Built multiple administrative tools and interfaces for video transcoding, metrics and diagnostics, meta data tracking, legacy tracking, and indexing helper tools.</p>
     <ul class="fa-ul">
       <li><span class="fa-li"><i class="fas fa-code fa-fw"></i></span>Python, Flask, Google App Engine, Google Cloud Storage</li>
       <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>Summer 2016</li>
@@ -51,7 +51,7 @@ Please feel free to browse around to learn more about my projects and their tech
     <ul class="fa-ul">
       <li><span class="fa-li"><i class="fas fa-code fa-fw"></i></span>Python</li>
       <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>January-March 2018</li>
-      <li><span class="fa-li"><i class="fas fa-link fa-fw"></i></span><a href="https://github.com/bryhlee/vcontrol">https://github.com/bryhlee/vcontrol</a></li>
+      <li><span class="fa-li"><i class="fas fa-link fa-fw"></i></span><a href="https://github.com/bryhlee/vcontrol" target="_blank">https://github.com/bryhlee/vcontrol</a></li>
     </ul>
   </div>
 </div>
@@ -60,7 +60,7 @@ Please feel free to browse around to learn more about my projects and their tech
 <div class="project-entry d-flex">
   <div class="align-self-start">
     <h3 class="project-title">A Better Maya Turntable Plugin<span class="badge">In Progress</span></h3>
-    <p>A new turn table plugin for Maya which will automatically place digital models into a turntable with customizable features and parameters. Features automatic lightning for dramatic showcasing.</p>
+    <p>A new turn table plugin for Maya which will automatically place digital models into a turntable with customizable features and parameters. Features automatic lightning for dramatic showcasing. Bundled with the Pipeworks Tool Suite, and can be integrated with the Pipeworks SDK to export videos or GIFs of the turntable to the Pipeworks Cloud Repository.</p>
     <ul class="fa-ul">
       <li><span class="fa-li"><i class="fas fa-code fa-fw"></i></span>Maya Python API</li>
       <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>In Progress</li>
@@ -84,10 +84,11 @@ Please feel free to browse around to learn more about my projects and their tech
   <img class="align-self-start hidden-xs-down" src="/assets/img/audition_square.png">
   <div class="align-self-start">
     <h3 class="project-title">The Audition: A 3D Animated Short Film</h3>
-    <p>A story about a robot with humble ambitions.</p>
+    <p>A 3D animated short film created for a 3D Animation and Modeling class.</p>
     <ul class="fa-ul">
       <li><span class="fa-li"><i class="fas fa-code fa-fw"></i></span>Maya, Mental Ray, Adobe Premiere</li>
       <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>Spring 2016</li>
+      <li><span class="fa-li"><i class="fas fa-link fa-fw"></i></span><a href="https://vimeo.com/253540972" target="_blank">https://vimeo.com/253540972</a></li>
     </ul>
   </div>
 </div>

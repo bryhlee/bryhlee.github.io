@@ -15,13 +15,15 @@ web_title: About | Bryson Lee
 ## Biography
 <img id="bio-portrait" src="/assets/img/me2.jpg">
 
-Hi all - welcome to my personal website. My name is Bryson Lee, and I create software for Animation, Cinematics, VFX, and Video Game studios. Currently, I am a senior at Santa Clara University studying Computer Science and Engineering with an emphasis in Software Engineering and Computer Graphics Systems.
+Hi all - welcome to my personal website. My name is Bryson Lee, and I am a software engineer in studio production engineering, tools development, and pipeline technical direction. I primarily emphasize in creative content production systems for visual effects, 3D animation, cinematics and game development studios. I am a senior at Santa Clara University studying Computer Science and Engineering with an emphasis in Software Engineering and Computer Graphics Systems.
 
-During the summer of 2017, I worked as a Pipeline Engineering Intern at [Industrial Light and Magic](http://www.ilm.com/). During my time there, I collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) and [Pixar Animation](https://www.pixar.com/) to develop new rendering queuing systems, rebuild global studio tools, and improve core elements of ILM's media creation pipeline. I also worked together with motion capture TDs and VFX supervisors to support new and advanced forms of assets in a distributed artist workflow.
+During the summer of 2017, I worked as a Pipeline Engineering Intern at [Industrial Light and Magic](http://www.ilm.com/). While there, I collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) and [Pixar Animation](https://www.pixar.com/) to develop new rendering queuing systems, rebuild global studio tools, and improve core elements of ILM's media creation pipeline. Together with motion capture TDs and VFX supervisors, I facilitated projects to incorporate new and  advanced forms of assets in a distributed artist workflow.
 
-Prior to ILM, I worked at Disney Interactive as a Software Engineering Intern where I developed several technologies to support their growing asset management infastructure, and spearheaded multiple initiatives to revamp their creative content pipeline.
+Prior to ILM, I was a Software Engineering Intern at Disney Interactive where I developed several technologies to support their growing asset management infrastructure, and spearheaded multiple initiatives to revamp their creative content pipeline.
 
-As a contributer to the computer graphics and SIGGRAPH community, I am the president and founder of Santa Clara University's SIGGRAPH Student Chapter, a chartered [ACM chapter](https://www.siggraph.org/connect/student-chapters) that runs educational workshops for topics in computer graphics and interactive media.
+Computer Graphics is both my academic specialization and my primary professional interest. As a contributor to the computer graphics and SIGGRAPH community, I am the founding president of Santa Clara University's SIGGRAPH Student Chapter, a chartered [ACM chapter](https://www.siggraph.org/connect/student-chapters) that runs educational workshops for topics in computer graphics and interactive media.
+
+I look forward to this coming fall, where I will be pursuing an M.S. Computer Science at USC with a [concentration in Creative Technology and Multimedia Systems](https://www.cs.usc.edu/academic-programs/masters/multimedia-creative-technologies/).
 
 In my free time, you can usually find me reading computer graphics journals, composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va).
 
@@ -39,14 +41,14 @@ In my free time, you can usually find me reading computer graphics journals, com
     <img class="align-self-center hidden-xs-down" src="/assets/img/asset.png">
     <div class="align-self-center">
       <p class="resume-block-title">Rendering and Asset Management</p>
-      <p>Along with designing a new layer on top of Walt Disney Animation Studio's <i>CODA</i> render farm system, I created several backend technologies to improve the transfer, syncing, and tracking of assets between multiside studios and local departments.</p>
+      <p>Along with designing a new layer on top of Walt Disney Animation Studio's <i>CODA</i> render farm system, I created several backend technologies to improve the transfer, syncing, and tracking of assets between multi-site studios and local departments.</p>
     </div>
   </div>
   <div class="resume-block d-flex align-items-center">
     <img class="align-self-center hidden-xs-down" src="/assets/img/cinematics.png">
     <div class="align-self-center">
       <p class="resume-block-title">Studio Technology</p>
-      <p>I have experience implementing several production tracking technologies and have deep familiarity with many industry standard software suites used throughout VFX, animation, and cinematic pipelines, including RV and Shotgun.</p>
+      <p>I have experience implementing several production tracking technologies and have familiarity with many industry standard software suites used throughout VFX, animation, and cinematic pipelines, including RV and Shotgun.</p>
     </div>
   </div>
   <div class="resume-block d-flex align-items-center">
