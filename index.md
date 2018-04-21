@@ -15,7 +15,7 @@ web_title: About | Bryson Lee
 ## Biography
 <img id="bio-portrait" src="/assets/img/me2.jpg">
 
-Hi all - welcome to my personal website. My name is Bryson Lee, and I am a software engineer in studio production engineering, tools development, and pipeline technical direction. I primarily emphasize in creative content production systems for visual effects, 3D animation, cinematics and game development studios. I am a senior at Santa Clara University studying Computer Science and Engineering with an emphasis in Software Engineering and Computer Graphics Systems.
+Hi all - welcome to my personal website. My name is Bryson Lee, and I am a software engineer in studio production engineering, tools development, and pipeline technical direction. I primarily emphasize in creative content production systems for visual effects, 3D animation, cinematics and game development studios. I am a senior at Santa Clara University studying Computer Science and Engineering with a specialization in Software Engineering and Computer Graphics Systems.
 
 During the summer of 2017, I worked as a Pipeline Engineering Intern at [Industrial Light and Magic](http://www.blizzard.com/). While there, I collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) and [Pixar Animation](https://www.pixar.com/) to develop new rendering queuing systems, rebuild global studio tools, and improve core elements of ILM's media creation pipeline. Together with motion capture TDs and VFX supervisors, I facilitated projects to incorporate new and  advanced forms of assets in a distributed artist workflow.
 
