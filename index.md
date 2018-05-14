@@ -15,17 +15,17 @@ web_title: About | Bryson Lee
 ## Biography
 <img id="bio-portrait" src="/assets/img/me2.jpg">
 
-Hi all - welcome to my personal website. My name is Bryson Lee, and I am a software engineer in studio production engineering, tools development, and pipeline technical direction. I primarily emphasize in creative content production systems for visual effects, 3D animation, cinematics and game development studios. I am a senior at Santa Clara University studying Computer Science and Engineering with a specialization in Software Engineering and Computer Graphics Systems.
+Hi all - my name is Bryson Lee, and I am a software engineer in studio production engineering, tools development, and pipeline technical direction. I primarily emphasize in CG production systems for visual effects, 3D animation, cinematics and game development studios. I am a senior at Santa Clara University studying Computer Science and Engineering with a specialization in Software Engineering and Computer Graphics Systems.
 
-During the summer of 2017, I worked as a Pipeline Engineering Intern at [Industrial Light and Magic](http://www.blizzard.com/). While there, I collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) and [Pixar Animation](https://www.pixar.com/) to develop new rendering queuing systems, rebuild global studio tools, and improve core elements of ILM's media creation pipeline. Together with motion capture TDs and VFX supervisors, I facilitated projects to incorporate new and  advanced forms of assets in a distributed artist workflow.
+During the summer of 2017, I worked as a Pipeline Engineering Intern at [Industrial Light and Magic](http://www.blizzard.com/). While there, I collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) and [Pixar Animation](https://www.pixar.com/) to develop new rendering queuing systems, rebuild global studio tools, and improve core elements of ILM's media creation pipeline. Together with motion capture TDs and VFX supervisors, I facilitated projects to incorporate new and advanced forms of assets in a distributed artist workflow.
 
-Prior to ILM, I was a Software Engineering Intern at Disney Interactive where I developed several technologies to support their growing asset management infrastructure, and spearheaded multiple initiatives to revamp their creative content pipeline.
+Prior to ILM, I was a Software Engineering Intern at (Disney Interactive)[https://dcpi.disney.com/]. As part of the Media Technology Engineering divison, I designed and built new systems to support Disney's growing asset management infrastructure and spearheaded multiple initiatives to revamp an existing creative content pipeline for web publishing.
 
 Computer Graphics is both my academic specialization and my primary professional interest. As a contributor to the computer graphics and SIGGRAPH community, I am the founding president of Santa Clara University's SIGGRAPH Student Chapter, a chartered [ACM chapter](https://www.siggraph.org/connect/student-chapters) that runs educational workshops for topics in computer graphics and interactive media.
 
 I look forward to this coming fall, where I will be pursuing an M.S. Computer Science at USC with a [concentration in Creative Technology and Multimedia Systems](https://www.cs.usc.edu/academic-programs/masters/multimedia-creative-technologies/).
 
-In my free time, you can usually find me reading computer graphics journals, composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va).
+In my free time, you can usually find me reading computer graphics journals, composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a bit of [storywriting](https://en.wikipedia.org/wiki/Fiction_writing).
 
 
 ## Areas of Expertise
