@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-image: chat
+image: list
 section: about
 web_title: About | Bryson Lee
 ---
@@ -31,28 +31,28 @@ In my free time, you can usually find me reading computer graphics journals, com
 ## Areas of Expertise
 <div class="resume-entry">
   <div class="resume-block d-flex align-items-center">
-    <img class="align-self-center hidden-xs-down" src="/assets/img/pipe.png">
+    <img class="align-self-center hidden-xs-down" src="/assets/img/sketching.png">
     <div class="align-self-center">
       <p class="resume-block-title">Pipeline Technical Direction</p>
       <p>At ILM, I worked extensively with Maya and Nuke and created scripts to improve artist workflows, including asset submission tools and review systems. I have additional experience wiring pipelines for motion capture work and wrangling new solutions for show-specific processes.</p>
     </div>
   </div>
   <div class="resume-block d-flex align-items-center">
-    <img class="align-self-center hidden-xs-down" src="/assets/img/asset.png">
+    <img class="align-self-center hidden-xs-down" src="/assets/img/server.png">
     <div class="align-self-center">
       <p class="resume-block-title">Rendering and Asset Management</p>
       <p>Along with designing a new layer on top of Walt Disney Animation Studio's <i>CODA</i> render farm system, I have additional experience creating several backend technologies to improve the transfer, syncing, and tracking of assets between multi-site studios and local departments.</p>
     </div>
   </div>
   <div class="resume-block d-flex align-items-center">
-    <img class="align-self-center hidden-xs-down" src="/assets/img/cinematics.png">
+    <img class="align-self-center hidden-xs-down" src="/assets/img/photo.png">
     <div class="align-self-center">
       <p class="resume-block-title">Studio Technology</p>
       <p>I have experience implementing production tracking technologies and have familiarity with many industry standard software suites used throughout VFX, animation, and cinematic pipelines, including RV and Shotgun.</p>
     </div>
   </div>
   <div class="resume-block d-flex align-items-center">
-    <img class="align-self-center hidden-xs-down" src="/assets/img/tools.png">
+    <img class="align-self-center hidden-xs-down" src="/assets/img/code.png">
     <div class="align-self-center">
       <p class="resume-block-title">Tools Development</p>
       <p>As a tool developer, I create software to solve the technical challenges faced by artists, production staff, and engineers across multiple departments, including tools to automate the process of deploying new TD plugins and other studio-wide tools.</p>
