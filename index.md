@@ -15,13 +15,13 @@ web_title: About | Bryson Lee
 ## Biography
 <img id="bio-portrait" src="/assets/img/me2.jpg">
 
-Hi all - my name is Bryson Lee, and I am a software engineer in studio production engineering, tools development, and pipeline technical direction. I primarily emphasize in CG production systems for visual effects, 3D animation, cinematics and game development studios. I am a senior at Santa Clara University studying Computer Science and Engineering with a specialization in Software Engineering and Computer Graphics Systems.
+Hi all - my name is Bryson Lee, and I am a software engineer and TD in studio production engineering, tools development, and pipeline technical direction. I primarily emphasize in Computer Graphics systems for visual effects, 3D animation, cinematics, and video game studios. I am currently a senior at Santa Clara University studying Computer Science and Engineering with a specialization in Software Engineering and Computer Graphics Systems.
 
-During the summer of 2017, I worked as a Pipeline Engineering Intern at [Industrial Light and Magic](http://www.blizzard.com/). While there, I collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) and [Pixar Animation](https://www.pixar.com/) to develop new rendering queuing systems, rebuild global studio tools, and improve core elements of ILM's media creation pipeline. Together with motion capture TDs and VFX supervisors, I facilitated projects to incorporate new and advanced forms of assets in a distributed artist workflow.
+During the summer of 2017, I worked as a Production Engineering Intern at [Industrial Light and Magic](http://www.blizzard.com/). While there, I collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) and [Pixar Animation](https://www.pixar.com/) to develop new rendering queuing systems, rebuild global studio tools, and improve core elements of ILM's media creation pipeline. Together with motion capture TDs and VFX supervisors, I facilitated projects to incorporate new and advanced forms of assets in a distributed artist workflow.
 
-Prior to ILM, I was a Software Engineering Intern at (Disney Interactive)[https://dcpi.disney.com/]. As part of the Media Technology Engineering divison, I designed and built new systems to support Disney's growing asset management infrastructure and spearheaded multiple initiatives to revamp an existing creative content pipeline for web publishing.
+Prior to ILM, I was a Software Engineering Intern at [Disney Interactive](https://dcpi.disney.com/). As part of the Media Technology Engineering divison, I designed and built new software to support Disney's growing asset management infrastructure and spearheaded multiple initiatives to revamp an existing creative content pipeline for web publishing.
 
-Computer Graphics is both my academic specialization and my primary professional interest. As a contributor to the computer graphics and SIGGRAPH community, I am the founding president of Santa Clara University's SIGGRAPH Student Chapter, a chartered [ACM chapter](https://www.siggraph.org/connect/student-chapters) that runs educational workshops for topics in computer graphics and interactive media.
+Computer Graphics is both my academic specialization and my primary professional interest. As a contributor to the computer graphics and SIGGRAPH community, I am the founding president of Santa Clara University's SIGGRAPH Student Chapter, a [chartered ACM chapter](https://www.siggraph.org/connect/student-chapters) that runs educational workshops for topics in computer graphics and interactive media.
 
 I look forward to this coming fall, where I will be pursuing an M.S. Computer Science at USC with a [concentration in Creative Technology and Multimedia Systems](https://www.cs.usc.edu/academic-programs/masters/multimedia-creative-technologies/).
 
@@ -34,28 +34,28 @@ In my free time, you can usually find me reading computer graphics journals, com
     <img class="align-self-center hidden-xs-down" src="/assets/img/pipe.png">
     <div class="align-self-center">
       <p class="resume-block-title">Pipeline Technical Direction</p>
-      <p>At ILM, I worked extensively with Maya and Nuke, creating scripts to improve artist workflows, including art submission tools and review systems. I have additional experience wiring up new workflows for motion capture work and wrangling show-specific pipelines.</p>
+      <p>At ILM, I worked extensively with Maya and Nuke and created scripts to improve artist workflows, including asset submission tools and review systems. I have additional experience wiring pipelines for motion capture work and wrangling new solutions for show-specific processes.</p>
     </div>
   </div>
   <div class="resume-block d-flex align-items-center">
     <img class="align-self-center hidden-xs-down" src="/assets/img/asset.png">
     <div class="align-self-center">
       <p class="resume-block-title">Rendering and Asset Management</p>
-      <p>Along with designing a new layer on top of Walt Disney Animation Studio's <i>CODA</i> render farm system, I created several backend technologies to improve the transfer, syncing, and tracking of assets between multi-site studios and local departments.</p>
+      <p>Along with designing a new layer on top of Walt Disney Animation Studio's <i>CODA</i> render farm system, I have additional experience creating several backend technologies to improve the transfer, syncing, and tracking of assets between multi-site studios and local departments.</p>
     </div>
   </div>
   <div class="resume-block d-flex align-items-center">
     <img class="align-self-center hidden-xs-down" src="/assets/img/cinematics.png">
     <div class="align-self-center">
       <p class="resume-block-title">Studio Technology</p>
-      <p>I have experience implementing several production tracking technologies and have familiarity with many industry standard software suites used throughout VFX, animation, and cinematic pipelines, including RV and Shotgun.</p>
+      <p>I have experience implementing production tracking technologies and have familiarity with many industry standard software suites used throughout VFX, animation, and cinematic pipelines, including RV and Shotgun.</p>
     </div>
   </div>
   <div class="resume-block d-flex align-items-center">
     <img class="align-self-center hidden-xs-down" src="/assets/img/tools.png">
     <div class="align-self-center">
       <p class="resume-block-title">Tools Development</p>
-      <p>As a tool developer, I create software to solve the technical challenges faced by artists, production staff, and engineers across multiple departments, which includes tools to automate the process of deploying new TD plugins.</p>
+      <p>As a tool developer, I create software to solve the technical challenges faced by artists, production staff, and engineers across multiple departments, including tools to automate the process of deploying new TD plugins and other studio-wide tools.</p>
     </div>
   </div>
 </div>
