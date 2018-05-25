@@ -22,6 +22,9 @@ url: "http://www.brysonlee.com" # the base hostname & protocol for your site, e.
 twitter_username: jekyllrb
 github_username:  jekyll
 
+feed:
+  path: /assets/feed.xml
+
 # Build settings
 markdown: kramdown
 # theme: minima
