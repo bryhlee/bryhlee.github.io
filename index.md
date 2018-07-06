@@ -85,6 +85,22 @@ In my free time, you can usually find me reading computer graphics journals, com
   <p class="resume-entry-title">Experience</p>
   <div class="resume-container">
     <div class="resume-header-container"> 
+      <img class="hidden-xs-down" src="/assets/img/blizzard_square.gif">
+      <div class="resume-header-text-container">
+        <p class="resume-header-title">Blizzard Entertainment</p>
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Research and Development, Intern</li>
+          <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>Blizzard Animation, Cinematics, Creative Development and Story</li>
+          <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>Summer 2018</li>
+        </ul>
+      </div>
+    </div>
+    <div class="resume-text-container">
+      <p>Developing the next generation of studio software and artist workflow tools to handle increasingly demanding productions that have grown exponentially in technical and artistic complexity, specifically in regards to rendering and workflow efficiency for artists in animation, modeling, texturing, and layout.</p>
+    </div>
+  </div>
+  <div class="resume-container">
+    <div class="resume-header-container"> 
       <img class="hidden-xs-down" src="/assets/img/ilm_square.png">
       <div class="resume-header-text-container">
         <p class="resume-header-title">Industrial Light and Magic</p>
