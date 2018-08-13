@@ -15,9 +15,9 @@ web_title: About | Bryson Lee
 ## Biography
 <img id="bio-portrait" src="/assets/img/me2.jpg">
 
-Hi all - my name is Bryson Lee, and I am a software engineer and TD in studio production engineering and pipeline technical direction. I primarily emphasize in Computer Graphics systems and tools development for visual effects, 3D animation, cinematics, and video games. I am currently a Research and Development Intern at [Blizzard Entertainment](http://www.blizzard.com) in the Cinematics and Creative Development divison, where I am helping to build the next generation of the studio's pipeline and further develop existing artist workflow tools. I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering and a specialization in Software Engineering and Computer Graphics Systems.
+Hi all - my name is Bryson Lee, and I'm a software engineer and technical director in Computer Graphics (CG) production systems and artist workflow tools for visual effects, 3D animation, and cinematics. I'm currently a Research and Development Intern at [Blizzard Entertainment](http://www.blizzard.com) in the Cinematics and Creative Development divison, where I'm helping build the next generation of the studio's pipeline and further improve existing artist workflow tools. I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering and a specialization in Software Engineering and Computer Graphics Systems.
 
-During the summer of 2017, I worked as a Production Engineering Intern at [Industrial Light and Magic](http://www.ilm.com/). While there, I collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) and [Pixar Animation](https://www.pixar.com/) to develop new rendering queuing systems, rebuild global studio tools, and improve core elements of ILM's media creation pipeline. Together with motion capture TDs and VFX supervisors, I facilitated projects to incorporate new and advanced forms of assets in a distributed artist workflow.
+During the summer of 2017, I worked as a Production Engineering Intern at [Industrial Light and Magic](http://www.ilm.com/). While there, I collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) to develop new rendering queuing systems, rebuild global studio tools, and improve core elements of ILM's media creation pipeline. Together with motion capture TDs and VFX supervisors, I facilitated projects to incorporate new and advanced forms of assets in a distributed artist workflow.
 
 Prior to ILM, I was a Software Engineering Intern at [Disney Interactive](https://dcpi.disney.com/). As part of the Media Technology Engineering divison, I designed and built new software to support Disney's growing asset management infrastructure and spearheaded multiple initiatives to revamp an existing creative content pipeline for web publishing.
 
@@ -25,7 +25,7 @@ Computer Graphics is both my academic specialization and my primary professional
 
 I look forward to this coming fall, where I will be pursuing an M.S. Computer Science at USC with a [concentration in Creative Technology and Multimedia Systems](https://www.cs.usc.edu/academic-programs/masters/multimedia-creative-technologies/).
 
-In my free time, you can usually find me reading computer graphics journals, composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a bit of [storywriting](https://en.wikipedia.org/wiki/Fiction_writing).
+In my free time, you can usually find me reading computer graphics journals, composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a bit of [storywriting](https://en.wikipedia.org/wiki/Fiction_writing) - feel free to check out my [blog](http://brysonlee.com/blog).
 
 
 ## Areas of Expertise
@@ -64,6 +64,18 @@ In my free time, you can usually find me reading computer graphics journals, com
 ## Resume
 <div class="resume-entry">
   <p class="resume-entry-title">Education</p>
+  <div class="resume-container">
+    <div class="resume-header-container"> 
+      <img class="hidden-xs-down" src="/assets/img/usc.jpeg">
+      <div class="resume-header-text-container">
+        <p class="resume-header-title">University of Southern California</p>
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fas fa-university fa-fw"></i></span>M.S. Computer Science (Multimedia and Creative Technology)</li>
+          <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>August 2018 - May 2020</li>
+        </ul>  
+      </div>
+    </div>
+  </div>
   <div class="resume-container">
     <div class="resume-header-container"> 
       <img class="hidden-xs-down" src="/assets/img/scu_square.png">
