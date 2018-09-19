@@ -23,6 +23,7 @@
   letter-spacing: 1px;
   display: none;
   margin-left: 4px;
+  color: #333333;
 
   .svg-inline--fa {
     margin-right: 6px;
@@ -43,6 +44,7 @@
 
 /* Wrapper for navbar and navbar collapse content on sm and lower devices */
 .small-bar {
+
   margin-bottom: 20px;
   font-family: 'Helvetica','Source Sans Pro', 'Helvetica', serif;
 
@@ -110,45 +112,54 @@
     }
   }
 
-  .social-media {
-    a {
-      margin-bottom: 10px;
-      border-bottom: 0px;
-    }
-
-    .icon {
-      margin-top: 20px;
-      width: 37px;
-      margin-right: 10px;
-      text-decoration: none;
-      border-radius: 2px;
-
-      &:hover {
-        opacity: 0.5;
-      }
-    }
-  }
+  
 
   /* Wrapper for sidebar */
   .sidebar-wrapper {
     padding-left: 0px;
     padding-right: 0px;
     margin-bottom: 15px;
+    color: #333333;
 
+    p > a, li > a {
+      color: #333333;
+      border-bottom: 1px dotted #333333; /* efefef */
+    }
 
     h2 {
       font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 1px;
+      letter-spacing: .5px;
       margin-bottom: 14px;
-      color: #333333;
       font-size: 24px;
     }
 
+    .social-media {
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        margin-bottom: 10px;
+        border-bottom: 0px;
+      }
+
+      .icon {
+        margin-top: 20px;
+        width: 36px;
+        text-decoration: none;
+        border-radius: 2px;
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
     .sidebar-fix {
+      border-radius: 3px;
       padding: 15px;
-      background-color: #f7f7f7; /* or a colored version depends on my mood */
+      background-color: #f5f5f5; /* #1E232B; */
+      border: 2px solid #292b2c;
     }
 
     .portrait {
@@ -156,7 +167,7 @@
         width: 200px;
         height: auto;
       }
-      border: 1px solid #000;
+      border: 1px solid #000000;
       margin-bottom: 14px;
 
       img {
@@ -204,7 +215,7 @@
       font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 1px;
+      letter-spacing: .5px;
     }
 
     ul {
@@ -469,7 +480,7 @@
         font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
         font-weight: 700;
         text-transform: uppercase;
-        letter-spacing: 1px;
+        letter-spacing: .5px;
       }
       .post-meta {
         .post-date {

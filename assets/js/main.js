@@ -31,12 +31,12 @@ $(document).ready(function(){
   // Sticky sidebar (uses pollyfill and normal sticky class)
   // Contains additional functionality for return to top
   $window.resize(function resize(){
-    if ($window.width() <= 576 || $window.height() <= 520) {
+    if ($window.width() <= 576 || $window.height() <= 570) {
       $('#return-to-top').hide();
       Stickyfill.remove($sidebar);
       return $sidebar.removeClass('sticky');
     }
-    $returntop.css('top', $sidebar.outerHeight() + 40);
+    $returntop.css('top', $sidebar.outerHeight() + 45);
     Stickyfill.add($sidebar);
     $sidebar.addClass('sticky');
   }).trigger('resize');
