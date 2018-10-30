@@ -2,22 +2,17 @@ $(document).ready(function(){
 
   // Cached jQuery elements
   var $window = $(window),
-      $sidebar = $('.sidebar-fix');
+      $sidebar = $('.sticky-container');
 
   // Scroll to top button
   var $returntop = $('#return-to-top');
   Stickyfill.add($returntop);
   $returntop.css('top', $sidebar.outerHeight() + 40);
   $window.scroll(function() {
-    if ($window.width() <= 576 || $window.height() <= 550) {
-      $('#return-to-top').hide();
-    }
-    else {
-      if ($(this).scrollTop() >= 150) {
-        $('#return-to-top').fadeIn(130);
-      } else {
-        $('#return-to-top').fadeOut(130);
-      }
+    if ($(this).scrollTop() >= 150) {
+      $('#return-to-top').fadeIn(100);
+    } else {
+      $('#return-to-top').fadeOut(100);
     }
   });
   $('#return-to-top').click(function() { 

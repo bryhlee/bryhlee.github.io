@@ -19,11 +19,14 @@
 
 #return-to-top {
   /* Top attribute is automatically recalc'd in main.js */
-  font-size: 12px;
-  letter-spacing: 1px;
+  // Lags due to GPU nonsense https://stackoverflow.com/questions/23396798/
+  -webkit-transform: translatez(0);
+  -moz-transform: translatez(0);
+  -ms-transform: translatez(0);
+  -o-transform: translatez(0);
+  transform: translatez(0);
+  margin-left: 15px;
   display: none;
-  margin-left: 4px;
-  color: #333333;
 
   .svg-inline--fa {
     margin-right: 6px;
@@ -74,7 +77,7 @@
   .navbar-brand {
     float: right;
     margin-left: 12px;
-    font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
+    font-family: 'Helvetica', serif;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -127,10 +130,8 @@
     }
 
     h2 {
-      font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
+      font-family: 'Helvetica', serif;
       font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: .5px;
       margin-bottom: 14px;
       font-size: 24px;
     }
@@ -158,8 +159,6 @@
     .sidebar-fix {
       border-radius: 2px;
       padding: 15px;
-      background-color: #f5f5f5; /* #1E232B; */
-      border: 2px solid #292b2c;
     }
 
     .portrait {
@@ -212,10 +211,11 @@
     }
 
     h1, h2 {
-      font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
+      // font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
+      font-family: 'Helvetica', serif;
       font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: .5px;
+      // text-transform: uppercase;
+      // letter-spacing: .5px;
     }
 
     ul {
@@ -227,12 +227,7 @@
       margin-bottom: 24px;
 
       .page-title {
-        overflow: hidden;  
-        /* Removed due to it being unecessary
-        padding-bottom: 3px;
-        border-bottom: 2px solid #a5a5a5;
-        */
-
+        overflow: hidden;
         h1 {
           margin-bottom: 0px;
         }
@@ -409,7 +404,6 @@
               vertical-align: middle;
 
               .resume-header-title {
-                /* font-family: 'Bitter', 'Open Sans', serif !important; */
                 padding-top: 0px;
                 font-size: 18px;
                 display: inline-block;
@@ -477,9 +471,8 @@
         margin-bottom: 10px;
         color: #333333;
         font-size: 28px;
-        font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
+        font-family: 'Helvetica', serif;
         font-weight: 700;
-        text-transform: uppercase;
         letter-spacing: .5px;
       }
       .post-meta {

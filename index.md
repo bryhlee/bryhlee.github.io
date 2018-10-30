@@ -9,6 +9,8 @@ web_title: About | Bryson Lee
 
 * [Biography](#biography)
 * [Areas of Expertise](#areas-of-expertise)
+* [Education](#education)
+* [Experience](#experience)
 * [Resume](#resume)
 
 
@@ -59,9 +61,8 @@ In my free time, you can usually find me reading computer graphics journals, com
 </div>
 
 
-## Resume
+## Education
 <div class="resume-entry">
-  <p class="resume-entry-title">Education</p>
   <div class="resume-container">
     <div class="resume-header-container"> 
       <img class="hidden-xs-down" src="/assets/img/usc.jpeg">
@@ -88,17 +89,17 @@ In my free time, you can usually find me reading computer graphics journals, com
   </div>
 </div>
 
+## Experience
 <div class="resume-entry">
-  <p class="resume-entry-title">Experience</p>
   <div class="resume-container">
     <div class="resume-header-container"> 
       <img class="hidden-xs-down" src="/assets/img/blizzard_square.gif">
       <div class="resume-header-text-container">
         <p class="resume-header-title">Blizzard Entertainment</p>
         <ul class="fa-ul">
-          <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Research and Development, Intern</li>
+          <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Associate Software Engineer, R&D (September 2018 - Current)<br /> Research and Development, Intern (Summer 2018)</li>
           <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>Blizzard Animation, Cinematics, Creative Development and Story</li>
-          <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>Summer 2018</li>
+          <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>June 2018 - Present</li>
         </ul>
       </div>
     </div>
@@ -156,8 +157,8 @@ In my free time, you can usually find me reading computer graphics journals, com
   </div>
 </div>
 
+## Resume
 <div class="resume-entry">
-  <p class="resume-entry-title">Download</p>
   <p>Download my resume: <a href="/assets/files/Bryson_Lee_Resume.pdf">PDF</a>, <a href="/assets/files/Bryson_Lee_Resume.docx">Word Document</a></p>
 </div>
 

@@ -6,8 +6,6 @@ blog_title: "vcontrol: A Lightweight VCS for Digital Art Assets"
 new: true
 ---
 
-![vcontrol]({{ site.url }}/assets/img_posts/vcontrol_logo.png)
-
 # A VCS for Digital Artists
 Increasingly in recent years, digital artists have been using version control systems (VCS) originally meant for software developers to manage complex non-text/binary files. Alongside Jackson Beadle, I decided to develop my own VCS system, *vcontrol*, specifically for nontext and binary files. In essence, *vcontrol* utilizes a simplified and lightweight architecture allowing digital artist to effectively version control art assets in a local environment before officially staging them for review. *vcontrol* was built entirely using Python and packaged using PyInstaller.
 
