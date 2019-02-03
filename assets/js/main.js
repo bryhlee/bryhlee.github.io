@@ -4,6 +4,7 @@ $(document).ready(function(){
   var $window = $(window),
       $sidebar = $('.sticky-container');
 
+
   // Sticky sidebar (uses pollyfill and normal sticky class)
   // Contains additional functionality for return to top
   $window.resize(function resize(){
@@ -12,7 +13,6 @@ $(document).ready(function(){
       Stickyfill.remove($sidebar);
       return $sidebar.removeClass('sticky');
     }
-    $returntop.css('top', $sidebar.outerHeight() + 45);
     Stickyfill.add($sidebar);
     $sidebar.addClass('sticky');
   }).trigger('resize');
