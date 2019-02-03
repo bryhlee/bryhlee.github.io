@@ -4,25 +4,6 @@ $(document).ready(function(){
   var $window = $(window),
       $sidebar = $('.sticky-container');
 
-  // Scroll to top button
-  var $returntop = $('#return-to-top');
-  Stickyfill.add($returntop);
-  $returntop.css('top', $sidebar.outerHeight() + 40);
-  $window.scroll(function() {
-    if ($(this).scrollTop() >= 150) {
-      $('#return-to-top').fadeIn(100);
-    } else {
-      $('#return-to-top').fadeOut(100);
-    }
-  });
-  $('#return-to-top').click(function() { 
-    $('html, body').stop().animate({
-      'scrollTop': 0
-    }, 300, 'swing', function () {
-        window.location.hash = target;
-    });
-  });
-
   // Sticky sidebar (uses pollyfill and normal sticky class)
   // Contains additional functionality for return to top
   $window.resize(function resize(){
@@ -62,24 +43,4 @@ $(document).ready(function(){
         window.location.hash = target;
     });
   });
-
-  // Siema carasoul for the profile image
-  const cara = new Siema({
-    selector: '.siema',
-    duration: 500,
-    easing: 'linear',
-    perPage: 1,
-    startIndex: 0,
-    draggable: true,
-    threshold: 20,
-    loop: true,
-  });
-
-  // Loop through the Siema carasoul forever
-  (function loop() {
-    setTimeout(function () {
-      cara.next();
-      loop()
-    }, 7500);
-  }());
 });

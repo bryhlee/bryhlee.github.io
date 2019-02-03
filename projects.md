@@ -2,7 +2,6 @@
 layout: page
 title: Projects
 permalink: /projects/
-image: projects
 section: projects
 web_title: Projects | Bryson Lee
 ---
@@ -17,9 +16,9 @@ web_title: Projects | Bryson Lee
 ## Overview
 Here, you will find details regarding some of the projects I have been working on.
 
-I started programming in middle school, creating game mods for *Warcraft 3* using [JASS](https://en.wikipedia.org/wiki/JASS) (a truly ancient scripting language). Today, I build technology across the studio pipeline, helping artists and engineers create increasingly complex computer graphics and visuals.
+I started programming in middle school, creating game mods for *Warcraft 3* using [JASS](https://en.wikipedia.org/wiki/JASS) (a truly ancient scripting language). Today, I create technology used across the studio pipeline, helping artists and engineers produce increasingly complex computer graphics and visuals.
 
-My mentor at ILM used to tell me that "If you're not breaking something, you're not learning - just don't do it too much." Since then, I have always aimed to achieve the same level of proactive development: one that emphasizes not being afraid to try something new and challenging in order to find the most rewarding solution.
+I was once told that "if you're not breaking something, you're not learning - just don't do it too much." Since then, I have always aimed to achieve the same level of proactive development: one that emphasizes not being afraid to try something new and challenging in order to find the most rewarding solution.
 
 ## Pipeline Tools
 <div class="project-entry d-flex">
@@ -34,7 +33,6 @@ My mentor at ILM used to tell me that "If you're not breaking something, you're 
   </div>
 </div>
 <div class="project-entry d-flex">
-  <img class="align-self-start hidden-xs-down" src="/assets/img/matterhorn_square.png">
   <div class="align-self-start">
     <h3 class="project-title">Matterhorn Digital Asset Manager</h3>
     <p>Image, video, and file manager for digital assets. Built multiple administrative tools and interfaces for video transcoding, metrics and diagnostics, meta data tracking, legacy tracking, and indexing helper tools.</p>
@@ -68,7 +66,6 @@ My mentor at ILM used to tell me that "If you're not breaking something, you're 
   </div>
 </div>
 <div class="project-entry d-flex">
-  <img class="align-self-start hidden-xs-down" src="/assets/img/lattice_rotate.gif">
   <div class="align-self-start">
     <h3 class="project-title">Cubic Lattice Constructs for Better Volumetric Pre-Visualizations<span class="badge">In Progress</span></h3>
     <p>This method creates a lossy optimization for volumetric simulations by building a cubic lattice in a 3D space, and providing a better pre-visualization.</p>

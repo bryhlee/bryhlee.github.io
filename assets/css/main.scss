@@ -17,32 +17,18 @@
   z-index: 3;
 }
 
-#return-to-top {
-  /* Top attribute is automatically recalc'd in main.js */
-  // Lags due to GPU nonsense https://stackoverflow.com/questions/23396798/
-  -webkit-transform: translatez(0);
-  -moz-transform: translatez(0);
-  -ms-transform: translatez(0);
-  -o-transform: translatez(0);
-  transform: translatez(0);
-  margin-left: 15px;
-  display: none;
-
-  .svg-inline--fa {
-    margin-right: 6px;
-  }
-
-  &:hover {
-    cursor: pointer;
-  }
-}
-
 #egggif {
   position: absolute;
   top: 30px;
   left: auto;
   right: auto;
   display: none;
+}
+
+body {
+  line-height: 1.6;
+  color: #444444;
+  background-color: #fefefe;
 }
 
 /* Wrapper for navbar and navbar collapse content on sm and lower devices */
@@ -79,8 +65,7 @@
     margin-left: 12px;
     font-family: 'Helvetica', serif;
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    font-size: 34px;
   }
 
   nav {
@@ -115,7 +100,6 @@
     }
   }
 
-  
 
   /* Wrapper for sidebar */
   .sidebar-wrapper {
@@ -224,7 +208,7 @@
     }
 
     .page-header {
-      margin-bottom: 24px;
+      margin-bottom: 12px;
 
       .page-title {
         overflow: hidden;

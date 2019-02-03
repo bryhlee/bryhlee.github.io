@@ -2,7 +2,6 @@
 layout: page
 title: About
 image: list
-section: about
 web_title: About | Bryson Lee
 ---
 
@@ -23,9 +22,9 @@ During the summer of 2017, I worked as a Production Engineering Intern at [Indus
 
 Prior to ILM, I was a Software Engineering Intern at [Disney Interactive](https://dcpi.disney.com/). As part of the Media Technology Engineering divison, I designed and built new software to support Disney's growing asset management infrastructure and spearheaded multiple initiatives to revamp an existing creative content pipeline for web publishing.
 
-Computer Graphics is both my academic specialization and my primary professional interest. As a contributor to the computer graphics and SIGGRAPH community, I am the founding president of Santa Clara University's SIGGRAPH Student Chapter, a [chartered ACM chapter](https://www.siggraph.org/connect/student-chapters) that runs educational workshops for topics in computer graphics and interactive media.
+Computer Graphics is both my academic specialization and my primary professional interest. As a contributor to the computer graphics and SIGGRAPH community, I was the founding president of Santa Clara University's SIGGRAPH Student Chapter, a chartered ACM chapter that ran educational workshops for topics in computer graphics and interactive media.
 
-In my free time, you can usually find me reading computer graphics journals, composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a bit of [storywriting](https://en.wikipedia.org/wiki/Fiction_writing) - feel free to check out my [blog](http://brysonlee.com/blog).
+In my free time, you can usually find me reading composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a bit of [storywriting](https://en.wikipedia.org/wiki/Fiction_writing) - feel free to check out my [blog](http://brysonlee.com/blog).
 
 
 ## Areas of Expertise
@@ -34,28 +33,21 @@ In my free time, you can usually find me reading computer graphics journals, com
     <img class="align-self-center hidden-xs-down" src="/assets/img/sketching.png">
     <div class="align-self-center">
       <p class="resume-block-title">Pipeline Technical Direction</p>
-      <p>At ILM, I worked extensively with Maya and Nuke and created scripts to improve artist workflows, including asset submission tools and review systems. I have additional experience wiring pipelines for motion capture work and wrangling new solutions for show-specific processes.</p>
+      <p>I design and develop pipeline tools to meet the technical needs of the studio. Part of that job includes maintaing a wide array of tools, workflows, and systems to assist artists and production staff.</p>
     </div>
   </div>
   <div class="resume-block d-flex align-items-center">
     <img class="align-self-center hidden-xs-down" src="/assets/img/server.png">
     <div class="align-self-center">
       <p class="resume-block-title">Rendering and Asset Management</p>
-      <p>Along with designing a new layer on top of Walt Disney Animation Studio's <i>CODA</i> render farm system, I have additional experience creating several backend technologies to improve the transfer, syncing, and tracking of assets between multi-site studios and local departments.</p>
-    </div>
-  </div>
-  <div class="resume-block d-flex align-items-center">
-    <img class="align-self-center hidden-xs-down" src="/assets/img/photo.png">
-    <div class="align-self-center">
-      <p class="resume-block-title">Studio Technology</p>
-      <p>I have experience implementing production tracking technologies and have familiarity with many industry standard software suites used throughout VFX, animation, and cinematic pipelines, including RV and Shotgun.</p>
+      <p>I have experience designing, developing, and ultimately integrating asset management tools into industry standard DCC software, like Maya, Nuke, and Katana. I also create backend technologies to improve the transfer, syncing, and tracking of assets between multi-site studios and local departments.</p>
     </div>
   </div>
   <div class="resume-block d-flex align-items-center">
     <img class="align-self-center hidden-xs-down" src="/assets/img/code.png">
     <div class="align-self-center">
-      <p class="resume-block-title">Tools Development</p>
-      <p>As a tool developer, I create software to solve the technical challenges faced by artists, production staff, and engineers across multiple departments, including tools to automate the process of deploying new TD plugins and other studio-wide tools.</p>
+      <p class="resume-block-title">Studio Technology</p>
+      <p>A large part of my job involves managing media pipelines and implementing production tracking technologies. As a result, I have familiarity with many industry standard software suites used throughout VFX, animation, and cinematic pipelines, including RV and Shotgun.</p>
     </div>
   </div>
 </div>
@@ -136,23 +128,7 @@ In my free time, you can usually find me reading computer graphics journals, com
       </div>
     </div>
     <div class="resume-text-container">
-      <p>Within the Media Technology Engineering Team, created administrative tools for digital asset management, including video/image media + file metadata (Metrics, statistical analysis, and database management). Improved the scalability of DI's in-house asset management system through design of database helper functions. Implemented software to manage reindex and asset mapping for Disney's creative content and publishing workflow.</p>
-    </div>
-  </div>
-  <div class="resume-container">
-    <div class="resume-header-container"> 
-      <img class="hidden-xs-down" src="/assets/img/hoana_square.png">
-      <div class="resume-header-text-container">
-        <p class="resume-header-title">Hoana Medical</p>
-        <ul class="fa-ul">
-          <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Software Engineer, Intern</li>
-          <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>R&D Software, Visualizations</li>
-          <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>Summer 2015</li>
-        </ul>
-      </div>
-    </div>
-    <div class="resume-text-container">
-      <p>Engineered tool to analyze wireless data packages from sensory data and to detect anomalies. Achieved 99% message integrity through checksum tool implementation. Built medical monitoring mobile and web application that improved load times by 25% compared to the previous implementations with additional live-updating graphs. Drafted feature set for patient communication.</p>
+      <p>Within the Media Technology Engineering Team, created administrative tools for digital asset management, including video/image media and file metadata (Metrics, statistical analysis, and database management). Improved the scalability of DI's in-house asset management system through design of database helper functions. Implemented software to manage reindex and asset mapping for Disney's creative content and publishing workflow.</p>
     </div>
   </div>
 </div>
