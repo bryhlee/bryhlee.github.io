@@ -16,7 +16,7 @@ web_title: About | Bryson Lee
 ## Biography
 <img id="bio-portrait" src="/assets/img/me2.jpg">
 
-Hi all - my name is Bryson Lee, and I'm a software engineer and technical director in Computer Graphics (CG) production systems and artist workflow tools for visual effects, 3D animation, and cinematics. I'm currently an Associate Research and Development Engineer at [Blizzard Entertainment](http://www.blizzard.com) in the Animation and Cinematics divison, where I'm helping to build the next generation of the studio's pipeline and further improve existing software, systems, and tools. I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering and am currently pursuing an M.S. in Computer Science at USC with a [concentration in Creative Technology and Multimedia Systems](https://www.cs.usc.edu/academic-programs/masters/).
+Hi all - my name is Bryson Lee, and I'm a software engineer and technical director in Computer Graphics (CG) production systems and artist workflow tools for 3D animation, visual effects, and video games. I'm currently an Associate Research and Development Engineer at [Blizzard Entertainment](http://www.blizzard.com) in the Animation and Cinematics divison, where I'm helping to build the next generation of the studio's pipeline and further improve existing software, systems, and tools. I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering and am currently pursuing an M.S. in Computer Science at USC with a concentration in Creative Technology and Multimedia Systems.
 
 During the summer of 2017, I worked as a Production Engineering Intern at [Industrial Light and Magic](http://www.ilm.com/). While there, I collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) to develop new rendering queuing systems, rebuild global studio tools, and improve core elements of ILM's media creation pipeline. Together with motion capture TDs and VFX supervisors, I facilitated projects to incorporate new and advanced forms of assets in a distributed artist workflow.
 
@@ -24,34 +24,33 @@ Prior to ILM, I was a Software Engineering Intern at [Disney Interactive](https:
 
 Computer Graphics is both my academic specialization and my primary professional interest. As a contributor to the computer graphics and SIGGRAPH community, I was the founding president of Santa Clara University's SIGGRAPH Student Chapter, a chartered ACM chapter that ran educational workshops for topics in computer graphics and interactive media.
 
-In my free time, you can usually find me reading composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a bit of [storywriting](https://en.wikipedia.org/wiki/Fiction_writing) - feel free to check out my [blog](http://brysonlee.com/blog).
+In my free time, you can usually find me composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a bit of [storywriting](https://en.wikipedia.org/wiki/Fiction_writing) - feel free to check out my [blog](http://brysonlee.com/blog).
 
 
 ## Areas of Expertise
 <div class="resume-entry">
   <div class="resume-block d-flex align-items-center">
-    <img class="align-self-center hidden-xs-down" src="/assets/img/sketching.png">
+    <img class="align-self-center hidden-xs-down" src="/assets/img/code.png">
     <div class="align-self-center">
       <p class="resume-block-title">Pipeline Technical Direction</p>
-      <p>I design and develop pipeline tools to meet the technical needs of the studio. Part of that job includes maintaing a wide array of tools, workflows, and systems to assist artists and production staff.</p>
+      <p>I create pipeline tools to meet the technical needs of the studio. This includes maintaing a wide array of tools, workflows, and systems to assist artists and production staff.</p>
     </div>
   </div>
   <div class="resume-block d-flex align-items-center">
     <img class="align-self-center hidden-xs-down" src="/assets/img/server.png">
     <div class="align-self-center">
       <p class="resume-block-title">Rendering and Asset Management</p>
-      <p>I have experience designing, developing, and ultimately integrating asset management tools into industry standard DCC software, like Maya, Nuke, and Katana. I also create backend technologies to improve the transfer, syncing, and tracking of assets between multi-site studios and local departments.</p>
+      <p>I have experience building high-performance and scalable asset management systems and integrating them as tools into industry standard DCC software such as Maya, Nuke, and Katana. I also design server technologies to improve the transfer, syncing, and tracking of assets between multi-site studios and local departments.</p>
     </div>
   </div>
   <div class="resume-block d-flex align-items-center">
-    <img class="align-self-center hidden-xs-down" src="/assets/img/code.png">
+    <img class="align-self-center hidden-xs-down" src="/assets/img/sketching.png">
     <div class="align-self-center">
       <p class="resume-block-title">Studio Technology</p>
-      <p>A large part of my job involves managing media pipelines and implementing production tracking technologies. As a result, I have familiarity with many industry standard software suites used throughout VFX, animation, and cinematic pipelines, including RV and Shotgun.</p>
+      <p>I am responsible for integrating and organizing media pipelines and implementing production tracking technologies. As a result, I have familiarity with many industry standard software suites used throughout CG studio pipelines, including RV and Shotgun.</p>
     </div>
   </div>
 </div>
-
 
 ## Education
 <div class="resume-entry">
@@ -135,7 +134,7 @@ In my free time, you can usually find me reading composing music, playing piano,
 
 ## Resume
 <div class="resume-entry">
-  <p>Download my resume: <a href="/assets/files/Bryson_Lee_Resume.pdf">PDF</a>, <a href="/assets/files/Bryson_Lee_Resume.docx">Word Document</a></p>
+  <p>View and download a PDF of my resume <a href="/assets/files/Bryson_Lee_Resume.pdf">here</a>.</p>
 </div>
 
 <img id="egggif" src="/assets/img/egg.gif">

@@ -7,18 +7,10 @@ web_title: Projects | Bryson Lee
 ---
 
 
-* [Overview](#overview)
 * [Pipeline Tools](#pipeline-tools)
 * [Technical Direction](#technical-direction)
 * [Art/Story](#art-and-story)
 
-
-## Overview
-Here, you will find details regarding some of the projects I have been working on.
-
-I started programming in middle school, creating game mods for *Warcraft 3* using [JASS](https://en.wikipedia.org/wiki/JASS) (a truly ancient scripting language). Today, I create technology used across the studio pipeline, helping artists and engineers produce increasingly complex computer graphics and visuals.
-
-I was once told that "if you're not breaking something, you're not learning - just don't do it too much." Since then, I have always aimed to achieve the same level of proactive development: one that emphasizes not being afraid to try something new and challenging in order to find the most rewarding solution.
 
 ## Pipeline Tools
 <div class="project-entry d-flex">
