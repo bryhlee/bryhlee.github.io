@@ -10,7 +10,6 @@ web_title: About | Bryson Lee
 * [Areas of Expertise](#areas-of-expertise)
 * [Education](#education)
 * [Experience](#experience)
-* [Resume](#resume)
 
 
 ## Biography
@@ -22,9 +21,13 @@ During the summer of 2017, I worked as a Production Engineering Intern at [Indus
 
 Prior to ILM, I was a Software Engineering Intern at [Disney Interactive](https://dcpi.disney.com/). As part of the Media Technology Engineering divison, I designed and built new software to support Disney's growing asset management infrastructure and spearheaded multiple initiatives to revamp an existing creative content pipeline for web publishing.
 
-Computer Graphics is both my academic specialization and my primary professional interest. As a contributor to the computer graphics and SIGGRAPH community, I was the founding president of Santa Clara University's SIGGRAPH Student Chapter, a chartered ACM chapter that ran educational workshops for topics in computer graphics and interactive media.
+Creative technology and computer graphics is my academic specialization and my primary professional interest. As a contributor to the [ACM SIGGRAPH](https://www.siggraph.org/) community, I was the founding president of Santa Clara University's SIGGRAPH Student Chapter, a chartered ACM chapter that ran educational workshops for topics in computer graphics and interactive media.
+
+Besides creative technology and CG, my other technical interests include interactive media, video transcoding, media streaming tools, scalable UI frameworks (both web and desktop paradigms), high performance computing, and 3D/2D animation software.
 
 In my free time, you can usually find me composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a bit of [storywriting](https://en.wikipedia.org/wiki/Fiction_writing) - feel free to check out my [blog](http://brysonlee.com/blog).
+
+You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Resume.pdf).
 
 
 ## Areas of Expertise
@@ -39,7 +42,7 @@ In my free time, you can usually find me composing music, playing piano, or [des
   <div class="resume-block d-flex align-items-center">
     <img class="align-self-center hidden-xs-down" src="/assets/img/server.png">
     <div class="align-self-center">
-      <p class="resume-block-title">Rendering and Asset Management</p>
+      <p class="resume-block-title">Asset Management and Render Queueing</p>
       <p>I have experience building high-performance and scalable asset management systems and integrating them as tools into industry standard DCC software such as Maya, Nuke, and Katana. I also design server technologies to improve the transfer, syncing, and tracking of assets between multi-site studios and local departments.</p>
     </div>
   </div>
@@ -130,11 +133,6 @@ In my free time, you can usually find me composing music, playing piano, or [des
       <p>Within the Media Technology Engineering Team, created administrative tools for digital asset management, including video/image media and file metadata (Metrics, statistical analysis, and database management). Improved the scalability of DI's in-house asset management system through design of database helper functions. Implemented software to manage reindex and asset mapping for Disney's creative content and publishing workflow.</p>
     </div>
   </div>
-</div>
-
-## Resume
-<div class="resume-entry">
-  <p>View and download a PDF of my resume <a href="/assets/files/Bryson_Lee_Resume.pdf">here</a>.</p>
 </div>
 
 <img id="egggif" src="/assets/img/egg.gif">

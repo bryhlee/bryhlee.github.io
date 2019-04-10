@@ -7,12 +7,11 @@ web_title: Projects | Bryson Lee
 ---
 
 
-* [Pipeline Tools](#pipeline-tools)
-* [Technical Direction](#technical-direction)
-* [Art/Story](#art-and-story)
+* [Applications and Tools](#applications-and-tools)
+* [Pipeline Technical Direction](#pipeline-technical-direction)
 
 
-## Pipeline Tools
+## Applications and Tools
 <div class="project-entry d-flex">
   <div class="align-self-start">
     <h3 class="project-title">Pipeworks Project<span class="badge">In Progress</span></h3>
@@ -45,8 +44,17 @@ web_title: Projects | Bryson Lee
     </ul>
   </div>
 </div>
+<div class="project-entry d-flex">
+  <div class="align-self-start">
+    <h3 class="project-title">Life Manager<span class="badge">In Progress</span></h3>
+    <p>A desktop and mobile tool that links to a cloud-based system to manage important dates, set reminders, schedule recurring payments, and plan personal projects. Life Manager is inspired by ticket-based project management strategies allowing you to track your work at a professional level and manage it efficiently. While most applications sacrifice control and flexibility for intuitive interfaces, Life Manager recognizes the importance in creating powerful software with lots of depth.</p>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>In Progress</li>
+    </ul>
+  </div>
+</div>
 
-## Technical Direction
+## Pipeline Technical Direction
 <div class="project-entry d-flex">
   <div class="align-self-start">
     <h3 class="project-title">A Better Maya Turntable Plugin<span class="badge">In Progress</span></h3>
@@ -67,18 +75,3 @@ web_title: Projects | Bryson Lee
     </ul>
   </div>
 </div>
-
-## Art and Story
-<div class="project-entry d-flex">
-  <img class="align-self-start hidden-xs-down" src="/assets/img/audition_square.png">
-  <div class="align-self-start">
-    <h3 class="project-title">The Audition: A 3D Animated Short Film</h3>
-    <p>A 3D animated short film created for a 3D Animation and Modeling class.</p>
-    <ul class="fa-ul">
-      <li><span class="fa-li"><i class="fas fa-code fa-fw"></i></span>Maya, Mental Ray, Adobe Premiere</li>
-      <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>Spring 2016</li>
-      <li><span class="fa-li"><i class="fas fa-link fa-fw"></i></span><a href="https://vimeo.com/253540972" target="_blank">https://vimeo.com/253540972</a></li>
-    </ul>
-  </div>
-</div>
-
