@@ -47,7 +47,7 @@ web_title: Projects | Bryson Lee
 <div class="project-entry d-flex">
   <div class="align-self-start">
     <h3 class="project-title">Life Manager<span class="badge">In Progress</span></h3>
-    <p>A desktop and mobile tool that links to a cloud-based system to manage important dates, set reminders, schedule recurring payments, and plan personal projects. Life Manager is inspired by ticket-based project management strategies allowing you to track your work at a professional level and manage it efficiently. While most applications sacrifice control and flexibility for intuitive interfaces, Life Manager recognizes the importance in creating powerful software with lots of depth.</p>
+    <p>A desktop and mobile tool that links to a cloud-based system to manage important dates, set reminders, schedule recurring payments, and plan personal projects. Life Manager is inspired by ticket-based project management strategies and allows you to track, manage, and sort your work efficiently. While most applications sacrifice control and flexibility to accomodate for intuitive interfaces, Life Manager recognizes the importance in creating powerful software with depth and appropriate complexity for the task. Coincidentally, the task of managing tasks is something that can become swift and efficient given the right toolset. That's our philosophy, anyway.</p>
     <ul class="fa-ul">
       <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>In Progress</li>
     </ul>
