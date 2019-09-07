@@ -3,6 +3,8 @@
 
 /* Import URLs */
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Merriweather:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,500,700,800,900&display=swap');
 
 .sticky {
   position: -webkit-sticky;
@@ -29,24 +31,34 @@ body {
   line-height: 1.6;
   color: #444444;
   background-color: #fefefe;
+  font-family: 'Helvetica', serif;
+}
+
+h1, h2, h3 {
+  // font-family: 'Patua One', cursive;
+  // font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
+  font-family: 'Helvetica', serif;
+  // font-family: 'Lora', serif;
+  font-weight: 700;
+  color: #444444;
+  // text-transform: uppercase;
+  // letter-spacing: .3px;
+}
+
+/* Link styling */
+a {
+  color: #333333;
+  border-bottom: 1px dotted #333333;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 1px solid #333333;
+  }
 }
 
 /* Wrapper for navbar and navbar collapse content on sm and lower devices */
 .small-bar {
-
   margin-bottom: 20px;
-  font-family: 'Helvetica','Source Sans Pro', 'Helvetica', serif;
-
-  a {
-    color: #a5a5a5;
-    border-bottom: 1px dotted #a5a5a5;
-    text-decoration: none;
-    font-size: 18px;
-
-    &:hover {
-      border-bottom: 1px solid #a5a5a5;
-    }
-  }
 
   ul {
     color: #a5a5a5;
@@ -63,7 +75,6 @@ body {
   .navbar-brand {
     float: right;
     margin-left: 12px;
-    font-family: 'Helvetica', serif;
     font-weight: 700;
     font-size: 24px;
   }
@@ -73,9 +84,25 @@ body {
   }
 }
 
+.masthead {
+  background-color: #ffcc2f;
+  padding: 20px;
+
+  h1 {
+    font-size: 80px;
+    color: #ef5734;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #543729;
+  }
+}
+
 /* Wrapper for entire website */
 .container-wrapper {
-  max-width: 940px;
+  max-width: 1000px;
   padding-bottom: 30px;
 
   @media (min-width: 576px) {
@@ -84,22 +111,6 @@ body {
   @media (min-width: 767px) {
     margin-top: 30px;
   }
-
-  /* Font Styling */
-  /* TODO: Remove text styling from everwhere else if possible */
-  font-family: 'Helvetica','Source Sans Pro', 'Helvetica', serif;
-
-  /* Link styling */
-  a {
-    color: #333333;
-    border-bottom: 1px dotted #333333;
-    text-decoration: none;
-
-    &:hover {
-      border-bottom: 1px solid #333333;
-    }
-  }
-
 
   /* Wrapper for sidebar */
   .sidebar-wrapper {
@@ -114,15 +125,14 @@ body {
     }
 
     h2 {
-      font-family: 'Helvetica', serif;
-      font-weight: 700;
-      margin-bottom: 14px;
+      margin-bottom: 10px;
       font-size: 24px;
     }
 
     .social-media {
       display: flex;
       justify-content: space-between;
+      margin-right: 30px;
 
       a {
         margin-bottom: 10px;
@@ -139,10 +149,6 @@ body {
           opacity: 0.5;
         }
       }
-    }
-    .sidebar-fix {
-      border-radius: 2px;
-      padding: 15px;
     }
 
     .portrait {
@@ -189,17 +195,8 @@ body {
   .page {
 
     h1 {
-      color: #333333;
       font-size: 34px;
-      margin-bottom: 40px;
-    }
-
-    h1, h2 {
-      // font-family: 'Raleway', 'Source Sans Pro', 'Helvetica', serif;
-      font-family: 'Helvetica', serif;
-      font-weight: 700;
-      // text-transform: uppercase;
-      // letter-spacing: .5px;
+      margin-bottom: 14px;
     }
 
     ul {
@@ -230,14 +227,6 @@ body {
     .page-content {
 
       #bio-portrait {
-        /*
-        margin-top: 10px;
-        margin-bottom: 10px;
-
-        max-width: 100%;
-        display: block;
-        margin: auto;
-        */
         margin: 30px;
         object-fit: cover;
         width:230px;
@@ -252,11 +241,15 @@ body {
 
       /* Override h2 for use in Markdown */
       h2 {
-        padding-top: 14px; /* For section linking (HTML fragment supported) */
-        margin-bottom: 16px;
+        padding-top: 10px; /* For section linking (HTML fragment supported) */
+        margin-bottom: 14px;
         font-size: 24px;
-        padding-bottom: 3px;
-        border-bottom: 2px solid #a5a5a5;
+      }
+
+      h3 {
+        padding-top: 0px;
+        margin-bottom: 10px;
+        font-size: 18px;
       }
 
       blockquote {
@@ -279,17 +272,14 @@ body {
       .project-entry {
         margin-bottom: 20px;
 
+        p {
+          margin-bottom: 10px;
+        }
+
         .project-title {
-          padding-top: 0px;
-          margin-bottom: 8px;
-          font-size: 18px;
           vertical-align: middle;
           font-weight: 700;
           line-height: 22px;
-        }
-
-        p {
-          margin-bottom: 10px;
         }
 
         .badge {
@@ -307,102 +297,88 @@ body {
         }
       }
 
-      /* TODO: Remove this! */
-      .timeline {
-        @media (min-width: 767px) {
-          padding-left: 20px;
-          border-left: 4px solid #DDDDDD;
+      /* Entries for resume */
+      .resume-block {
+        margin-bottom: 20px;
+
+        .resume-block-title {
+          margin-bottom: 4px;
+          font-weight: 700;
+        }
+
+        p {
+          margin-bottom: 0px;
+        }
+
+        img {
+          width: 75px;
+          height: auto;
+          margin-right: 2rem; /* This is 1rem instead of 3px because bootstrap media objects are dumb */
         }
       }
 
-      /* Entries for resume */
-      .resume-entry {
-        padding-top: 4px;
-        padding-bottom: -4px; /* simple fix to cancel out the margin from the last entry */
-        margin-bottom: 24px;
+      .resume-entry-title {
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 18px;
+      }
 
-        .resume-block {
-          margin-bottom: 20px;
-
-          .resume-block-title {
-            margin-bottom: 4px;
-            font-weight: 700;
-          }
-
-          p {
-            margin-bottom: 0px;
-          }
-
-          img {
-            width: 75px;
-            height: auto;
-            margin-right: 2rem; /* This is 1rem instead of 3px because bootstrap media objects are dumb */
-          }
-        }
-
-        .resume-entry-title {
-          margin-bottom: 10px;
-          font-weight: 700;
-          font-size: 18px;
-        }
-
-        .resume-icon {
-          @media (max-width: 767px) {
-            margin-top: 0px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-          }
-          width: auto;
-          height: 80px;
-          margin: 8px;
-          -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
-          filter: grayscale(20%);
+      .resume-icon {
+        @media (max-width: 767px) {
           margin-top: 0px;
           display: block;
           margin-left: auto;
           margin-right: auto;
         }
+        width: auto;
+        height: 80px;
+        margin: 8px;
+        -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(20%);
+        margin-top: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
 
-        .resume-icon-subtitle {
-          @media (max-width: 767px) {
-            text-align: center;
-          }
-          font-weight: 700;
+      .resume-icon-subtitle {
+        @media (max-width: 767px) {
           text-align: center;
         }
+        font-weight: 700;
+        text-align: center;
+      }
 
-        /* TODO: Turn these into media objects */
-        .resume-container {
-          margin-bottom: 24px;
+      /* TODO: Turn these into media objects */
+      .resume-container {
+        margin-bottom: 26px;
 
-          p {
-            margin-bottom: 0px;
+        p {
+          margin-bottom: 0px;
+        }
+
+        .resume-header-container {
+          margin-bottom: 18px;
+
+          .resume-header-text-container {
+            display: inline-block;
+            vertical-align: middle;
+
+            .resume-header-title {
+              font-weight: 700;
+              padding-top: 0px;
+              display: inline-block;
+              margin-bottom: 4px;
+            }
           }
-  
-          .resume-header-container {
-            margin-bottom: 14px;
 
-            .resume-header-text-container {
-              display: inline-block;
-              vertical-align: middle;
-
-              .resume-header-title {
-                font-weight: 700;
-                padding-top: 0px;
-                display: inline-block;
-                margin-bottom: 4px;
-              }
-            }
-
-            img {
-              display: inline-block;
-              vertical-align: middle;
-              width: 100px;
-              height: auto;
-              margin-right: 20px;
-              margin-bottom: 0px;
-            }
+          img {
+            display: inline-block;
+            vertical-align: middle;
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
+            margin-bottom: 0px;
           }
         }
       }
@@ -453,12 +429,11 @@ body {
 
       .post-title {
         margin-bottom: 10px;
-        color: #333333;
         font-size: 28px;
-        font-family: 'Helvetica', serif;
         font-weight: 700;
         letter-spacing: .5px;
       }
+
       .post-meta {
         .post-date {
           letter-spacing: 2px;
@@ -470,10 +445,6 @@ body {
 
     .post-content {
       margin-bottom: 40px;
-
-      h1, h2, h3, h4 {
-        font-weight: 700;
-      }
 
       h1 {
         font-size: 24px;

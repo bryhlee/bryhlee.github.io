@@ -31,107 +31,97 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
 
 
 ## Areas of Expertise
-<div class="resume-entry">
-  <div class="resume-block d-flex align-items-center">
-    <img class="align-self-center hidden-xs-down" src="/assets/img/code.png">
-    <div class="align-self-center">
-      <p class="resume-block-title">Pipeline Technical Direction</p>
-      <p>I create pipeline tools to meet the technical needs of the studio. This includes maintaing a wide array of tools, workflows, and systems to assist artists and production staff.</p>
-    </div>
-  </div>
-  <div class="resume-block d-flex align-items-center">
-    <img class="align-self-center hidden-xs-down" src="/assets/img/server.png">
-    <div class="align-self-center">
-      <p class="resume-block-title">Asset Management and Render Queueing</p>
-      <p>I have experience building high-performance and scalable asset management systems and integrating them as tools into industry standard DCC software such as Maya, Nuke, and Katana. I also design server technologies to improve the transfer, syncing, and tracking of assets between multi-site studios and local departments.</p>
-    </div>
-  </div>
-  <div class="resume-block d-flex align-items-center">
-    <img class="align-self-center hidden-xs-down" src="/assets/img/sketching.png">
-    <div class="align-self-center">
-      <p class="resume-block-title">Studio Technology</p>
-      <p>I am responsible for integrating and organizing media pipelines and implementing production tracking technologies. As a result, I have familiarity with many industry standard software suites used throughout CG studio pipelines, including RV and Shotgun.</p>
+### Pipeline Technical Direction
+* Artist workflow tools
+
+### Story, Editorial, and Review
+* Storyboarding workflow tools
+* Concepting workflows
+* Editorial submission tools
+* Media Library and Review applications
+* High-fidelity drawing annotation tools (raster/vector)
+
+### Asset Management and Scene Construction
+* High-performance and scalable asset management systems
+* Handling for import and export of assets within DCCs
+
+### Studio Technology
+* RV and Shotgun integration
+* Shot and production tracking
+
+## Education
+<div class="resume-container">
+  <div class="resume-header-container"> 
+    <img class="hidden-xs-down" src="/assets/img/usc.png">
+    <div class="resume-header-text-container">
+      <p class="resume-header-title">University of Southern California</p>
+      <ul class="fa-ul">
+        <li><span class="fa-li"><i class="fas fa-university fa-fw"></i></span>M.S. Computer Science (Multimedia and Creative Technology)</li>
+        <li><span class="fa-li"><i class="fas fa-calendar-alt fa-fw"></i></span>August 2018 - May 2020</li>
+      </ul>  
     </div>
   </div>
 </div>
-
-## Education
-<div class="resume-entry">
-  <div class="resume-container">
-    <div class="resume-header-container"> 
-      <img class="hidden-xs-down" src="/assets/img/usc.jpeg">
-      <div class="resume-header-text-container">
-        <p class="resume-header-title">University of Southern California</p>
-        <ul class="fa-ul">
-          <li><span class="fa-li"><i class="fas fa-university fa-fw"></i></span>M.S. Computer Science (Multimedia and Creative Technology)</li>
-          <li><span class="fa-li"><i class="fas fa-calendar-alt fa-fw"></i></span>August 2018 - May 2020</li>
-        </ul>  
-      </div>
-    </div>
-  </div>
-  <div class="resume-container">
-    <div class="resume-header-container"> 
-      <img class="hidden-xs-down" src="/assets/img/scu_square.png">
-      <div class="resume-header-text-container">
-        <p class="resume-header-title">Santa Clara University</p>
-        <ul class="fa-ul">
-          <li><span class="fa-li"><i class="fas fa-university fa-fw"></i></span>B.S. Computer Science and Engineering</li>
-          <li><span class="fa-li"><i class="fas fa-calendar-alt fa-fw"></i></span>September 2014 - June 2018</li>
-        </ul>  
-      </div>
+<div class="resume-container">
+  <div class="resume-header-container"> 
+    <img class="hidden-xs-down" src="/assets/img/scu_square.png">
+    <div class="resume-header-text-container">
+      <p class="resume-header-title">Santa Clara University</p>
+      <ul class="fa-ul">
+        <li><span class="fa-li"><i class="fas fa-university fa-fw"></i></span>B.S. Computer Science and Engineering</li>
+        <li><span class="fa-li"><i class="fas fa-calendar-alt fa-fw"></i></span>September 2014 - June 2018</li>
+      </ul>  
     </div>
   </div>
 </div>
 
 ## Experience
-<div class="resume-entry">
-  <div class="resume-container">
-    <div class="resume-header-container"> 
-      <img class="hidden-xs-down" src="/assets/img/blizzard_square.gif">
-      <div class="resume-header-text-container">
-        <p class="resume-header-title">Blizzard Entertainment</p>
-        <ul class="fa-ul">
-          <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Associate Software Engineer, R&D (September 2018 - Current)<br /> Research and Development, Intern (Summer 2018)</li>
-          <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>Blizzard Animation, Cinematics, Creative Development and Story</li>
-          <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>June 2018 - Present</li>
-        </ul>
-      </div>
-    </div>
-    <div class="resume-text-container">
-      <p>Developing the next generation of studio software and artist workflow tools to handle increasingly demanding productions that have grown exponentially in technical and artistic complexity, specifically in regards to rendering and workflow efficiency for artists in animation, modeling, texturing, and layout.</p>
+<div class="resume-container">
+  <div class="resume-header-container"> 
+    <img class="hidden-xs-down" src="/assets/img/blizzard_square.gif">
+    <div class="resume-header-text-container">
+      <p class="resume-header-title">Blizzard Entertainment</p>
+      <ul class="fa-ul">
+        <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Associate Software Engineer, R&D (September 2018 - Current)<br /> Research and Development, Intern (Summer 2018)</li>
+        <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>Blizzard Animation, Cinematics, Creative Development and Story</li>
+        <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>June 2018 - Present</li>
+      </ul>
     </div>
   </div>
-  <div class="resume-container">
-    <div class="resume-header-container"> 
-      <img class="hidden-xs-down" src="/assets/img/ilm_square.png">
-      <div class="resume-header-text-container">
-        <p class="resume-header-title">Industrial Light and Magic</p>
-        <ul class="fa-ul">
-          <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Pipeline Engineer, Intern</li>
-          <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>Global Pipeline/Studio Production Engineering</li>
-          <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>Summer 2017</li>
-        </ul>
-      </div>
-    </div>
-    <div class="resume-text-container">
-      <p>As part of the global Pipeline Engineering team, created tools, built software, and drafted rewrites of ILM's in-hosue render farm system, asset management infrastructure, media creation pipeline, and data transfer services. Worked closely with Walt Disney Animation Studios in implementation of <i>Coda</i> and <i>dpix</i>  software for render queuing and media/review libraries respectively. Interfaced Pixar cross-studio platform technologies. Created core API service for global studio data transfer and remote VFX Supervisor platforms. Worked with Pipe TDs to apply a new artist facing pipeline for Motion Capture work flows. Spearheaded reachitecture of ILM's core media player.</p>
+  <div class="resume-text-container">
+    <p>Developing the next generation of studio software and artist workflow tools to handle increasingly demanding productions that have grown exponentially in technical and artistic complexity, specifically in regards to rendering and workflow efficiency for artists in animation, modeling, texturing, and layout.</p>
+  </div>
+</div>
+<div class="resume-container">
+  <div class="resume-header-container"> 
+    <img class="hidden-xs-down" src="/assets/img/ilm_square.png">
+    <div class="resume-header-text-container">
+      <p class="resume-header-title">Industrial Light and Magic</p>
+      <ul class="fa-ul">
+        <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Pipeline Engineer, Intern</li>
+        <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>Global Pipeline/Studio Production Engineering</li>
+        <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>Summer 2017</li>
+      </ul>
     </div>
   </div>
-  <div class="resume-container">
-    <div class="resume-header-container"> 
-      <img class="hidden-xs-down" src="/assets/img/disney_square.png">
-      <div class="resume-header-text-container">
-        <p class="resume-header-title">Disney Interactive</p>
-        <ul class="fa-ul">
-          <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Software Engineer, Intern</li>
-          <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>Artist Tools, Media Technology Engineering</li>
-          <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>Summer 2016</li>
-        </ul>
-      </div>
+  <div class="resume-text-container">
+    <p>As part of the global Pipeline Engineering team, created tools, built software, and drafted rewrites of ILM's in-hosue render farm system, asset management infrastructure, media creation pipeline, and data transfer services. Worked closely with Walt Disney Animation Studios in implementation of <i>Coda</i> and <i>dpix</i>  software for render queuing and media/review libraries respectively. Interfaced Pixar cross-studio platform technologies. Created core API service for global studio data transfer and remote VFX Supervisor platforms. Worked with Pipe TDs to apply a new artist facing pipeline for Motion Capture work flows. Spearheaded reachitecture of ILM's core media player.</p>
+  </div>
+</div>
+<div class="resume-container">
+  <div class="resume-header-container"> 
+    <img class="hidden-xs-down" src="/assets/img/disney_square.png">
+    <div class="resume-header-text-container">
+      <p class="resume-header-title">Disney Interactive</p>
+      <ul class="fa-ul">
+        <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Software Engineer, Intern</li>
+        <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>Artist Tools, Media Technology Engineering</li>
+        <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>Summer 2016</li>
+      </ul>
     </div>
-    <div class="resume-text-container">
-      <p>Within the Media Technology Engineering Team, created administrative tools for digital asset management, including video/image media and file metadata (Metrics, statistical analysis, and database management). Improved the scalability of DI's in-house asset management system through design of database helper functions. Implemented software to manage reindex and asset mapping for Disney's creative content and publishing workflow.</p>
-    </div>
+  </div>
+  <div class="resume-text-container">
+    <p>Within the Media Technology Engineering Team, created administrative tools for digital asset management, including video/image media and file metadata (Metrics, statistical analysis, and database management). Improved the scalability of DI's in-house asset management system through design of database helper functions. Implemented software to manage reindex and asset mapping for Disney's creative content and publishing workflow.</p>
   </div>
 </div>
 
