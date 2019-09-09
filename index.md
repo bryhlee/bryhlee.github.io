@@ -25,7 +25,7 @@ Creative technology and computer graphics is my academic specialization and my p
 
 Besides creative technology and CG, my other technical interests include interactive media, video transcoding, media streaming tools, scalable UI frameworks (both web and desktop paradigms), high performance computing, and 3D/2D animation software.
 
-In my free time, you can usually find me composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a bit of [storywriting](https://en.wikipedia.org/wiki/Fiction_writing) - feel free to check out my [blog](http://brysonlee.com/blog).
+In my free time, you can usually find me composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a bit of [storywriting](https://en.wikipedia.org/wiki/Fiction_writing) - feel free to check out my [blog](http://brysonlee.com/blog). If you are wondering what that bird in my website's masthead is, it's a [Nene goose](https://en.wikipedia.org/wiki/Nene_(bird)).
 
 You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Resume.pdf).
 
@@ -42,8 +42,9 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
 * High-fidelity drawing annotation tools (raster/vector)
 
 ### Asset Management and Scene Construction
-* High-performance and scalable asset management systems
+* Scalable and high-performance asset management systems
 * Handling for import and export of assets within DCCs
+* Asset migration
 
 ### Studio Technology
 * RV and Shotgun integration

@@ -88,27 +88,29 @@ a {
 
 .masthead {
   background-color: #ffcc2f;
-  padding: 20px;
+  padding: 15px;
+  letter-spacing: -1px;
 
   .masthead-container-wrapper {
-    // max-width: 1000px;
-
     h1 {
-      font-size: 80px;
+      font-size: 72px;
       color: #ef5734;
       margin-bottom: 0px;
     }
 
     .masthead-img {
-      margin-right: 24px;
+      margin-right: 10px;
       float: left;
-      width: 140px;
+      width: 120px;
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
     }
 
     .subtitle {
-      font-size: 24px;
+      font-size: 28px;
       font-weight: 700;
       color: #543729;
+      line-height: 40px;
     }
   }
 }
@@ -139,7 +141,7 @@ a {
     .social-media {
       display: flex;
       justify-content: space-between;
-      margin-right: 30px;
+      margin-right: 100px;
 
       a {
         margin-bottom: 10px;
