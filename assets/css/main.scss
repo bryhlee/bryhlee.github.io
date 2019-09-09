@@ -58,7 +58,9 @@ a {
 
 /* Wrapper for navbar and navbar collapse content on sm and lower devices */
 .small-bar {
-  margin-bottom: 20px;
+  a {
+    color: #a5a5a5;
+  }
 
   ul {
     color: #a5a5a5;
@@ -72,15 +74,15 @@ a {
     margin-bottom: 0px;
   }
 
+  nav {
+    flex-direction: row;
+  }
+
   .navbar-brand {
     float: right;
     margin-left: 12px;
     font-weight: 700;
     font-size: 24px;
-  }
-
-  nav {
-    flex-direction: row;
   }
 }
 
@@ -88,29 +90,34 @@ a {
   background-color: #ffcc2f;
   padding: 20px;
 
-  h1 {
-    font-size: 80px;
-    color: #ef5734;
-  }
+  .masthead-container-wrapper {
+    // max-width: 1000px;
 
-  .subtitle {
-    font-size: 24px;
-    font-weight: 700;
-    color: #543729;
+    h1 {
+      font-size: 80px;
+      color: #ef5734;
+      margin-bottom: 0px;
+    }
+
+    .masthead-img {
+      margin-right: 24px;
+      float: left;
+      width: 140px;
+    }
+
+    .subtitle {
+      font-size: 24px;
+      font-weight: 700;
+      color: #543729;
+    }
   }
 }
 
 /* Wrapper for entire website */
 .container-wrapper {
-  max-width: 1000px;
+  // max-width: 1000px;
   padding-bottom: 30px;
-
-  @media (min-width: 576px) {
-    margin-top: 0px;
-  }
-  @media (min-width: 767px) {
-    margin-top: 30px;
-  }
+  margin-top: 30px;
 
   /* Wrapper for sidebar */
   .sidebar-wrapper {
