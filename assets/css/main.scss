@@ -52,7 +52,7 @@ a {
   text-decoration: none;
 
   &:hover {
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid #014c8c;
     text-decoration: none;
   }
 }
@@ -61,6 +61,12 @@ a {
 .small-bar {
   a {
     color: #a5a5a5;
+    border-bottom: 1px dotted #a5a5a5;
+
+    &:hover {
+      border-bottom: 1px solid #a5a5a5;
+      text-decoration: none;
+    }
   }
 
   ul {
@@ -100,7 +106,7 @@ a {
     h1 {
       font-size: 72px;
       // color: #ef5734;
-      color: #F38630;
+      // color: #F38630;
       margin-bottom: 0px;
       letter-spacing: -1px;
     }
@@ -123,7 +129,11 @@ a {
         font-size: 24px;
         margin-left: 15px;
         font-weight: 700;
-        border-bottom: 2px solid #333333;
+        border-bottom: 3px solid #333333;
+
+        &:hover {
+          border-bottom: 3px solid #014c8c;
+        }
       }
     }
 
@@ -292,7 +302,7 @@ a {
 
       .svg-inline--fa {
         margin-right: 8px;
-        color: #a5a5a5;
+        color: #6a6a6a;
       }
 
       /* Entry for projects */

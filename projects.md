@@ -6,12 +6,6 @@ section: projects
 web_title: Projects | Bryson Lee
 ---
 
-
-* [Applications and Tools](#applications-and-tools)
-* [Pipeline Technical Direction](#pipeline-technical-direction)
-
-
-## Applications and Tools
 <div class="project-entry d-flex">
   <div class="align-self-start">
     <h3 class="project-title">Pipeworks Project<span class="badge">In Progress</span></h3>
@@ -53,24 +47,12 @@ web_title: Projects | Bryson Lee
     </ul>
   </div>
 </div>
-
-## Pipeline Technical Direction
 <div class="project-entry d-flex">
   <div class="align-self-start">
     <h3 class="project-title">A Better Maya Turntable Plugin<span class="badge">In Progress</span></h3>
     <p>A new turn table plugin for Maya which will automatically place digital models into a turntable with customizable features and parameters. Features automatic lightning for dramatic showcasing. Bundled with the Pipeworks Tool Suite, and can be integrated with the Pipeworks SDK to export videos or GIFs of the turntable to the Pipeworks Cloud Repository.</p>
     <ul class="fa-ul">
       <li><span class="fa-li"><i class="fas fa-code fa-fw"></i></span>Maya Python API</li>
-      <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>In Progress</li>
-    </ul>
-  </div>
-</div>
-<div class="project-entry d-flex">
-  <div class="align-self-start">
-    <h3 class="project-title">Cubic Lattice Constructs for Better Volumetric Pre-Visualizations<span class="badge">In Progress</span></h3>
-    <p>This method creates a lossy optimization for volumetric simulations by building a cubic lattice in a 3D space, and providing a better pre-visualization.</p>
-    <ul class="fa-ul">
-      <li><span class="fa-li"><i class="fas fa-code fa-fw"></i></span>C++</li>
       <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>In Progress</li>
     </ul>
   </div>

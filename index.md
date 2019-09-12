@@ -5,27 +5,16 @@ image: list
 web_title: About | Bryson Lee
 ---
 
-
-* [Biography](#biography)
-* [Areas of Expertise](#areas-of-expertise)
-* [Education](#education)
-* [Experience](#experience)
-
-
 ## Biography
 <img id="bio-portrait" src="/assets/img/me2.jpg">
 
-Hi all - my name is Bryson Lee, and I'm a software engineer and technical director in Computer Graphics (CG) production systems and artist workflow tools for 3D animation, visual effects, and video games. I'm currently an Associate Research and Development Engineer at [Blizzard Entertainment](http://www.blizzard.com) in the Animation and Cinematics divison, where I'm helping to build the next generation of the studio's pipeline and further improve existing software, systems, and tools. I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering and am currently pursuing an M.S. in Computer Science at USC with a concentration in Creative Technology and Multimedia Systems.
+Hi all - my name is Bryson Lee, and I'm a software engineer and technical director in Computer Graphics (CG) production systems and artist workflow tools for 3D animation, visual effects, and video games. I'm currently an Associate Research and Development Engineer at [Blizzard Entertainment](http://www.blizzard.com) in the Animation and Cinematics divison, where I'm helping design new software, systems, and tools for the next generation of the studio pipeline. I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering.
 
-During the summer of 2017, I worked as a Production Engineering Intern at [Industrial Light and Magic](http://www.ilm.com/). While there, I collaborated with [Walt Disney Animation Studios](https://www.disneyanimation.com/) to develop new rendering queuing systems, rebuild global studio tools, and improve core elements of ILM's media creation pipeline. Together with motion capture TDs and VFX supervisors, I facilitated projects to incorporate new and advanced forms of assets in a distributed artist workflow.
+Before Blizzard, I had rare opportunities to intern at other amazing CG studios, including [Industrial Light and Magic](http://www.ilm.com/), [Walt Disney Animation Studios](https://www.disneyanimation.com/), and [Disney Interactive](https://dcpi.disney.com/). A large majority of my work involved projects to incoperate advanced forms of assets in distributed workflows.
 
-Prior to ILM, I was a Software Engineering Intern at [Disney Interactive](https://dcpi.disney.com/). As part of the Media Technology Engineering divison, I designed and built new software to support Disney's growing asset management infrastructure and spearheaded multiple initiatives to revamp an existing creative content pipeline for web publishing.
+Creative technology and computer graphics is my primary professional interest. As a contributor to the [ACM SIGGRAPH](https://www.siggraph.org/) community, I was the founding president of Santa Clara University's SIGGRAPH Student Chapter, a chartered ACM chapter that ran educational workshops for topics in computer graphics and interactive media. I routinely return to Santa Clara and visit other Silicon Valley schools to run career workshops for students interested in the CG industry.
 
-Creative technology and computer graphics is my academic specialization and my primary professional interest. As a contributor to the [ACM SIGGRAPH](https://www.siggraph.org/) community, I was the founding president of Santa Clara University's SIGGRAPH Student Chapter, a chartered ACM chapter that ran educational workshops for topics in computer graphics and interactive media.
-
-Besides creative technology and CG, my other technical interests include interactive media, video transcoding, media streaming tools, scalable UI frameworks (both web and desktop paradigms), high performance computing, and 3D/2D animation software.
-
-In my free time, you can usually find me composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a bit of [storywriting](https://en.wikipedia.org/wiki/Fiction_writing) - feel free to check out my [blog](http://brysonlee.com/blog). If you are wondering what that bird in my website's masthead is, it's a [Nene goose](https://en.wikipedia.org/wiki/Nene_(bird)).
+In my free time, you can usually find me composing music, playing piano, or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a bit of [storywriting](https://en.wikipedia.org/wiki/Fiction_writing) - feel free to check out my [blog](http://brysonlee.com/blog). The bird in the masthead of my website is the [Nene goose](https://en.wikipedia.org/wiki/Nene_(bird)), the state bird of my hometown of Hawaii.
 
 You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Resume.pdf).
 
@@ -53,19 +42,6 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
 ## Education
 <div class="resume-container">
   <div class="resume-header-container"> 
-    <img class="hidden-xs-down" src="/assets/img/usc.png">
-    <div class="resume-header-text-container">
-      <p class="resume-header-title">University of Southern California</p>
-      <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fas fa-university fa-fw"></i></span>M.S. Computer Science (Multimedia and Creative Technology)</li>
-        <li><span class="fa-li"><i class="fas fa-calendar-alt fa-fw"></i></span>August 2018 - May 2020</li>
-      </ul>  
-    </div>
-  </div>
-</div>
-<div class="resume-container">
-  <div class="resume-header-container"> 
-    <img class="hidden-xs-down" src="/assets/img/scu_square.png">
     <div class="resume-header-text-container">
       <p class="resume-header-title">Santa Clara University</p>
       <ul class="fa-ul">
@@ -106,7 +82,7 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
     </div>
   </div>
   <div class="resume-text-container">
-    <p>As part of the global Pipeline Engineering team, created tools, built software, and drafted rewrites of ILM's in-hosue render farm system, asset management infrastructure, media creation pipeline, and data transfer services. Worked closely with Walt Disney Animation Studios in implementation of <i>Coda</i> and <i>dpix</i>  software for render queuing and media/review libraries respectively. Interfaced Pixar cross-studio platform technologies. Created core API service for global studio data transfer and remote VFX Supervisor platforms. Worked with Pipe TDs to apply a new artist facing pipeline for Motion Capture work flows. Spearheaded reachitecture of ILM's core media player.</p>
+    <p>At ILM, I worked primarily with ILM's in-hosue render farm system, asset management infrastructure, media creation pipeline, and multisite data transfer services. I collaborated closely with Walt Disney Animation Studios during this period to implement <i>Coda</i> and <i>dpix</i>, two technologies for render queuing and media/review cataloging, respectively. I created core API services for data transfer between studio clients stretched at a global scale, and enabled support for remote VFX Supervisor platforms. I also collaborated to production staff to apply a new artist facing pipeline for Motion Capture work flows.</p>
   </div>
 </div>
 <div class="resume-container">
@@ -122,7 +98,7 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
     </div>
   </div>
   <div class="resume-text-container">
-    <p>Within the Media Technology Engineering Team, created administrative tools for digital asset management, including video/image media and file metadata (Metrics, statistical analysis, and database management). Improved the scalability of DI's in-house asset management system through design of database helper functions. Implemented software to manage reindex and asset mapping for Disney's creative content and publishing workflow.</p>
+    <p>As part of the Media Technology Engineering divison, I designed and built new software to support Disney's growing asset management infrastructure and spearheaded multiple initiatives to revamp an existing creative content pipeline for web publishing. I also created administrative tools for digital asset management, including video/image media and file metadata (Metrics, statistical analysis, and database management). A major intiative was to improve scalability of DI's in-house asset management system through design and implementaiton database super tools which managed, reindexed, and mapped collection of assets for Disney's creative content and publishing workflow.</p>
   </div>
 </div>
 
