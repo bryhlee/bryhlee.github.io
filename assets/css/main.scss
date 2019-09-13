@@ -94,7 +94,6 @@ a {
 }
 
 .masthead {
-  // background-color: #ffcc2f;
   background-color: #E0E4CC;
   padding: 15px;
 
@@ -105,16 +104,13 @@ a {
   .masthead-container-wrapper {
     h1 {
       font-size: 72px;
-      // color: #ef5734;
-      // color: #F38630;
       margin-bottom: 0px;
-      letter-spacing: -1px;
+      letter-spacing: -2px;
     }
 
     h2 {
       font-size: 28px;
       font-weight: 700;
-      color: #543729;
       line-height: 40px;
       letter-spacing: -1px;
     }
@@ -230,25 +226,15 @@ a {
 
   /* Wrapper for pages */
   .page {
-
-    h1 {
-      font-size: 34px;
-      margin-bottom: 14px;
-    }
-
     ul {
       padding-left: 25px;
       margin-bottom: 14px;
     }
 
     .page-header {
-      margin-bottom: 12px;
-
-      .page-title {
+      h1 {
         overflow: hidden;
-        h1 {
-          margin-bottom: 0px;
-        }
+        margin-bottom: 0px;
       }
 
       .page-icon {
@@ -278,8 +264,9 @@ a {
 
       /* Override h2 for use in Markdown */
       h2 {
-        padding-top: 10px; /* For section linking (HTML fragment supported) */
-        margin-bottom: 14px;
+        // padding-top: 10px; /* For section linking (HTML fragment supported) */
+        margin-top: 20px;
+        margin-bottom: 15px;
         font-size: 24px;
       }
 
@@ -307,7 +294,7 @@ a {
 
       /* Entry for projects */
       .project-entry {
-        margin-bottom: 20px;
+        margin-top: 30px;
 
         p {
           margin-bottom: 10px;
@@ -388,7 +375,7 @@ a {
 
       /* TODO: Turn these into media objects */
       .resume-container {
-        margin-bottom: 26px;
+        margin-bottom: 35px;
 
         p {
           margin-bottom: 0px;
@@ -416,6 +403,7 @@ a {
             height: auto;
             margin-right: 20px;
             margin-bottom: 0px;
+            border-radius: 5px;
           }
         }
       }

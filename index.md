@@ -8,7 +8,7 @@ web_title: About | Bryson Lee
 ## Biography
 <img id="bio-portrait" src="/assets/img/me2.jpg">
 
-Hi there - my name is Bryson Lee, and I'm a software engineer and technical director in Computer Graphics (CG) production systems and artist workflow tools for 3D animation, visual effects, and video games. I'm currently an Associate Research and Development Engineer at [Blizzard Entertainment](http://www.blizzard.com) in the Animation and Cinematics divison, where I'm helping design new software, systems, and tools for the next generation of the studio pipeline. I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering.
+Hi there - my name is Bryson Lee, and I'm a software engineer and technical director in Computer Graphics (CG) production systems and artist workflow tools for 3D animation, visual effects, and video games. I'm currently an Associate Research and Development Engineer at [Blizzard Entertainment](http://www.blizzard.com) in the Animation and Cinematics divison, where I'm designing new software, systems, and tools. I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering.
 
 Before Blizzard, I had rare opportunities to intern at other amazing CG studios, including [Industrial Light and Magic](http://www.ilm.com/), [Walt Disney Animation Studios](https://www.disneyanimation.com/), and [Disney Interactive](https://dcpi.disney.com/). A large majority of my work involved projects to incoperate advanced forms of assets in distributed workflows.
 
@@ -18,16 +18,16 @@ In my free time, you can usually find me [struggling with writer's block](https:
 
 You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Resume.pdf).
 
-
 ## Areas of Expertise
 ### Pipeline Technical Direction
 * Artist workflow tools
+* Technical advice and support for artists and production staff
 
-### Story, Editorial, and Review
+### Story, Editorial, and Concepting
 * Storyboarding workflow tools
 * Concepting workflows
 * Editorial submission tools
-* Media Library and Review applications
+* Concept Art and Media Libraries
 * High-fidelity drawing annotation tools (raster/vector)
 
 ### Asset Management and Scene Construction
@@ -35,31 +35,21 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
 * Handling for import and export of assets within DCCs
 * Asset migration
 
-### Studio Technology
+### Media Review Systems and Studio Technology 
+* Review submission tools
+* Turn table generators
+* Slating and frame generation
 * RV and Shotgun integration
 * Shot and production tracking
 
-## Education
-<div class="resume-container">
-  <div class="resume-header-container"> 
-    <div class="resume-header-text-container">
-      <p class="resume-header-title">Santa Clara University</p>
-      <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fas fa-university fa-fw"></i></span>B.S. Computer Science and Engineering</li>
-        <li><span class="fa-li"><i class="fas fa-calendar-alt fa-fw"></i></span>September 2014 - June 2018</li>
-      </ul>  
-    </div>
-  </div>
-</div>
-
-## Experience
+## Experience and Education
 <div class="resume-container">
   <div class="resume-header-container"> 
     <img class="hidden-xs-down" src="/assets/img/blizzard_square.gif">
     <div class="resume-header-text-container">
       <p class="resume-header-title">Blizzard Entertainment</p>
       <ul class="fa-ul">
-        <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Associate Software Engineer, R&D (September 2018 - Current)<br /> Research and Development, Intern (Summer 2018)</li>
+        <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Associate Software Engineer, R&D (September 2018 - current)<br /> Research and Development, Intern (Summer 2018)</li>
         <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>Blizzard Animation, Cinematics, Creative Development and Story</li>
         <li><span class="fa-li"><i class="far fa-calendar-alt fa-fw"></i></span>June 2018 - Present</li>
       </ul>
@@ -99,6 +89,19 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
   </div>
   <div class="resume-text-container">
     <p>As part of the Media Technology Engineering divison, I designed and built new software to support Disney's growing asset management infrastructure and spearheaded multiple initiatives to revamp an existing creative content pipeline for web publishing. I also created administrative tools for digital asset management, including video/image media and file metadata (Metrics, statistical analysis, and database management). A major intiative was to improve scalability of DI's in-house asset management system through design and implementaiton database super tools which managed, reindexed, and mapped collection of assets for Disney's creative content and publishing workflow.</p>
+  </div>
+</div>
+<div class="resume-container">
+  <div class="resume-header-container"> 
+    <img class="hidden-xs-down" src="/assets/img/scu.png">
+    <div class="resume-header-text-container">
+      <p class="resume-header-title">Santa Clara University</p>
+      <ul class="fa-ul">
+        <li><span class="fa-li"><i class="fas fa-university fa-fw"></i></span>B.S. Computer Science and Engineering</li>
+        <li><span class="fa-li"><i class="fas fa-book fa-fw"></i></span>Computer Graphics Systems, Creative Technology, Software Engineering</li>
+        <li><span class="fa-li"><i class="fas fa-calendar-alt fa-fw"></i></span>September 2014 - June 2018</li>
+      </ul>  
+    </div>
   </div>
 </div>
 
