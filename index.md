@@ -30,17 +30,19 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
 * Concept Art and Media Libraries
 * High-fidelity drawing annotation tools (raster/vector)
 
-### Asset Management and Scene Construction
-* Scalable and high-performance asset management systems
-* Handling for import and export of assets within DCCs
+### Asset Management Systems
+* Scalable and high-performance asset management API and backends
+* DCC Asset Tools for importing and publishing 
+* Asset instancing and versioning
 * Asset migration
 
-### Media Review Systems and Studio Technology 
+### Media Review Systems and Post Production Technology 
 * Review submission tools
 * Turn table generators
 * Slating and frame generation
 * RV and Shotgun integration
 * Shot and production tracking
+* DI and Color Grading
 
 ## Experience and Education
 <div class="resume-container">
