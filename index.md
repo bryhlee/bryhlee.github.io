@@ -46,7 +46,7 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
 ## Experience and Education
 <div class="resume-container">
   <div class="resume-header-container"> 
-    <img class="hidden-xs-down" src="/assets/img/blizzard_square.gif">
+    <img src="/assets/img/blizzard_square.gif">
     <div class="resume-header-text-container">
       <h3>Blizzard Entertainment</h3>
       <ul class="fa-ul">
@@ -62,7 +62,7 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
 </div>
 <div class="resume-container">
   <div class="resume-header-container"> 
-    <img class="hidden-xs-down" src="/assets/img/ilm_square.png">
+    <img src="/assets/img/ilm_square.png">
     <div class="resume-header-text-container">
       <h3>Industrial Light and Magic</h3>
       <ul class="fa-ul">
@@ -78,7 +78,7 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
 </div>
 <div class="resume-container">
   <div class="resume-header-container"> 
-    <img class="hidden-xs-down" src="/assets/img/disney_square.png">
+    <img src="/assets/img/disney_square.png">
     <div class="resume-header-text-container">
       <h3>Disney Interactive</h3>
       <ul class="fa-ul">
@@ -94,7 +94,7 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
 </div>
 <div class="resume-container">
   <div class="resume-header-container"> 
-    <img class="hidden-xs-down" src="/assets/img/scu.png">
+    <img src="/assets/img/scu.png">
     <div class="resume-header-text-container">
       <h3>Santa Clara University</h3>
       <ul class="fa-ul">

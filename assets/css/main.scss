@@ -324,26 +324,29 @@ a {
 
         .resume-header-container {
           margin-bottom: 18px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
 
           .resume-header-text-container {
-            display: inline-block;
-            vertical-align: middle;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
 
             h3 {
               font-weight: 700;
-              display: inline-block;
-              margin-bottom: 4px;
+              padding-top: 0px;
               margin-bottom: 10px;
             }
           }
 
           img {
-            display: inline-block;
-            vertical-align: middle;
-            width: 100px;
-            height: auto;
+            @media (max-width: 767.98px) {
+              display: none;
+            }
+            height: 90px;
+            width: 90px;
             margin-right: 20px;
-            margin-bottom: 0px;
             border-radius: 5px;
           }
         }
