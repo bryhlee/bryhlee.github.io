@@ -1,12 +1,11 @@
 ---
 layout: page
-title: About
+title: About Me
 image: list
-web_title: About | Bryson Lee
+web_title: About Me | Bryson Lee
 ---
 
-## Biography
-<img id="bio-portrait" src="/assets/img/me2.jpg">
+# Welcome!
 
 Hi there - my name is Bryson Lee, and I'm a software engineer and technical director in Computer Graphics (CG) production systems and artist workflow tools for 3D animation, visual effects, and video games. I'm currently an Associate Research and Development Engineer at [Blizzard Entertainment](http://www.blizzard.com) in the Animation and Cinematics divison, where I'm designing new software, systems, and tools. I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering.
 
@@ -16,7 +15,7 @@ While creative technology and computer graphics is my academic specialization an
 
 In my free time, you can usually find me [writing](https://en.wikipedia.org/wiki/Fiction_writing) or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a fair bit of [blogging](https://brysonlee.com/blog). The bird in the masthead of my website is the [Nene goose](https://en.wikipedia.org/wiki/Nene_(bird)), the state bird of my hometown of Hawaii.
 
-You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Resume.pdf).
+You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Resume.pdf). Feel free to [contact me](https://brysonlee.com/contact) if you want to talk.
 
 ## Areas of Expertise
 ### Pipeline Technical Direction

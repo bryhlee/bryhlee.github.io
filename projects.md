@@ -6,6 +6,8 @@ section: projects
 web_title: Projects | Bryson Lee
 ---
 
+# Projects
+
 <div class="project-entry d-flex">
   <div class="align-self-start">
     <h3 class="project-title">Pipeworks Project<span class="badge">In Progress</span></h3>
