@@ -48,7 +48,7 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
   <div class="resume-header-container"> 
     <img class="hidden-xs-down" src="/assets/img/blizzard_square.gif">
     <div class="resume-header-text-container">
-      <p class="resume-header-title">Blizzard Entertainment</p>
+      <h3>Blizzard Entertainment</h3>
       <ul class="fa-ul">
         <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Associate Software Engineer, R&D (September 2018 - current)<br /> Research and Development, Intern (Summer 2018)</li>
         <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>Blizzard Animation, Cinematics, Creative Development and Story</li>
@@ -64,7 +64,7 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
   <div class="resume-header-container"> 
     <img class="hidden-xs-down" src="/assets/img/ilm_square.png">
     <div class="resume-header-text-container">
-      <p class="resume-header-title">Industrial Light and Magic</p>
+      <h3>Industrial Light and Magic</h3>
       <ul class="fa-ul">
         <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Pipeline Engineer, Intern</li>
         <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>Global Pipeline/Studio Production Engineering</li>
@@ -80,7 +80,7 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
   <div class="resume-header-container"> 
     <img class="hidden-xs-down" src="/assets/img/disney_square.png">
     <div class="resume-header-text-container">
-      <p class="resume-header-title">Disney Interactive</p>
+      <h3>Disney Interactive</h3>
       <ul class="fa-ul">
         <li><span class="fa-li"><i class="far fa-id-card fa-fw"></i></span>Software Engineer, Intern</li>
         <li><span class="fa-li"><i class="fas fa-sitemap fa-fw"></i></span>Artist Tools, Media Technology Engineering</li>
@@ -96,7 +96,7 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
   <div class="resume-header-container"> 
     <img class="hidden-xs-down" src="/assets/img/scu.png">
     <div class="resume-header-text-container">
-      <p class="resume-header-title">Santa Clara University</p>
+      <h3>Santa Clara University</h3>
       <ul class="fa-ul">
         <li><span class="fa-li"><i class="fas fa-university fa-fw"></i></span>B.S. Computer Science and Engineering</li>
         <li><span class="fa-li"><i class="fas fa-book fa-fw"></i></span>Computer Graphics Systems, Creative Technology, Software Engineering</li>
