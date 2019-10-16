@@ -11,11 +11,11 @@ Hi there - my name is Bryson Lee, and I'm a software engineer and technical dire
 
 Before Blizzard, I had rare opportunities to intern at other amazing CG studios, including [Industrial Light and Magic](http://www.ilm.com/), [Walt Disney Animation Studios](https://www.disneyanimation.com/), and [Disney Interactive](https://dcpi.disney.com/). A large majority of my work involved projects to incoperate advanced forms of assets in distributed workflows.
 
-While creative technology and computer graphics is my academic specialization and primary professional interest, I'm involved in several [projects](https://brysonlee.com/projects) that cover a wide variety of topics, including creative content. I routinely visit Santa Clara and other Silicon Valley schools to run career workshops for students interested in the CG industry.
+While creative technology and computer graphics is my academic specialization and primary professional interest, I'm involved in several [projects](https://www.brysonlee.com/projects) that cover a wide variety of topics, including creative content. I routinely visit Santa Clara and other Silicon Valley schools to run career workshops for students interested in the CG industry.
 
-In my free time, you can usually find me [writing](https://en.wikipedia.org/wiki/Fiction_writing) or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a fair bit of [blogging](https://brysonlee.com/blog). The bird in the masthead of my website is the [Nene goose](https://en.wikipedia.org/wiki/Nene_(bird)), the state bird of my hometown of Hawaii.
+In my free time, you can usually find me [writing](https://en.wikipedia.org/wiki/Fiction_writing) or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a fair bit of [blogging](https://www.brysonlee.com/blog). The bird in the masthead of my website is the [Nene goose](https://en.wikipedia.org/wiki/Nene_(bird)), the state bird of my hometown of Hawaii.
 
-You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Resume.pdf). Feel free to [contact me](https://brysonlee.com/contact) if you want to talk.
+You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Resume.pdf). Feel free to [contact me](https://www.brysonlee.com/contact) if you want to talk.
 
 ## Areas of Expertise
 ### Pipeline Technical Direction
