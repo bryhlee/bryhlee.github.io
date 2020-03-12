@@ -4,9 +4,12 @@
 /* Import URLs */
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900&display=swap');
 // @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,700i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&display=swap');
-// @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400i,700,700i&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,700i&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700&display=swap');
 
 .sticky {
   position: -webkit-sticky;
@@ -33,18 +36,22 @@ body {
   line-height: 1.6;
   color: #444444;
   background-color: #fefefe;
-  font-family: 'Merriweather', 'Georgia', serif;
+  // font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Serif Pro', serif;
 }
 
 h1, h2, h3 {
   font-weight: 700;
   color: #444444;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Serif Pro', serif;
+  // font-family: 'EB Garamond', sans-serif;
+  // font-family: 'Helvetica', sans-serif;
+  // font-family: 'Open Sans', sans-serif;
 }
 
 /* Link styling */
 a {
-  color: #333333;
+  // color: #333333;
   border-bottom: 1px dotted #333333;
   text-decoration: none;
 
@@ -102,10 +109,10 @@ a {
     h1 {
       font-size: 72px;
       margin-bottom: 0px;
-      letter-spacing: 2px;
+      // letter-spacing: 2px;
       color: #F38630;
       font-weight: 400;
-      font-family: 'Merriweather', 'Georgia', serif;
+      // font-family: 'Merriweather', serif;
     }
 
     h2 {
@@ -121,15 +128,17 @@ a {
       z-index: 2;
 
       a {
+        // color: #333333;
         font-size: 22px;
         margin-left: 15px;
-        border-bottom: 2px solid #333333;
+        // border-bottom: 2px solid #333333;
+        border-bottom: 0px;
         font-weight: 600;
         padding-bottom: 1px;
-        font-family: 'Raleway', sans-serif;
+        // font-family: 'Open Sans', sans-serif;
 
         &:hover {
-          border-bottom: 2px solid #014c8c;
+          // border-bottom: 2px solid #014c8c;
         }
       }
     }
