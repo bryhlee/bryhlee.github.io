@@ -4,14 +4,16 @@
   {% include head.html %}
 
   <body>
-    {% include navbar.html %}
-    {% include masthead.html %}
     <div class="container container-wrapper">
+      <div class="row" style="margin-bottom: 15px">
+        <div class="col-lg-12 col-xs-12">
+          <!-- {% include navbar.html %} -->
+          {% include masthead.html %}
+        </div>
+      </div>
       <div class="row">
-        <div class="col-xs-12">
-
+        <div class="col-lg-12 col-xs-12">
           {{ content }}
-
         </div>
       </div>
     </div>
