@@ -36,14 +36,14 @@ body {
   line-height: 1.6;
   color: #444444;
   background-color: #fefefe;
-  // font-family: 'Open Sans', sans-serif;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Open Sans', sans-serif;
+  // font-family: 'Source Serif Pro', serif;
 }
 
 h1, h2, h3 {
   font-weight: 700;
   color: #444444;
-  font-family: 'Source Serif Pro', serif;
+  // font-family: 'Source Serif Pro', serif;
   // font-family: 'EB Garamond', sans-serif;
   // font-family: 'Helvetica', sans-serif;
   // font-family: 'Open Sans', sans-serif;
@@ -98,61 +98,47 @@ a {
 }
 
 .masthead {
-  // background-color: #E0E4CC;
   padding: 15px 15px 0px 15px;
 
-  .container {
-    position: relative
+  h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+    color: #F38630;
+    font-weight: 400;
   }
 
-  .masthead-container-wrapper {
-    h1 {
-      font-size: 72px;
-      margin-bottom: 0px;
-      // letter-spacing: 2px;
-      color: #F38630;
-      font-weight: 400;
-      // font-family: 'Merriweather', serif;
-    }
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+  }
 
-    h2 {
-      font-size: 24px;
+  nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+
+    a {
+      // color: #333333;
+      font-size: 22px;
+      margin-left: 15px;
+      // border-bottom: 2px solid #333333;
+      border-bottom: 0px;
       font-weight: 600;
-      line-height: 40px;
-    }
+      padding-bottom: 1px;
+      // font-family: 'Open Sans', sans-serif;
 
-    nav {
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      z-index: 2;
-
-      a {
-        // color: #333333;
-        font-size: 22px;
-        margin-left: 15px;
-        // border-bottom: 2px solid #333333;
-        border-bottom: 0px;
-        font-weight: 600;
-        padding-bottom: 1px;
-        // font-family: 'Open Sans', sans-serif;
-
-        &:hover {
-          // border-bottom: 2px solid #014c8c;
-        }
+      &:hover {
+        // border-bottom: 2px solid #014c8c;
       }
     }
+  }
 
-    .masthead-img {
-      @media (min-width: 1200px) {
-        margin-left: 40px;
-      }
-      margin-right: 20px;
-      float: left;
-      width: 140px;
-      // -webkit-transform: scaleX(-1);
-      // transform: scaleX(-1);
-    }
+  .masthead-img {
+    margin-right: 20px;
+    float: left;
+    width: 120px;
   }
 }
 
