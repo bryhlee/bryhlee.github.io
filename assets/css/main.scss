@@ -280,6 +280,7 @@ a {
           vertical-align: middle;
           background-color: #dc3545;
           border-radius: 3px;
+          color: white;
           font-family: 'Roboto', serif;
         }
 
@@ -347,6 +348,7 @@ a {
       }
 
       .badge {
+        color: white;
         margin-top: 1px; // This is a small hack to fix the line height
         margin-left: 6px;
         font-size: 11px;
