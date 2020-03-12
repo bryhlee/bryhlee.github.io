@@ -100,10 +100,7 @@ a {
   }
 
   nav {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    z-index: 2;
+    float: right;
 
     a {
       // color: #333333;
