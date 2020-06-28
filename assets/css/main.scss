@@ -49,39 +49,15 @@ a {
   }
 }
 
-/* Wrapper for navbar and navbar collapse content on sm and lower devices */
-.small-bar {
-  a {
-    color: #a5a5a5;
-    border-bottom: 1px dotted #a5a5a5;
-
-    &:hover {
-      border-bottom: 1px solid #a5a5a5;
-      text-decoration: none;
-    }
-  }
-
-  ul {
-    color: #a5a5a5;
-    margin-top: 14px;
-    margin-bottom: 14px;
-    padding-left: 25px;
-  }
-
-  p {
-    color: #a5a5a5;
-    margin-bottom: 0px;
-  }
-
-  nav {
-    flex-direction: row;
-  }
-
+.navbar-wrapper {
   .navbar-brand {
-    float: right;
-    margin-left: 12px;
-    font-weight: 700;
-    font-size: 24px;
+    border-bottom: 0;
+  }
+
+  .navbar-link {
+    color: #d1d1d1;
+    border-top: 1px solid #808080;
+    padding: 10px 10px 10px 20px;
   }
 }
 
@@ -124,6 +100,11 @@ a {
 
 /* Wrapper for entire website */
 .container-wrapper {
+  @media (max-width: 991.98px) {
+    margin-top: 60px;
+  }
+
+
   // max-width: 1000px;
   padding-bottom: 30px;
   margin-top: 30px;
@@ -215,6 +196,16 @@ a {
 
     .page-content {
 
+      .badge {
+        margin-left: 6px;
+        font-size: 12px;
+        vertical-align: middle;
+        background-color: #dc3545;
+        border-radius: 3px;
+        color: white;
+        font-family: 'Roboto', serif;
+      }
+
       #bio-portrait {
         margin: 30px;
         object-fit: cover;
@@ -260,7 +251,7 @@ a {
 
       /* Entry for projects */
       .project-entry {
-        margin-top: 20px;
+        margin-bottom: 20px;
 
         p {
           margin-bottom: 10px;

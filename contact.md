@@ -11,12 +11,6 @@ Bryson Lee
 Phone: (808) 391-5739  
 Email: [brysonhlee@gmail.com](emailto:brysonhlee@gmail.com)
 
-<!-- You can also find me on these social media sites:
-
-* [Linkedin](https://www.linkedin.com/in/bryhlee/)
-* [Github](https://www.github.com/bryhlee/)
-* [Vimeo](https://vimeo.com/user80015403) -->
-
 <div class="social-media">
     <a href="emailto:brysonhlee@gmail.com" target="_blank"><img src="/assets/img/mail.png" class="icon" alt="Email me"></a>
     <a href="https://www.linkedin.com/in/bryhlee/" target="_blank"><img src="/assets/img/linkedin.png" class="icon" alt="Find me on Linkedin"></a>
