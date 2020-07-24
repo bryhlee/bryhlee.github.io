@@ -60,11 +60,15 @@ a {
 }
 
 .masthead {
+  padding-bottom: 10px;
   border-bottom: 1px solid #e5e5e5;
   margin-bottom: 20px;
 
   h1 {
+    font-size: 30px;
     margin-bottom: 0px;
+    // font-weight: 800;
+    // font-family: 'Playfair Display', serif;
   }
 
   h2 {
@@ -76,12 +80,20 @@ a {
   nav {
     float: right;
 
+    .active {
+      color: #444444;
+    }
+
     a {
       font-size: 22px;
       margin-left: 15px;
       border-bottom: 0px;
-      font-weight: 600;
-      padding-bottom: 1px;
+      color: #6c757d;
+
+
+      &:hover {
+        color: #444444;
+      }
     }
   }
 
@@ -281,6 +293,12 @@ a {
 
   /* Wrapper for posts */
   .post {
+
+    h1, h2, h3, h4 {
+      font-weight: 700;
+      font-family: 'Playfair Display', serif;
+    }
+
     .post-header {
       margin-bottom: 32px;
 

@@ -2,7 +2,6 @@
 layout: page
 title: Projects
 permalink: /projects/
-section: projects
 web_title: Projects | Bryson Lee
 ---
 

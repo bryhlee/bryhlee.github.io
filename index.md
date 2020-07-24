@@ -1,11 +1,9 @@
 ---
 layout: page
 title: About Me
-image: list
+permalink: /
 web_title: About Me | Bryson Lee
 ---
-
-<!-- # Welcome! -->
 
 Hi there - my name is Bryson Lee, and I'm a technical director and engineer in Computer Graphics (CG) production systems for 3D animation, visual effects, and video games. I'm currently an Associate R&D Engineer at [Blizzard Entertainment](http://www.blizzard.com) in the Animation and Cinematics divison. I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering.
 
