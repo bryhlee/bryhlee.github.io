@@ -2,7 +2,7 @@
 ---
 
 /* Import URLs */
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 .sticky {
   position: -webkit-sticky;
@@ -33,13 +33,11 @@ body {
 }
 
 h1, h2, h3 {
-  font-weight: 700;
   color: #444444;
 }
 
 /* Link styling */
 a {
-  // color: #333333;
   border-bottom: 1px dotted #333333;
   text-decoration: none;
 
@@ -62,32 +60,28 @@ a {
 }
 
 .masthead {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+
   h1 {
-    font-size: 60px;
     margin-bottom: 0px;
-    font-weight: 700;
   }
 
   h2 {
     font-size: 24px;
     line-height: 40px;
+    font-weight: 500;
   }
 
   nav {
     float: right;
 
     a {
-      // color: #333333;
       font-size: 22px;
       margin-left: 15px;
-      // border-bottom: 2px solid #333333;
       border-bottom: 0px;
       font-weight: 600;
       padding-bottom: 1px;
-
-      &:hover {
-        // border-bottom: 2px solid #014c8c;
-      }
     }
   }
 
@@ -104,8 +98,6 @@ a {
     margin-top: 60px;
   }
 
-
-  // max-width: 1000px;
   padding-bottom: 30px;
   margin-top: 30px;
 
@@ -128,74 +120,9 @@ a {
     }
   }
 
-  /* Wrapper for sidebar */
-  .sidebar-wrapper {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-bottom: 15px;
-    color: #333333;
-
-    h2 {
-      margin-bottom: 10px;
-      // font-size: 24px;
-    }
-
-    .social-media {
-      display: flex;
-      justify-content: space-between;
-      margin-right: 100px;
-
-      a {
-        margin-bottom: 10px;
-        border-bottom: 0px;
-      }
-
-      .icon {
-        margin-top: 20px;
-        width: 36px;
-        text-decoration: none;
-        border-radius: 2px;
-
-        &:hover {
-          opacity: 0.5;
-        }
-      }
-    }
-
-    .portrait {
-      @media (max-width: 767px) {
-        width: 200px;
-        height: auto;
-      }
-      border: 1px solid #000000;
-      margin-bottom: 14px;
-
-      img {
-        width: 205px; /* This can be removed when we manually set our portrait images to the same aspect ratio */
-                      /* Simply change it back to 100% width and height auto */
-        height: auto;
-      }
-    }
-
-    .sidebar-section {
-      margin-bottom: 14px;
-
-      ul {
-        padding-left: 25px;
-        margin-top: 14px;
-      }
-
-      p {
-        margin: 0;
-      }
-    }
-  }
-
   /* Wrapper for pages */
   .page {
-
     .page-content {
-
       .badge {
         margin-left: 6px;
         font-size: 12px;
@@ -203,7 +130,6 @@ a {
         background-color: #dc3545;
         border-radius: 3px;
         color: white;
-        font-family: 'Roboto', serif;
       }
 
       #bio-portrait {
@@ -216,10 +142,6 @@ a {
       }
 
       table {
-        margin-bottom: 20px;
-      }
-
-      h1 {
         margin-bottom: 20px;
       }
 
@@ -259,7 +181,6 @@ a {
 
         .project-title {
           vertical-align: middle;
-          // font-weight: 700;
           line-height: 22px;
         }
 
@@ -270,7 +191,6 @@ a {
           background-color: #dc3545;
           border-radius: 3px;
           color: white;
-          font-family: 'Roboto', serif;
         }
 
         img {
@@ -327,7 +247,6 @@ a {
 
       .post-date {
         color: #222222;
-        font-family: 'Menlo', sans-serif;
         font-size: 14px;
       }
 
@@ -345,7 +264,6 @@ a {
         display: inline-block;
         background-color: #dc3545;
         border-radius: 3px;
-        font-family: 'Helvetica', serif;
 
         &::before {
           display: inline-block;
@@ -366,17 +284,14 @@ a {
     .post-header {
       margin-bottom: 32px;
 
-      .post-title {
-        margin-bottom: 10px;
+      h1 {
         font-size: 34px;
-        font-weight: 700;
-        letter-spacing: .5px;
       }
 
       .post-meta {
         .post-date {
           letter-spacing: 2px;
-          color: #474747;
+          color: #999;
           font-size: 14px;
         }
       }
