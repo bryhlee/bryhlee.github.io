@@ -19,24 +19,24 @@ Increasingly in recent years, digital artists have been using [version control s
 
 <h1 class="pt-2">Areas of Expertise</h1>
 
-**Pipeline Technical Direction**
+### Pipeline Technical Direction
 * Artist workflow tools
 * Technical advice and support for artists and production staff
 
-**Story, Editorial, and Concepting**
+### Story, Editorial, and Concepting
 * Storyboarding workflow tools
 * Concepting workflows
 * Editorial submission tools
 * Concept Art and Media Libraries
 * High-fidelity drawing annotation tools (raster/vector)
 
-**Asset Management Systems**
+### Asset Management Systems
 * Scalable and high-performance asset management API and backends
 * DCC Asset Tools for importing and publishing 
 * Asset instancing and versioning
 * Asset migration
 
-**Media Review Systems and Post Production Technology**
+### Media Review Systems and Post Production Technology
 * Review submission tools
 * Turn table generators
 * Slating and frame generation
