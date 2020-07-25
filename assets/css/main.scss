@@ -27,22 +27,27 @@
   display: none;
 }
 
+body, .badge {
+  font-family: 'Lato', 'Source Sans Pro', 'Helvetica', sans-serif;
+  // font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+}
+
 body {
   line-height: 1.6;
   color: #444444;
   background-color: #fefefe;
-  font-family: 'Lato', 'Source Sans Pro', 'Helvetica', sans-serif;
+  // font-weight: 400; // Source Sans pro
+}
 
-  // font-weight: 400;
-  // font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
+h1, h2, h3, h4, .navbar-brand, .navbar-link {
+  font-family: 'Source Serif Pro', Georgia, serif;
+  // font-family: 'Lato', 'Source Sans Pro', 'Helvetica', sans-serif;
 }
 
 h1, h2, h3, h4 {
   color: #444444;
-  font-weight: 600;
-  font-family: 'Source Serif Pro', Georgia, serif;
-  // font-family: 'Lato', 'Source Sans Pro', 'Helvetica', sans-serif;
-  // font-weight: 700;
+  font-weight: 600; // Source Serif
+  // font-weight: 700; // Lato
 }
 
 /* Link styling */
@@ -57,10 +62,6 @@ a {
 }
 
 .navbar-wrapper {
-  .navbar-brand, .navbar-link {
-    font-family: 'Source Serif Pro', Georgia, serif;
-  }
-
   .navbar-brand {
     font-weight: 600;
     border-bottom: 0;
@@ -87,7 +88,7 @@ a {
   h2 {
     font-size: 24px;
     line-height: 40px;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   nav {
@@ -155,8 +156,6 @@ a {
         background-color: #dc3545;
         border-radius: 3px;
         color: white;
-        // font-family: 'Lato', 'Source Sans Pro', 'Helvetica', sans-serif;
-        font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
       }
 
       #bio-portrait {
