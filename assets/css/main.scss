@@ -62,8 +62,6 @@ a {
 }
 
 .navbar-wrapper {
-  margin-bottom: 20px; 
-
   .navbar-brand {
     font-weight: 600;
     border-bottom: 0;
@@ -150,6 +148,10 @@ a {
 
   /* Wrapper for pages */
   .page {
+    @media (max-width: 991.98px) {
+      margin-top: 15px;
+    }
+
     .page-content {
       .badge {
         margin-left: 6px;
