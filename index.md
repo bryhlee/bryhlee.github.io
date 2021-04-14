@@ -5,9 +5,9 @@ permalink: /
 web_title: About Me | Bryson Lee
 ---
 
-Hi there - my name is Bryson Lee, and I'm a technical director and engineer in Computer Graphics (CG) production systems for 3D animation, visual effects, and video games. I'm currently an Associate R&D Engineer at [Blizzard Entertainment](http://www.blizzard.com) in the Animation and Cinematics divison. I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering.
+Hi there - my name is Bryson Lee, and I'm a technical director and engineer in Computer Graphics (CG) production systems for 3D animation, visual effects, and video games. I'm currently a Software Engineer at [Blizzard Entertainment](http://www.blizzard.com) in the Animation and Cinematics divison. I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering.
 
-Before Blizzard, I had rare opportunities to intern and work with other amazing CG studios, including [Industrial Light and Magic](http://www.ilm.com/), [Walt Disney Animation Studios](https://www.disneyanimation.com/), and [Disney Interactive](https://dcpi.disney.com/). A large majority of my work involved projects to incoperate advanced forms of assets into distributed workflows.
+Before Blizzard, I had rare opportunities to intern or work with other amazing CG studios, including [Industrial Light and Magic](http://www.ilm.com/), [Walt Disney Animation Studios](https://www.disneyanimation.com/), and [Disney Interactive](https://dcpi.disney.com/). A large majority of my work involved projects to incoperate advanced forms of assets into distributed workflows.
 
 While creative technology and computer graphics is my academic and professional concentration, I'm involved in several other [projects](https://www.brysonlee.com/projects) that cover a wide variety of creative topics, including producing and directing animated content. I occasionally visit schools to run career workshops for students interested in the CG industry.
 

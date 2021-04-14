@@ -7,7 +7,7 @@ web_title: Projects | Bryson Lee
 
 # Technical Projects
 
-<h3>Pipeworks Project<span class="badge">In Progress</span></h3>
+<h3>Pipeworks Project</h3>
 A cloud-based suite of software that will enable small to medium sized teams to set up a possibly globally-distributed art pipeline to run efficient CG productions remotely. *Pipeworks* provides a comprehensive, out-of-the-box, yet modular set of tools to streamline CG content creation. The Pipeworks project is comprised of five core components: The *Pipeworks Cloud Repository* (PCR), the *Pipeworks SDK* (PSDK), the *Pipeworks Application Interface* (PAI), the *Pipeworks Tool Suite (PTS)*, and a new UI [design language](https://en.wikipedia.org/wiki/Design_language), *Spout UI*. Most -- if not all -- of Pipeworks was implemented using Python with a combination of various 3rd party frameworks. You can view it [here](https://github.com/bryhlee/pipeworks).
 
 <h3>Matterhorn Digital Asset Manager</h3>
