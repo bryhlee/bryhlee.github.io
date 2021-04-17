@@ -23,6 +23,8 @@ twitter_username: jekyllrb
 github_username:  jekyll
 google_analytics: true
 
+remote_theme: chesterhow/tale
+
 author:
   name: Bryson Lee
   url: https://www.brysonlee.com
@@ -33,13 +35,18 @@ feed:
 
 # Build settings
 markdown: kramdown
-theme: tale
 permalink: /:year-:month-:day/:title
 paginate_path: "/posts/page:num/"
 paginate: 5
 highlighter: rouge
+
 disqus:
   shortname: brysonlee
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+
 plugins_dir:
   - jekyll-feed
 
