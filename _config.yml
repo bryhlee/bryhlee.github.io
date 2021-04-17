@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Bryson Lee
-email: your-email@example.com
+email: brysonhlee@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Bryson Lee's personal website. Pipeline engineer/TD in Animation, VFX, Cinematics, and Games.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -23,12 +23,20 @@ twitter_username: jekyllrb
 github_username:  jekyll
 google_analytics: true
 
+author:
+  name: Bryson Lee
+  url: https://www.brysonlee.com
+  email: brysonhlee@gmail.com
+
 feed:
   path: /assets/feed.xml
 
 # Build settings
 markdown: kramdown
-# theme: minima
+theme: tale
+permalink: /:year-:month-:day/:title
+paginate_path: "/posts/page:num/"
+paginate: 5
 highlighter: rouge
 disqus:
   shortname: brysonlee

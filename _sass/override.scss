@@ -1,0 +1,24 @@
+.post {
+  &-title {
+    font-size: 3rem;
+  }
+}
+
+.social-media {
+  display: flex;
+
+  a {
+    border-bottom: 0px;
+  }
+
+  .icon {
+    margin-right: 14px;
+    width: 36px;
+    text-decoration: none;
+    border-radius: 2px;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: post
 date:   2018-03-29 00:22:22 -0700
 categories: blog
 blog_title: "vcontrol: A Lightweight VCS for Digital Art Assets"
