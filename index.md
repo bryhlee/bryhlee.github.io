@@ -10,7 +10,7 @@ Before Blizzard, I worked with other CG studios, including [Industrial Light and
 
 While creative technology and computer graphics is my academic and professional concentration, I'm involved in several other [projects](https://www.brysonlee.com/projects) that cover a wide variety of creative topics, including producing and directing animated content. I occasionally visit schools to run career workshops for students interested in the CG industry.
 
-In my free time, you can usually find me [writing](https://en.wikipedia.org/wiki/Fiction_writing) or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a fair bit of [blogging](https://www.brysonlee.com/blog) about a bunch of random stuff. <!-- The bird in the masthead of my website is the [Nene goose](https://en.wikipedia.org/wiki/Nene_(bird)), the state bird of my hometown of Hawaii. -->
+In my free time, you can usually find me [writing](https://en.wikipedia.org/wiki/Fiction_writing) or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a fair bit of [blogging](https://www.brysonlee.com/posts) about a bunch of random stuff. <!-- The bird in the masthead of my website is the [Nene goose](https://en.wikipedia.org/wiki/Nene_(bird)), the state bird of my hometown of Hawaii. -->
 
 You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Resume.pdf).
 
