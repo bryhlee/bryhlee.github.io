@@ -20,7 +20,7 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
 * Artist workflow tools
 * Technical advice and support for artists and production staff
 
-*Story, Editorial, and Concepting*
+*Story, Editorial, Concepting, and Pre-Production Workflows*
 * Storyboarding workflow tools
 * Concepting workflows
 * Editorial submission tools
@@ -33,7 +33,7 @@ You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Res
 * Asset instancing and versioning
 * Asset migration
 
-*Media Review Systems and Post Production Technology*
+*Media Review Systems and Post-Production Technology*
 * Review submission tools
 * Turn table generators
 * Slating and frame generation
