@@ -12,8 +12,6 @@ While creative technology and computer graphics is my academic and professional 
 
 In my free time, you can usually find me [writing](https://en.wikipedia.org/wiki/Fiction_writing) or [destroying my opponents as a D.Va main](https://en.wikipedia.org/wiki/D.Va). I also do a fair bit of [blogging](https://www.brysonlee.com/posts) about a bunch of random stuff. <!-- The bird in the masthead of my website is the [Nene goose](https://en.wikipedia.org/wiki/Nene_(bird)), the state bird of my hometown of Hawaii. -->
 
-You can view and download a PDF of my resume [here](/assets/files/Bryson_Lee_Resume.pdf).
-
 ## Areas of Expertise
 
 *Pipeline Technical Direction*
