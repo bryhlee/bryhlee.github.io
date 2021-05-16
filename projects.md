@@ -15,31 +15,3 @@ Image, video, and file manager for digital art assets including support for most
 
 <h3>vcontrol: A Lightweight CG Version Control System</h3>
 Increasingly in recent years, digital artists have been using [version control systems (VCS)](https://en.wikipedia.org/wiki/Version_control) originally meant for software developers to manage complex non-text/binary files. In light of this trend, *vcontrol* was developed as a CLI VCS that supports a simplified and lightweight platform allowing artists to stage local versions of art assets before committing  them for review in an existing pipeline. vcontrol was built entirely using Python and packaged using PyInstaller. It supports common VCS commands including commiting, reverting, and branching for distributed version control and remote workflow support. The source code can be viewed [here](https://github.com/bryhlee/vcontrol).
-
-
-<h1 class="pt-2">Areas of Expertise</h1>
-
-### Pipeline Technical Direction
-* Artist workflow tools
-* Technical advice and support for artists and production staff
-
-### Story, Editorial, and Concepting
-* Storyboarding workflow tools
-* Concepting workflows
-* Editorial submission tools
-* Concept Art and Media Libraries
-* High-fidelity drawing annotation tools (raster/vector)
-
-### Asset Management Systems
-* Scalable and high-performance asset management API and backends
-* DCC Asset Tools for importing and publishing 
-* Asset instancing and versioning
-* Asset migration
-
-### Media Review Systems and Post Production Technology
-* Review submission tools
-* Turn table generators
-* Slating and frame generation
-* RV and Shotgun integration
-* Shot and production tracking
-* DI and Color Grading
