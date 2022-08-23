@@ -4,9 +4,9 @@ title: About
 permalink: /
 web_title: About Me | Bryson Lee
 ---
-Hi there - my name is Bryson Lee, and I'm a technical director/technical artist in Computer Graphics (CG) production systems for 3D animation, visual effects, and video games. I'm currently a Software Engineer Pixar Animation Studios. I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering.
+Hi there - my name is Bryson Lee, and I'm a technical director/technical artist in Computer Graphics (CG) production systems for 3D animation, visual effects, and video games. I'm currently a Software Engineer at [Pixar Animation Studios](https://www.pixar.com/). I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering.
 
-Before Pixar, I worked as a Software Engineer at [Blizzard Entertainment](http://www.blizzard.com) in the Animation and Cinematics divison of the Story and Franchise Development (SFD) Department. I've also worked with other CG studios, including [Industrial Light and Magic](http://www.ilm.com/), [Walt Disney Animation Studios](https://www.disneyanimation.com/), and [Disney Interactive](https://dcpi.disney.com/). A majority of my projects involved creating artist workflow tools and incoperating advanced assets into a distributed pipeline.
+Before Pixar, I worked as a Software Engineer at [Blizzard Entertainment](https://www.blizzard.com) in the Animation and Cinematics divison of the Story and Franchise Development (SFD) Department. I've also worked with other CG studios, including [Industrial Light and Magic](https://www.ilm.com/), [Walt Disney Animation Studios](https://www.disneyanimation.com/), and [Disney Interactive](https://dcpi.disney.com/). A majority of my projects involved creating artist workflow tools and incoperating advanced assets into a distributed pipeline.
 
 While creative technology and computer graphics is my academic and professional concentration, I'm involved in several other [projects](https://www.brysonlee.com/projects) that cover a wide variety of creative topics, including producing and directing animated content. I occasionally visit schools to run career workshops for students interested in the CG industry.
 
