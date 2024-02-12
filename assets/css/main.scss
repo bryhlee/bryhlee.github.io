@@ -1,0 +1,315 @@
+---
+---
+@import "colors";
+@import "mixins";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Public+Sans:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+$text-color: #c9d1d9;
+$text-muted-color: #888;
+$link-color: $yellow;
+
+html {
+    margin:0;
+    padding:0;
+}
+
+body {
+    overflow-wrap: break-word;
+    margin: 0;
+    font: 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Public Sans', sans-serif;
+    color: $text-color;
+    background-color:#09080d;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 740px;
+    padding: 0 10px;
+    width: 90%;
+}
+
+#profile-pic {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+h1,h2,h3 {
+    line-height:1.2
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.masthead {
+    // padding:0 10px;
+    display: flex;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #888;
+
+    .site-avatar {
+        width: 70px;
+        height: 70px;
+      
+        img {
+          //border-radius: 03px;
+        }
+    }
+
+    @include mobile {
+        display: block;
+        text-align: center;
+      }
+}
+
+.site-info {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-self: flex-start;
+    margin-left: 10px;
+
+    .site-name {
+        margin: 0px;
+        font-weight: 700;
+        font-size: 28px !important;
+        margin: 0;
+        // letter-spacing: .1em;
+        text-transform: uppercase;
+        // text-shadow: 2px 0px $text-muted-color;
+    
+        a {
+            color: inherit;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .site-description {
+        color: $text-muted-color;
+        margin: 0;
+        font-size: 16px !important;
+    }
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: auto;
+
+
+    @include mobile {
+        float: none;
+        margin-top: 09px;
+        display: block;
+        font-size: 16px !important;
+    }
+
+    .nav-menu-item {
+        margin-left: 8px;
+        color: inherit;
+
+        text-decoration: none;
+        font-size: 16px;
+        text-transform: uppercase;
+        transition: all .2s ease;
+        //border-radius: 2px;
+        padding: 2px 5px 2px 5px;
+
+        &.active {
+            color: white;
+            background-color: $red-2;
+        }
+
+        &:hover {
+            color: white;
+            background-color: $red-2;
+        }
+    }
+}
+
+
+footer {
+    font-size: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    color: #888;
+    text-align: center;
+    padding-top: 15px;
+    // max-width: 250px;
+    border-top: 1px solid #888;
+}
+
+
+.entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    
+
+    img {
+        object-fit: cover;
+        float: left;
+        //border-radius: 4px;
+        height: 140px;
+        width: 140px;
+        flex-shrink: 0
+    }
+
+    .entry-info {
+        margin-left: 20px;
+
+        a {
+            text-decoration: none;
+            &:hover {
+                text-decoration: none;
+
+                .divider {
+                    width: 30%;
+                }
+            }
+        }
+
+        h1 {
+            font-size: 1.2em;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+    
+        p {
+            font-size: .9em;
+            margin-top: 0px;
+            margin-bottom: 8px;
+        }
+
+        // &:hover .divider {
+        //     width: 30%;
+        // }
+    }
+}
+
+.divider {
+    border-bottom: 4px solid $blue;
+    width: 10%;
+    transition: all .5s ease;
+
+    &.long {
+        width: 15%
+    }
+}
+
+.tag {
+    padding: 3px 5px 3px 5px;
+    background-color: $sage-3;
+    color: white;
+    margin-right: 4px;
+    font-size: .75em;
+    text-transform: uppercase;
+    font-weight: 700;
+    //border-radius: 2px;
+}
+
+.post-list {
+    list-style-type: none;
+    margin-bottom: 2em;
+    padding: 0;
+    vertical-align: center;
+
+    span.date {
+        color: $text-muted-color;
+        font-size: 16px;
+        
+        font-family: 'Source Code Pro', monospace;
+    }
+
+    .arrow {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.post {
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        padding: 10px;
+        background-color: $navy-4;
+        box-sizing: border-box;   
+        -moz-box-sizing: border-box; 
+        -webkit-box-sizing: border-box;
+
+        &+em {
+            padding: 0px 10px 10px 10px;
+            display: block;
+            font-size: 80%;
+            background-color: $navy-4;
+        }
+    }
+
+    .post-categories {
+        .categories-button {
+            padding: 3px 5px 3px 5px;
+            background-color: $sage-3;
+            color: white;
+            margin-right: 4px;
+            font-size: .75em;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+}
+.post-date {
+    font-size: 80%;
+    margin-bottom: 16px;
+    font-style: italic;
+    color: $text-muted-color;
+}
+
+pre {
+    white-space: pre-wrap;
+    background-color: #1e1920;
+    padding: 20px;
+    //border-radius: 2px;
+    font-size: .8em;
+}
+
+.dinkus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //height: 200px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .dinkus .diamond {
+    width: 7px;
+    height: 7px;
+    margin: 0 10px;
+    background-color: $blue;
+    transform: rotate(45deg);
+    margin: 10px;
+  }

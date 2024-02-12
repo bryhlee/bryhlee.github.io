@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% for project in site.categories.projects %}
+<div class="entry">
+    <a href="{{ project.url }}">
+        <img src="{{ project.thumbnail }}">
+    </a>
+    <div class="entry-info">
+        <a href="{{ project.url }}">
+            <h1>{{ project.title }}</h1>
+            <div class="divider"></div>
+        </a>
+            
+        <p>{{ project.excerpt | truncate: 140 }}</p>
+        {% for tag in project.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
