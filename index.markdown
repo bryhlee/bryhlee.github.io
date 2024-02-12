@@ -25,4 +25,4 @@ In my free time, you can usually find me [writing](https://en.wikipedia.org/wiki
 Bryson Lee  
 Phone: (808) 391-5739   
 Email: [brysonhlee@gmail.com](emailto:brysonhlee@gmail.com)   
-LinkedIn: [linkedin.com/in/bryhlee/](https://www.linkedin.com/in/bryhlee/){:target="_blank"}
+[LinkedIn](https://www.linkedin.com/in/bryhlee/){:target="_blank"}
