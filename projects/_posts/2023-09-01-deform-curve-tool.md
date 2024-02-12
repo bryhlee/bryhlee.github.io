@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Deformable Sweep Mesh Tool from B-Spline CP Transformations"
-date:   2023-06-19 23:17:56 -0700
+date: 2023-09-01 23:17:56 -0700
 tags: maya python
 intro: Adds a new tool to Maya to build deformable sweep meshes from CP curves which works for all transofmration operations
 thumbnail: /assets/img/curve-deformer/thumbnail.png
