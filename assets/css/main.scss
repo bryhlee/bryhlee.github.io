@@ -35,8 +35,14 @@ body {
     max-width: 80%;
     display: block;
     margin: 0 auto;
-    margin-top: 38px;
-    margin-bottom: 38px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+
+    @include mobile {
+        max-width: 100%;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
 }
 
 h1,h2,h3 {
@@ -165,14 +171,43 @@ footer {
     align-items: center;
     margin-bottom: 30px;
     
+    @include mobile {
+        flex-direction: column;
+        background-color: #15131e;
+    }
 
-    img {
-        object-fit: cover;
-        float: left;
-        //border-radius: 4px;
-        height: 140px;
-        width: 140px;
-        flex-shrink: 0
+    .entry-img {
+        img {
+            object-fit: cover;
+            float: left;
+            //border-radius: 4px;
+            height: 140px;
+            width: 140px;
+            flex-shrink: 0;
+
+            @include mobile {
+                display: none;
+            }
+        }
+    }
+
+    .entry-mobile-img-container {
+        height: 200px;
+        width: 100%;
+        display: none;
+
+        @include mobile {
+            display: inline-block;
+        }
+    }
+    .entry-mobile-img {
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            display: block;
+
+        }
     }
 
     .entry-info {
@@ -201,6 +236,10 @@ footer {
             margin-bottom: 8px;
         }
 
+        @include mobile {
+            margin-left: 0px;
+            padding: 20px;
+        }
         // &:hover .divider {
         //     width: 30%;
         // }
@@ -214,6 +253,10 @@ footer {
 
     &.long {
         width: 15%
+    }
+
+    @include mobile {
+        display: none;
     }
 }
 
@@ -250,6 +293,45 @@ footer {
 .post {
     h1 {
         margin-bottom: 10px;
+    }
+
+    .image-container {
+        display: block;
+        max-width: 100%;
+        padding: 10px;
+        background-color: $navy-4;
+
+        & > img {
+            padding: 0px !important;
+        }
+
+        & > em {
+            margin-top: 10px;
+            padding: 0px !important;
+        }
+    }
+
+    .placeholder {
+        width: 100%;
+        padding-top: 50%; /* 2:1 Aspect Ratio */
+        background-color: #56546a; /* Light gray background */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        animation: placeholder ease-in-out 2s infinite;
+      }
+      
+      @keyframes placeholder {
+        0% {
+            background-color: #7c7a90;
+        }
+        50% {
+            background-color: #56546a;
+        }
+        100% {
+            background-color: #7c7a90;
+        }
     }
 
     img {
