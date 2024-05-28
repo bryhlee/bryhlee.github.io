@@ -262,7 +262,7 @@ footer {
 }
 
 .tag {
-    padding: 3px 5px 3px 5px;
+    padding: 4px 6px 4px 6px;
     background-color: $sage-3;
     color: white;
     margin-right: 4px;
@@ -278,11 +278,26 @@ footer {
     padding: 0;
     vertical-align: center;
 
+    li {
+        margin-bottom: 4px;
+    }
+
     span.date {
         color: $text-muted-color;
         font-size: 16px;
         
         font-family: 'Source Code Pro', monospace;
+    }
+
+    span.project-tag {
+        padding: 3px 8px 3px 8px;
+        background-color: $sage-3;
+        color: white;
+        font-size: .75em;
+        font-weight: 700;
+        border-radius: 5px;
+        text-transform: uppercase;
+        margin-right: 4px;
     }
 
     .arrow {
@@ -355,7 +370,7 @@ footer {
 
     .post-categories {
         .categories-button {
-            padding: 3px 5px 3px 5px;
+            padding: 5px 7px 5px 7px;
             background-color: $sage-3;
             color: white;
             margin-right: 4px;

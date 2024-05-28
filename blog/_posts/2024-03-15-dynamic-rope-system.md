@@ -5,6 +5,7 @@ date: 2024-03-15 12:40:30 -0700
 tags: unreal shaders procedural math physics
 thumbnail: /assets/img/rope/thumbnail.png
 intro: A procedurally-generated rope system in UE5 with realistic dynamics, driven by a custom-built physics engine supporting tension constraints
+project: true
 ---
 
 <script>

@@ -4,7 +4,12 @@ layout: default
 
 {{ content }}
 
-{% for project in site.categories.projects %}
+{% assign project_posts = site.categories.projects %}
+{% assign blog_posts = site.categories.blog | where: "project", true %}
+{% assign all_posts = project_posts | concat: blog_posts %}
+{% assign sorted_posts = all_posts | sort: 'date' | reverse %}
+
+{% for project in sorted_posts %}
 <div class="entry">
     <a class="entry-img" href="{{ project.url }}">
         <img src="{{ project.thumbnail }}">
