@@ -29,9 +29,14 @@ In my free time, you can usually find me [writing](https://en.wikipedia.org/wiki
 - Industrial Light and Magic, Production Engineering Intern (2017)
 - Disney Interactive, Software Engineer (2016)
 
-### Games I play
+## Game Credits
 
-Overwatch (GM Support), Heroes of the Storm (GM), World of Warcraft (HotA), LoL, Paradox games, Super Smash Bros
+- World of Warcraft: The War Within (2024)
+- Diablo 4 (2023)
+- World of Warcraft: Dragonflight (2022)
+- Diablo 2: Resurrected (2021)
+- Overwatch (2019)
+- Heroes of the Storm (2018)
 
 {% include dinkus.html %}
 
