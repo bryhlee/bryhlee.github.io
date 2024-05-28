@@ -4,7 +4,7 @@ title:  "Realistic Snow Dyanmics in Unreal Engine 5.1"
 date: 2023-09-12 12:40:30 -0700
 tags: unreal shaders environment
 thumbnail: /assets/img/snow-dynamic/intro.png
-intro: Render realistic interactive snow dynamics on any arbitrary landscape in Unreal Engine using Render Targets and Runtime Virtual Textures, with efficient tesselation based on Nanite-driven LODs
+intro: A method to render realistic interactive snow dynamics on any arbitrary landscape in Unreal Engine using Render Targets and Runtime Virtual Textures, with efficient tesselation based on Nanite-driven LODs
 ---
 
 This project utilizes Unreal Engine 5.1 to implement realistic snow dynamics, employing virtual runtime textures and dynamic GPU-based Level of Details (LODs) for efficient simulation of snow displacement. By utilizing a web of shaders and material expressions, I developed a method for detailed landscape mesh displacement that can work with any actor in a predetermined "snow" zone.

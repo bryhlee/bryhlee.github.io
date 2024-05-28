@@ -21,7 +21,7 @@ layout: default
             <h1>{{ project.title }}</h1>
             <div class="divider"></div>
         </a>
-        <p>{{ project.excerpt | truncate: 140 }}</p>
+        <p>{{ project.intro | default: project.excerpt| strip_html | strip_newlines | truncate: 140 }}</p>
         {% for tag in project.tags %}
         <span class="tag">{{ tag }}</span>
         {% endfor %}

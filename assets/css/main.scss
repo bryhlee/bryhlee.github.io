@@ -250,6 +250,7 @@ footer {
     border-bottom: 4px solid $blue;
     width: 10%;
     transition: all .5s ease;
+    margin-bottom: 10px;
 
     &.long {
         width: 15%
@@ -300,6 +301,7 @@ footer {
         max-width: 100%;
         padding: 10px;
         background-color: $navy-4;
+        margin: auto;
 
         & > img {
             padding: 0px !important;

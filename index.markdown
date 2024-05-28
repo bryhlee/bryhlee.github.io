@@ -19,6 +19,21 @@ In my free time, you can usually find me [writing](https://en.wikipedia.org/wiki
 
 {% include dinkus.html %}
 
+# Experience
+
+- Blizzard, Technical Artist (2022-present)
+- Pixar, Software Engineer (2022)
+- Blizzard, Software Engineer, RnD (2019-2022)
+- Blizzard, Associate Software Engineer (2018-2019)
+- Blizzard, RnD Intern (2018)
+- Industrial Light and Magic, Production Engineering Intern (2017)
+- Disney Interactive, Software Engineer (2016)
+
+### Games I play
+
+Overwatch (GM Support), Heroes of the Storm (GM), World of Warcraft (HotA), LoL, Paradox games, Super Smash Bros
+
+{% include dinkus.html %}
 
 
 # Contact
