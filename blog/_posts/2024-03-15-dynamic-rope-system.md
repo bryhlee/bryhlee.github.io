@@ -10,11 +10,19 @@ project: true
 
 <script>
 window.MathJax = {
+  options: {
+    enableMenu: false
+  },
   tex: {
     inlineMath: [['$', '$'], ['\\(', '\\)']] // Adds $...$ as an accepted in-line math delimiter
   }
 };
 </script>
+<style>
+.MathJax {
+  overflow-x: scroll;
+}
+</style>
 
 ## Introduction
 
@@ -48,7 +56,7 @@ For this project, I decided to create a balanced system which allows designers t
 
 A rope is essentially a long cylinder of variable **length** and **radius**, bent into an arbitrary shape. Most ropes can be represented by a partial differential equation or other non-linear system, translating to a curve in 3D space. However, for our rope system, we only care about the start and end positions of the rope. To achieve this, we can trivially designate two points in 3D world space to represent the **start (S)** and **end (E)** positions of our rope, then rely on vertex deformation to manipulate a procedurally-generated cylinder mesh.
 
-If a rope is **taut**, then the rope length is equal to the distance between the start and end positions. In this simple case, the rope shape is a static cylinder and has no visible deformation at all; it is simply transformed and positioned such that each end of the cylinder is found at each position. Likewise, a rope with **slack** or **sag** has a length greater than the distance between the start and end positions.
+If a rope is **taut**, then the rope length is equal to the distance between the start and end positions. In this simple case, the rope shape is a static cylinder and has no visible deformation at all; it is transformed and positioned such that each end of the cylinder is found at **S** and **E**. Likewise, a rope with **slack** or **sag** has a length greater than the distance between the start and end positions.
 
 The shape of a rope with slack forms a unique curve based on the rope's own weight. This curve is known as a [catenary curve](https://en.wikipedia.org/wiki/Catenary#), a well-studied concept in mathematics.
 
@@ -64,7 +72,7 @@ To summarize:
 2. If **length** is equal to **distance**, we form a cylinder from the start to end points.
 3. If **length** is less than **distance**, we stretch our cylinder from the start to end, simulating a rope being stretched beyond its natural resting length; there is no sag as there is no slack in the rope.
 
-If we can solve the equation for a catenary curve intersecting two points, we can build a system to procedurally deform a rope mesh from its static form into the shape we need. By abstracting the problem into a mathematical function, we can reframe the initial conditions of the rope to match out model, then deform vertices with a high-level of consistency.
+If we can solve the equation for a catenary curve intersecting two points, we can build a system to procedurally deform a rope mesh from its static form into the shape we need. By abstracting the problem into a mathematical function, we can reframe the initial conditions of the rope to match our model, then deform vertices with a high-level of consistency.
 
 ### The Math Behind Ropes
 
@@ -152,7 +160,7 @@ We now know enough information to translate each vertex on our procedurally gene
 
 The curve formed by the rope will be dynamic and procedural, as will the geometry of our rope mesh -- if the start and end points move during gameplay, the rope should adjust itself accordingly. This means we will need to render our procedural rope every tick our start and end positions are modified. The math described in the previous section is expensive, as hyperbolics are not particularly efficient.
 
-To maintain performance, we can deform our mesh vertices using materials. While materials cannot be used for everything, our deformation is largely based on mathematics, so writing our deformation using HLSL will be fairly reliable. In addition, using materials will run our expensive operations on the GPU.
+To maintain performance, we can deform our mesh vertices using materials. While materials cannot be used for everything, our deformation is largely based on mathematics, so writing our math using HLSL will be fairly reliable. In addition, using materials will run these expensive operations on the GPU.
 
 Unreal Engine 5.2 supports vertex deformation with [World Position Offset, abbreviated as WPO](https://dev.epicgames.com/documentation/en-us/unreal-engine/material-inputs-in-unreal-engine#worldpositionoffset). WPO is very powerful, but with  power comes great responsibility. First, we will need to ensure our input mesh is correct (after all, garbage in, garbage out). Second, WPO is not easy to debug. Therefore, taking this process one step at a time will ensure we aren't throwing pages of HLSL at our mesh. WPO accepts a single 3-float vector which results in translation for each vertex on the mesh that the material is applied to. We can incrementally add to this vector for each step during RnD.
 
@@ -198,7 +206,7 @@ At this point, we have proved we can accurately deform a mesh using our rope mat
 
 While this is great, we don't want ribbons; we wan't proper ropes! Luckily, a cylinder is essentially a rolled-up ribbon. To achieve geometric volume, we'll need to modify our procedural mesh component. Two variables are added to our rope actor:
 
-- **Radius**: Replacing **Width** from the ribbon, this is the radius of the clylinder. You can also think of the radius as the distance that each vertex translated is from the center of the rope's curve in the direction of the surface normal. This will be important later.
+- **Radius**: Replacing **Width** from the ribbon, this is the radius of the clylinder. You can also think of the radius as the distance that each vertex is translated from the center of the rope's curve in the direction of the surface normal. This will be important later.
 - **Divisions**: The number of length-wise divisions on the cylinder. Adding more divisions will result in a more "circular" cylinder, while less divisions will make it more blocky.
 
 The algorithm to build a cylinder is slightly more complicated. The primary operation involves dividing $2\pi$ radians (360 degrees) by our division count, rotating a normal vector by that amount, then pushing out a vertex from the center of the curve path using our radius value. Easy enough!
@@ -245,7 +253,7 @@ Finding the normal to the gradient is as simple as taking the cross product with
 
 $$ \vec{n}_{gradient} = \begin{pmatrix} -m \\ 1 \end{pmatrix} $$
 
-At this point, we *could* multiply $\vec{n_{gradient}}$ by our radius to get the correct distance to translate a vertex to match the catenary normal. However, this will only work for the vertex whose vertex normal is equal to $(0, 0, -1)$. From here, there's several strategies to correct translate the math for each location that the vertices may be in, but I opted for a simpler strategy.
+At this point, we *could* multiply $\vec{n_{gradient}}$ by our radius to get the correct distance to translate a vertex to match the catenary normal. However, this will only work for the vertex whose vertex normal is equal to $(0, 0, -1)$. From here, there's several strategies to correctly translate the math for possible location for each vertex, but I opted for a simpler strategy.
 
 What we really need to do is find the angle between this particular vector and the down vector. Why? Since each of our cross sections form a polygon that stands straight up, the angle between the down vector and the curve's normal will give us the amount each vertex must rotate.
 
@@ -287,7 +295,7 @@ When we translate the vertices of our cylinder using WPO, the UVs stretch becaus
 
 {% include lazyload.html img="/assets/img/rope/texture_stretching.png" caption="Vertices are grouped closer together on areas where the slope is greater (near the ends) resulting in squished textures, while vertices where the slope is equal to zero have stretched textures." %}
 
-This is due to some assumptions we made when constructing the procedural mesh vertices. Each vertex was set to be horizontally distributed an equal distance apart. When the mesh is unwrapped and the verities are mapped onto UV coordinates, each section is given such $i/n$ units of the UV's $x$ axis, where $i$ is the index of the cross section.
+This is due to some assumptions we made when constructing the procedural mesh vertices. Each vertex was set to be horizontally distributed an equal distance apart. When the mesh is unwrapped and the verities are mapped onto UV coordinates, each section is given $i/n$ units of the UV's $x$ axis, where $i$ is the index of the cross section.
 
 {% include lazyload.html img="/assets/img/rope/uv_diagram.jpg" width="100" caption="The red lines represent cross sections along the $x$ axis of the rope's texture. Top: A basic, linear rope without catenary WPO applied. Bottom: A catenary-curve rope." %}
 
@@ -324,11 +332,11 @@ Because these calculations rely on our error-prone $a$ and $x_{0}$ approximation
 
 {% include lazyload.html img="/assets/img/rope/uv_material_1.png" caption="Material graph for UV calculation." %}
 
-We use this value to generate an appropriate value for the UV coordinates. We pass our distance traveled for our rope texture into the $y$ axis pin, which is how our texture is oriented in practice.
+We use this value to generate appropriate UV coordinates. We pass our distance traveled for our rope texture into the $y$ axis pin, which is how our texture is oriented in practice.
 
 ### Final Material
 
-Combining everything together, we create a material deform a procedural ropes with correct textures and accurate UVs.
+Combining everything together, we create a material to deform procedural ropes into a catenary with correct textures and accurate UVs.
 
 {% include lazyload.html img="/assets/img/rope/final_material.png" caption="Final  M_Rope material for the BP_Rope procedural rope mesh." %}
 
@@ -353,21 +361,21 @@ However, there's several limitations to the system. First, there's no real suppo
 
 Second, there's no support for tension or torque forces. While you can influence an object to move using constraints on another object, in practice, this isn't any different than rig constraints. The benefit of using Physics Constraints is that it works with the default UE5 physics system, and can account for global systems like gravity and collision.
 
-Finally, an object can only have one constraint influence at any given time. This is a deal-breaker, since we need a physics system where multiple ropes can pull an object, and from the object's perspective, summarize all torque and tension forces for physical accuracy.
+Finally, an object can only have one constraint influence at any given time. This is a deal-breaker, since we need a physics system where multiple ropes can pull an object, and from the object's perspective, account for all incoming torque and tension forces.
 
 ### Components to a Custom Physics Engine
 
-I ultimately decided to implement my own physics engine as a solution to this problem. I would have preferred a lighter solution, but I wanted to experiment with the idea of modifying physics parameters in a bespoke way that default UE 5 engine physics parameters wouldn't support. For example, I wanted the "taut-ness" of the rope correlate with influence on torque.
+I ultimately decided to implement my own physics engine to fix these issues. I would have preferred a lighter solution, but I wanted to experiment with the idea of modifying physics parameters in a bespoke way that default UE 5 engine physics parameters couldn't support. For example, I wanted the "taut-ness" of the rope to influence torque and rotation.
 
-When developing this system, I chose to avoid implementing support for collision. I never imagined ropes to have built-in collision, as this system is primarily meant as a visual system rather than a gameplay component. We can still have ropes move objects, but ropes need not be responsible for any impact to gameplay. For example, we can have pulleys in a ship's rigging move around dynamically, but the pulleys themselves should serve no purpose for the player other than being eye candy.
+When developing this system, I chose to avoid implementing support for collision. I never imagined ropes to have built-in collision, as this system is primarily meant as a visual system rather than a gameplay component. We can still have ropes move objects, but ropes need not be responsible for any impact to gameplay. For example, we can have pulleys in a ship's rigging move around dynamically, but the pulleys themselves should serve no purpose for the player other than being eye candy. Ultimately, I decided to call my limited "physics engine" a "rope constraint solver" to more accurately reflect the scope of the features.
 
-I decided to call my limited "physics engine" a "rope constraint solver" to more accurate reflect the scope of what I'm implementing. This solver is made up of three core components:
+This solver is made up of three components:
 
 1. **Gravity Forces** (Global constraints)
 2. **Rope Forces** (Linear constraints)
 3. **Torque** (Rotational constraints)
 
-These three components can be implementing as forces using Euler's method, which is a popular way to implement simple physics engines. Euler's method relies on partial differential equations to drive changes to a system as the state of the engine changes after some time. Since velocity -- and ultimately translation in the object's position -- can be derived from forces, we can think about this problem using pure physics!
+These three components can be translated into motion using Euler's method, which is a popular way to implement simple physics engines. Euler's method relies on partial differential equations to drive changes to a system as the state is modified after each tick, much like a state machine. Since velocity -- and ultimately translation -- can be derived from forces, we can think about this problem using pure physics!
 
 For the sake of brevity, I won't explain how classical mechanics work. Instead, I will outline some basic physics as they apply to my rope system.
 
@@ -389,7 +397,7 @@ If there are $n$ ropes pulling on an object, we essentially have:
 
 $$ \sum \vec{F} = \sum_{i=1}^{n} \vec{F}_{\text{tension}, i} + \vec{F}_{\text{gravity}} $$
 
-We can represent the difference in time beteween each tick as $\Delta t$. Then, we derive our final displacement using derivatives of Newton's law, $F=ma$.
+We can represent the difference in time between each tick as $\Delta t$. Then, we determine our final displacement using equations derived from Newton's law, $F=ma$.
 
 $$ a = \frac{F}{m} $$
 
@@ -399,15 +407,15 @@ $$ \Delta x = v_i \times \Delta t + \frac{1}{2} \times a \times (\Delta t)^2 $$
 
 $$ x_f = x_i + \Delta x $$
 
-Implementing this system is fairly straight forward since these equations are well-known. Once we get $x_{f}$, we can calculate the object's new position after each tick. When a connected rope becomes taut, we send a signal to our object to remove all velocity equivalent amount exerted by the vector of the tension force.
+Implementing this system is fairly straight forward since these equations are well-known. Once we get $x_{f}$, we can calculate the object's new position after each tick. When a connected rope becomes taut, we send a signal to our object to remove all velocity equivalent to the amount exerted by the vector of the tension force.
 
 {% include lazyload.html img="/assets/img/rope/movement_forces.png" caption="Subset of a new BP_StylizedPhysicsSolver Blueprint to calculate incoming forces that effect velocity and position." %}
 
-Note: Running a physics engine per gameplay tick, rather than on a consistently running clock, poses the risk of system instability. If gameplay freezes for any reason, ticks can accumulate, potentially resulting in sudden and massive displacements. Funny enough, this is how speedrunners are able to do "super jumps" and move gameplay by pausing or artificially freezing their game in the right time.
+Note: Running a physics engine per gameplay tick, rather than on a persistent clock, poses the risk of system instability. If gameplay freezes for any reason, ticks can accumulate, potentially resulting in sudden and massive displacements. Funny enough, this is how speedrunners are able to do "super jumps"; they artificially freeze their game at the right time to build up momentum every tick without the objects needing to move to resolve the velocity.
 
 ### Torque and Angular Constraints
 
-The implementation above only covers motion; if we want our ropes to be able to rotate objects, we will need our system to account for rotational forces, known as torque. Using torque, we can use math to determine how far to rotate an object to each equilibrium.
+The implementation above only covers motion; if we want our ropes to be able to rotate objects, we will need our system to account for rotational forces, known as torque. Using torque, we can use math to determine how far to rotate an object to reach equilibrium.
 
 {% include lazyload.html img="/assets/img/rope/torque_demo_1.gif" caption="An actor with the BP_StylizedPhysicsSolver will treat all incoming ropes with equal influence if they are taut. Note that the rope in this example is rotating the pulley while not being 100% taut. Optionally, users can set a threshold to linearly interpolate the influence. Here, the threshold is 20%. This means the rope is considered taut if the distance is at least 80% of the true length of the rope." %}
 
@@ -415,7 +423,7 @@ First, given a force ($F$) acting on an object and it's distance from that objec
 
 $$ \tau = r \times F = r F \sin(\theta)$$
 
-We cann now determine the torque caused by each rope attached to the object. In practice, determing the combined torque within a system is similar to regular motion:
+We can now determine the torque caused by each rope attached to the object. In practice, the combined torque within a system is similar to regular motion:
 
 $$ \vec{\tau}_{total} = \sum_{i=1}^{n} \vec{\tau}_{\text{tension}, i} $$
 
@@ -439,9 +447,9 @@ With our final degrees calculated, we can convert this to a quaternion and rotat
 
 ## Rope Systems
 
-Now that we have a way to connect ropes to attach points to form physics constraints, we can create rope systems by connecting multiple ropes segments together into rope chain. The basic strategy is to create a new actor, separate to the existing actors, that contain a dictionary of ropes and their connections. We can monitor each rope's change in length, and propagate any change down the chain.
+Now that we have a way to connect ropes to attach points to form physics constraints, we can create rope systems by connecting multiple ropes segments together into rope chains. The basic strategy is to create a new actor, separate from the existing actors, that contain a dictionary of ropes and their connections. We can monitor each rope's change in length, and propagate any change in length to subsequent segments.
 
-Our rope systems will emulate a rope moving through a system by changing the UV offset for textures. Imagine three rope segments connected by two pulleys. If one end is pulled through the system, the length of the first and third segment should change, but the middle segment does not necessary change length. In this case, the middle segment needs to simply display a change in texture. In this sense, we are virtually "linking" all rope UVs together into a single UV system.
+Our rope systems will emulate a rope moving through a system by changing the UV offset for textures. Imagine three rope segments connected by two pulleys. If one end is pulled through the system, the length of the first and third segment should change, but the middle segment should not necessary change length. In this case, the middle segment needs to display a change in texture to demonstrate the rope spooling through the segment. In this sense, we are virtually "linking" all rope UVs together into a single UV system.
 
 To resolve rope length, we have two options:
 
