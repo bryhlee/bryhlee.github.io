@@ -15,12 +15,16 @@ window.MathJax = {
   },
   tex: {
     inlineMath: [['$', '$'], ['\\(', '\\)']] // Adds $...$ as an accepted in-line math delimiter
+  },
+  chtml: {
+    scale: 1
   }
 };
 </script>
 <style>
 .MathJax {
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 </style>
 
