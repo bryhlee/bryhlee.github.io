@@ -38,16 +38,16 @@ This system is comprised of three key components:
 2. Physics solver to drive rope tension constraints, including torque and inertia
 3. A rope system to link multiple ropes together and form rope chains
 
-{% include lazyload.html img="/assets/img/rope/rope_test_1.gif" caption="
+{% include video.html path="/assets/video/ropes/demo_rope.mp4" caption="
 A single rope segment showing start and end points movable in 3D space, with the rope automatically forming a mathematically correct catenary curve." %}
 
-{% include lazyload.html img="/assets/img/rope/rope_system_2.gif" caption="A demonstration of a rope system with multiple segments connected by pulleys; pulling one rope through the system adjusts all ropes' textures by propagating offset. The system is configured to a generator-style setup where one end can add length to the entire rope system as necessary." %}
+{% include video.html path="/assets/video/ropes/demo_rope_system.mp4" caption="A demonstration of a rope system with multiple segments connected by pulleys; pulling one rope through the system adjusts all ropes' textures by propagating offset. The system is configured to a generator-style setup where one end can add length to the entire rope system as necessary." %}
 
-{% include lazyload.html img="/assets/img/rope/better_torque_1.gif" caption="Custom physics solver integrating torque and tension constraints, allowing mesh objects to move accurately based on rope influence, showcasing dynamic interaction between ropes and objects. Note the rotation of the pulley as the rope moves." %}
+{% include video.html path="/assets/video/ropes/demo_torque.mp4" caption="Custom physics solver integrating torque and tension constraints, allowing mesh objects to move accurately based on rope influence, showcasing dynamic interaction between ropes and objects. Note the rotation of the pulley as the rope moves." %}
 
-{% include lazyload.html img="/assets/img/rope/pulley_2.gif" caption="An alternative rope system where ropes are connected without length generation; a static blue cube lifts a red cube via a single rope and pulley mechanism." %}
+{% include video.html path="/assets/video/ropes/demo_1pulley.mp4" caption="An alternative rope system where ropes are connected without length generation; a static blue cube lifts a red cube via a single rope and pulley mechanism." %}
 
-{% include lazyload.html img="/assets/img/rope/pulley_1.gif" caption="A more complex pulley system where moving intermediary pulleys affects the segments throughout the system." %}
+{% include video.html path="/assets/video/ropes/demo_2pulley.mp4" caption="A more complex pulley system where moving intermediary pulleys affects the segments throughout the system." %}
 
 
 ## Prototyping a Procedural Rope
@@ -194,13 +194,13 @@ We are ready to create our rope actor, called *BP_Rope*. It will use Unreal Engi
 
 By exposing our start and end position variables on the actor, we can enable 3D gizmos to move our values around and play with our ribbon in real-time. 
 
-{% include lazyload.html img="/assets/img/rope/rope_demo_1.gif" width="100" caption="A simple ribbon matching the shape of a catenary, updating whenever the start and end points reposition. Recall that when a rope's length is less than distance, we stretch our rope to match distance." %}
+{% include video.html path="/assets/video/ropes/ribbon_1.mp4" width="100" caption="A simple ribbon matching the shape of a catenary, updating whenever the start and end points reposition. Recall that when a rope's length is less than distance, we stretch our rope to match distance." %}
 
 Our naive implementation seems to work well. We can move our start and end points, and our rope shape is driven by our material's WPO pin.
 
 However, there is an obvious issue with our code; $f(x, H, L)$ requires numerical approximation. This error is manifests when we move our start and end positions close together.
 
-{% include lazyload.html img="/assets/img/rope/rope_demo_2.gif" width="100" caption="Numerical approximations for $f(x, H, L)$ results in some error when moving points too close to each other on the horizontal axis. Basically, our curve can't figure out how to resolve the distance given the rope's length, and creates a hyperbola to infinity. Modifying the length of the rope demonstrates it's impact on the shape of the curve." %}
+{% include video.html path="/assets/video/ropes/ribbon_2.mp4" width="100" caption="Numerical approximations for $f(x, H, L)$ results in some error when moving points too close to each other on the horizontal axis. Basically, our curve can't figure out how to resolve the distance given the rope's length, and creates a hyperbola to infinity. Modifying the length of the rope demonstrates it's impact on the shape of the curve." %}
 
 In fact, this approximation error occurs when there's a specific ratio between the horizontal distance between the two points and the total length of the rope. This mainly occurs on vertical ropes which hang from one point on the z axis to a lower point, but have essentially the same x/y values. For the sake of simplicity, we can avoid this issue by removing all deformation from $f(x, H, L)$ when this case is met, and rebuild our rope as if it is being stretched between the two points.
 
@@ -353,7 +353,7 @@ However, ropes are rarely static. Functionally, ropes are a tool used for tensio
 While our rope will rebuild itself to match the start and end points as they move in the world, the rope itself may have influence on other objects. Some examples include:
 
 - **Rope tension**: Pulling a rope should pull the object that is connected to it. A taut rope should exhibit tension forces.
-- **Torque**: An object attatched to a rope should rotate according to how the rope is pulled.
+- **Torque**: An object attached to a rope should rotate according to how the rope is pulled.
 
 ### Initial Attempts at Rope Constraints
 
@@ -361,7 +361,7 @@ At first, I considered using UE5's [Physics Constraint system](https://dev.epicg
 
 However, there's several limitations to the system. First, there's no real support for objects of variable length. While it's possible to adjust linear and angular ranges, those variables doesn't work for our uniquely procedural rope mesh, which has no static size.
 
-{% include lazyload.html img="/assets/img/rope/bad_constraints_1.gif" caption="Physics constraints are good for creating relationships between different physics-enabled objects, but not emulating tension of the constraint itself. In this example, the physics constraint settings fall short when ropes become taut." %}
+{% include video.html path="/assets/video/ropes/bad_constraints.mp4" caption="Physics constraints are good for creating relationships between different physics-enabled objects, but not emulating tension of the constraint itself. In this example, the physics constraint settings fall short when ropes become taut." %}
 
 Second, there's no support for tension or torque forces. While you can influence an object to move using constraints on another object, in practice, this isn't any different than rig constraints. The benefit of using Physics Constraints is that it works with the default UE5 physics system, and can account for global systems like gravity and collision.
 
@@ -421,7 +421,7 @@ Note: Running a physics engine per gameplay tick, rather than on a persistent cl
 
 The implementation above only covers motion; if we want our ropes to be able to rotate objects, we will need our system to account for rotational forces, known as torque. Using torque, we can use math to determine how far to rotate an object to reach equilibrium.
 
-{% include lazyload.html img="/assets/img/rope/torque_demo_1.gif" caption="An actor with the BP_StylizedPhysicsSolver will treat all incoming ropes with equal influence if they are taut. Note that the rope in this example is rotating the pulley while not being 100% taut. Optionally, users can set a threshold to linearly interpolate the influence. Here, the threshold is 20%. This means the rope is considered taut if the distance is at least 80% of the true length of the rope." %}
+{% include video.html path="/assets/video/ropes/demo_torque.mp4" caption="An actor with the BP_StylizedPhysicsSolver will treat all incoming ropes with equal influence if they are taut. Note that the rope in this example is rotating the pulley while not being 100% taut. Optionally, users can set a threshold to linearly interpolate the influence. Here, the threshold is 20%. This means the rope is considered taut if the distance is at least 80% of the true length of the rope." %}
 
 First, given a force ($F$) acting on an object and it's distance from that object's center of mass ($r$), we can calculate torque in a very straightforward way:
 
@@ -464,7 +464,7 @@ These two modes allow our system to be used for different applications. For exam
 
 {% include lazyload.html img="/assets/img/rope/ropesystem_Blueprint.png" caption="Subset of the blueprint to calculate and pass offset to ropes." %}
 
-{% include lazyload.html img="/assets/img/rope/system_demo.gif" caption="Rope system in action: pulling on a rope will impact the texture of all ropes in the system. Ropes will spool according to their movement. The first rope in the chain is designated as a \"generator\" rope, which means new length will simply be added to that rope instead of removed." %}
+{% include video.html path="/assets/video/ropes/rope_tension.mp4" caption="Rope system in action: pulling on a rope will impact the texture of all ropes in the system. Ropes will spool according to their movement. The first rope in the chain is designated as a \"generator\" rope, which means new length will simply be added to that rope instead of removed." %}
 
 ## Conclusion and Possible Improvements
 
