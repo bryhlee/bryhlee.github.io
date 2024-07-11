@@ -14,9 +14,7 @@ This project utilizes Unreal Engine 5.1 to implement realistic snow dynamics, em
 
 {% include lazyload.html img="/assets/img/snow-dynamic/demo.gif" %}
 
-During this project, I navigated through several technical challenges, including performance limitations and the use of Unreal 5.1's Virtual Heightfield Mesh (VHM) plugin. Ultimately, a mix of various techniques were required to achieve the desired snow trail effect. For a detailed breakdown of my experience solving these problems, please read the [associated blog post](/blog/2023/09/14/snow-dynamic).
-
-In today's blog, I'll be detailing how I implemented realistic snow dynamics in Unreal Engine 5.1 using virtual runtime textures.
+During this project, I navigated through several technical challenges, including performance limitations and the use of Unreal 5.1's Virtual Heightfield Mesh (VHM) plugin. Ultimately, a mix of various techniques were required to achieve the desired snow trail effect, including leveraging Nanite tesselation.
 
 # Inspiration for the Project
 
@@ -35,11 +33,9 @@ The developers seemed aware of how player interaction can impact immersion. This
 
 # The Problem
 
-At the outset, displacing snow seems relatively straightforward and arbitrary to implement in a modern engine. The basic idea is to "record" displaced snow into a buffer, such as a texture or other intermediary storage, then convert this data into a format that can be understood by the engine to modify the shape of a landscape.
+Displacing snow seems relatively straightforward and arbitrary to implement in a modern engines. The basic idea is to "record" displaced snow into a buffer, such as a texture or other intermediary storage, then convert this data into a format that can be understood by the engine to modify the shape of the corresponding landscapes. Most examples I found online lacked in areas of design, flexibility, or overall feel. My objectives for this system were to:
 
-Creating snow trails is a somewhat common challenge that can be implemented in a variety of ways, but most examples I found online were lacking lacking in design, flexibility, or overall feel. My general objectives were to create a snow trail system that would:
-
-1. Emulate actual displacement of snow by deforming the landscape in any arbitrary direction around the object as necessary
+1. Emulate actual displacement of snow by deforming the landscape in any arbitrary direction around the object with optional controls for density, shape, and depth
 2. Create a actor-agnostic system
 3. Tesselate based on camera distance to manage performance over several LODs
 
@@ -47,15 +43,15 @@ Creating snow trails is a somewhat common challenge that can be implemented in a
 
 The first strategy I investigated was tessellating and deforming the landscape mesh itself, but I found this solution to have some performance limitations. Utilizing tools like the Voxel plugin would be a much better option for destructible environments that deform less frequently than snow trails, such as artillery creating craters in the ground. Interestingly, this is another subject I intend to explore in an upcoming hackathon, and with the insights gained from this project, it should be a much smoother process.
 
-Another drawback is that runtime mesh deformation is, by nature, not actor agnostic. To deform a landscape via interaction with dynamic objects would require those objects to be registered in memory and would require a pretty substantial amount of gameplay programming.
+Another drawback is that runtime mesh deformation is, by nature, not actor agnostic. To deform a landscape via interaction with dynamic objects would require those objects to be registered in memory, necessitating a substantial amount of bespoke gameplay programming.
 
 ## Deforming Using World Position via Material Expressions
 
-The strategy I decided on was to use shaders and material expressions to handle per-pixel world displacement of the landscape mesh. This would allow me to engineer a less complicated solution for data management, writing most of the logic for snow displacement into a height map texture buffer, then rely on my knowledge of shader code and look development to achieve our end goal shader-side. This is advantagous since our snow materials can layer with our snow displacement masks seamlessly (or so I thought).
+The strategy I decided on was to use shaders and material expressions to handle per-pixel world displacement of the landscape mesh. This would allow me to engineer a less complicated solution for data management, writing most of the logic for snow displacement into a height map texture buffer, then rely on my knowledge of shader code and look development to achieve our end goal shader-side. This is advantageous since our snow materials can layer with our snow displacement masks seamlessly (or so I thought).
 
 # Recording Snow Displacement
 
-The first step was to engineer a way to paint snow displacement from objects inside our landscape canvas. One goal I had from the beginning was for the displacement to work with any object in the snow environment, without requiring code on the actors -- including the player character. This would make the system more flexible and sustainable as the boundaries for what to paint into our buffer would be separate from the actor itself, requiring much less overhead from a worldbuilding perspective.
+The first step was to implement a way to paint snow displacement from objects inside our landscape canvas. One goal I had from the beginning was for the displacement to work with any object in the snow environment, without requiring code on the actors -- including the player character. This would make the system more flexible and sustainable as the boundaries for what to paint into our buffer would be separate from the actor itself, requiring much less overhead from a worldbuilding perspective.
 
 ## Creating a projection texture
 
