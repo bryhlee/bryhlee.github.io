@@ -24,4 +24,4 @@ This project was inspired by the modifications added by [Riot Games](https://tec
 ![Simulating SS Scattering in Skin](/assets/img/gradient/ss_skin.gif)
 *The model updates in real time to reflect the curve colors. Here, I add a red tint to shadowed skin to simmulate SS. This technique is used in Valorant for most characters and is art-directable.*
 
-One advantage of my LUT shading model is that it does not require forward rendering to calculate per-per shading; instead, the LUT curve is provided directly to the buffer through a subsystem. You can easily change the curve you want for your material by selecting a different curve index from the Atlas.
+One advantage of my LUT shading model is that it does not require forward rendering to calculate per-pixel shading; instead, the LUT curve is provided directly to the buffer through a subsystem. You can easily change the curve you want for your material by selecting a different curve index from the Atlas.
