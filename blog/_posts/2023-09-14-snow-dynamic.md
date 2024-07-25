@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Realistic Snow Dyanmics in Unreal Engine 5.1"
+title:  "Realistic Snow Dynamics in Unreal Engine 5.1"
 date: 2023-09-12 12:40:30 -0700
 tags: unreal shaders environment
 thumbnail: /assets/img/snow-dynamic/intro.png
