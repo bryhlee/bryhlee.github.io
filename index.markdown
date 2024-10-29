@@ -7,13 +7,15 @@ permalink: /
 
 <img id="profile-pic" src="/assets/img/about_2.png" alt="About Me - Masthead" />
 
-Hi - my name is Bryson Lee, and I'm a technical artist with a focus on art tools, pipelines, visual development, world building, environments, graphics, and shaders. I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering and a concentration in multimedia computing.
+Hi - my name is Bryson Lee, and I'm a technical artist with a focus on visual development, world building, environments, gameplay systems, graphics, and shaders. I graduated from Santa Clara University in 2018 with a B.S. in Computer Science and Engineering and a concentration in multimedia computing.
 
-As a Technical Artist at [Blizzard Entertainment](https://www.blizzard.com){:target="_blank"} in the Blizzard Animation group, I collaborate with artists and engineers to streamline workflows and create tooling to support the artistic vision of Blizzard's IPs. Some recent work include the in-game cinematics for [Diablo 4](https://www.youtube.com/watch?v=HukrLKMCz1I&ab_channel=Diablo){:target="_blank"} and [World of Warcraft](https://www.youtube.com/watch?v=YwEE85vd42c&ab_channel=WorldofWarcraft){:target="_blank"}. I work primarily in asset creation, focusing on environments, materials, shaders, look development, rigging automation, and asset publishing frameworks.
+I am currently a Senior Technical Artist at [Blizzard Entertainment](https://www.blizzard.com){:target="_blank"} working on an unannounced game, where I emphasize in dynamic world systems and large-scale procedural environments.
 
-I have a background in Computer Graphics systems for 3D animation and visual effects. Before rejoining Blizzard in 2022, I  worked as a Software Engineer at [Pixar Animation Studios](https://www.pixar.com/){:target="_blank"}, [Industrial Light and Magic](https://www.ilm.com/){:target="_blank"}, and [Disney Interactive](https://dcpi.disney.com/){:target="_blank"}. My responsibilities included asset systems, advanced assets, distributed pipelines, and artist support.
+Prior to joining my current team, I worked in the Blizzard Animation group, where I developed new workflows to support the artistic vision of Blizzard's IPs. Notable projects include in-game cinematics for [Diablo 4](https://www.youtube.com/watch?v=HukrLKMCz1I&ab_channel=Diablo){:target="_blank"} and [World of Warcraft](https://www.youtube.com/watch?v=YwEE85vd42c&ab_channel=WorldofWarcraft){:target="_blank"}. My focus areas included asset creation pipelines, environment tools, bespoke materials, cinematic look development, rigging automation, and publishing frameworks.
 
-My professional interests include art-directable workflows, world building pipelines, dynamic materials, practical deformers, stylized shaders, mass automation, performance, procedural environment generation, and simulations. I also do a fair bit of gameplay programming. Feel free to check out [my profolio](https://www.brysonlee.com/projects).
+I have a background in Computer Graphics systems for 3D animation and visual effects. Before rejoining Blizzard in 2022, I worked as a Software Engineer at [Pixar Animation Studios](https://www.pixar.com/){:target="_blank"}, [Industrial Light and Magic](https://www.ilm.com/){:target="_blank"}, and [Disney Interactive](https://dcpi.disney.com/){:target="_blank"}. My responsibilities included asset systems, advanced assets, distributed pipelines, and artist support.
+
+My professional interests include art-directable workflows, world building pipelines, dynamic materials, practical deformers, stylized shaders, mass automation, procedural environment generation, and simulations. I also do a fair bit of gameplay programming. Feel free to check out [my profolio](https://www.brysonlee.com/projects).
 
 In my free time, you can usually find me [writing](https://en.wikipedia.org/wiki/Urban_fantasy){:target="_blank"} or climbing the competitive ladder in [Overwatch](https://en.wikipedia.org/wiki/D.Va){:target="_blank"}. I occasionally visit schools to run career workshops for students interested in the video game industry. I regularly update my [blog](https://www.brysonlee.com/blog) with a bunch of random stuff.
 
@@ -21,7 +23,8 @@ In my free time, you can usually find me [writing](https://en.wikipedia.org/wiki
 
 # Experience
 
-- Blizzard, Technical Artist (2022-present)
+- Blizzard, Senior Technical Artist I (2024-present)
+- Blizzard, Technical Artist (2022-2024)
 - Pixar, Software Engineer (2022)
 - Blizzard, Software Engineer, RnD (2019-2022)
 - Blizzard, Associate Software Engineer (2018-2019)
